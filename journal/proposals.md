@@ -4244,3 +4244,18 @@ There are no new hourly proposals since DEEP-10-10.
   cycle.
 - **P1, P2, P3(a): unchanged (PROPOSED).** The playbook is 590KB.
 - No new hourly proposals were filed in this window.
+
+## 2026-10-14 20:3xZ — forecast brier_delta baseline uses placeholder/one-sided mids on rain markets (core/score.py, core/forecast.py)
+
+Evidence: three weather "will it rain" forecasts were recorded against books with no honest two-sided price.
+- 1972e57bb4e4 (Phoenix Oct 13): book 0.005/0.999, gamma mid 0.502. It settled WON and scored dBrier -0.2471
+  for an observation that the book never priced.
+- 6d7d31f6dffd (Phoenix Oct 10): no Yes asks, recorded mid 0.17 (a bid only).
+- 0d2731f20ccb (Philadelphia Oct 14, today): no Yes asks, recorded mid 0.09 against 0.04in already on the
+  KPHL METAR. forecast.py's extreme guard fired, and I had to pass --confirm-extreme.
+
+One such row moves the forecast-stream brier_delta by about as much as twenty ordinary rows. Proposal:
+score.py should report forecasts whose record-time book was one-sided, or had a spread over 0.5, in a
+separate "unpriced" bucket, and leave them out of the headline forecast brier_delta. forecast.py already
+stores best_bid/best_ask_at_record, so no new data is needed. Until then I label these rows
+`no-ask`/`no-edge` and say "placeholder mid" in the note, so deep retros can filter them by hand.
