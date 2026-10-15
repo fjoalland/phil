@@ -9434,3 +9434,26 @@ OVV saved $5. counterfactual.py: 259 rows, +$152.49, dBrier +0.0276.
   shrinking), not the mean, and when the guide names a headwind (node
   dilution, FX), centre inside the guided range unless a fresh datapoint
   says otherwise. No gate changes.
+
+## 2026-10-15 16:20Z: ladder sd, no narrowing without a sourced miss series (RETRO-20261015-1620)
+
+- Sep PPI ladder (10 rows, resolved >=5.9%): net dBrier +0.028. The note
+  narrowed the family's sd from 0.45pp to 0.28 "per DEEP-2026-10-02", but
+  that ruling only asked notes to state the sd source. At 0.45 the >=5.9 leg
+  would have been 0.19 (= book); at 0.28 it was 0.076 (dBrier +0.198).
+  Rule: a ladder whose family has a documented sd (PPI 0.45pp, 2026-08-11)
+  uses it unchanged unless the note cites a sourced consensus-miss series.
+  "Convention" means the documented sd. The DEEP-2026-10-02 third-ladder
+  trigger did NOT fire: the book's modal pair (5.6/5.5) lost too.
+- WSV table rows (counterfactual.py ledger, wide-spread-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| PPI Sep 5.4% (`8c9f01da9e5e`) | 0.14/0.050 | Yes | +0.051 | No | -5.00 |
+| PPI Sep 5.5% (`753fc916d0c5`) | 0.14/0.190 | No | -0.029 | No | +0.62 |
+| PPI Sep 5.6% (`e6eb9ec079f9`) | 0.12/0.420 | No | +0.210 | No | +2.46 |
+| PPI Sep 5.7% (`18b00fd72136`) | 0.096/0.155 | No | +0.024 | No | +0.68 |
+| PPI Sep 5.8% (`113379b1a248`) | 0.066/0.172 | No | +0.041 | No | +0.60 |
+
+  Totals: 82 rows, 72 trd, 40W/32L, -$43.47. Yes 17W-9L +$24.54; No 23W-23L
+  -$68.02 (24.54-68.02 = -43.48, rounding OK). Veto saved $0.64 on this ladder.
