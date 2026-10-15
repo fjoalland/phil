@@ -9385,3 +9385,20 @@ Earnings WSV group: 2 rows, 2W, +$1.71. No rule change at n=2.
   >= 3 published days, the existing model applies unchanged.
 - **Sep CPI ladder: at market** (22 rows, +0.0041/row; the 6 gate-2 unsourced-sd rows
   net -0.001). No change to gate 2.
+
+## 2026-10-15 00:10Z update: PGR OVV row + AZ rally tally (FULL, RETRO-20261015-0010)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| PGR Q3 combined ratio 86-89% (`bfe4b4889c74`, OVV) | 0.45/0.595 | No | +0.140 (No @0.41) | Yes | -5.00 |
+
+OVV saved $5. counterfactual.py: 259 rows, +$152.49, dBrier +0.0276.
+
+- **Transcript-count tally:** above-mid 4/7 right, sum dBrier -0.106
+  (4 rallies); below-mid 7/13, -0.046. Trigger still at >= 10 above rows.
+- **Earnings/KPI rows below the mid: research step (provisional, n=2).**
+  GS beat `e8b241c3ee5e` and PGR CR `bfe4b4889c74` were both recorded
+  below the mid and both were wrong (sum dBrier +0.27). Before recording
+  such a row, write the issuer's last-4-quarter value of that KPI against
+  the bracket or threshold in the note. This adds a research step and does
+  not change any gate.
