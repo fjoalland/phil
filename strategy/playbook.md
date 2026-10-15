@@ -6958,6 +6958,17 @@ if this also lands near-line/no-edge it strengthens the "imported-sigma
 near-line case never clears min_edge" read without needing the n>=6
 fitted-sigma bar to resolve it.
 
+**GRADED 2026-10-15 04:1xZ (RETRO-20261015-0410): MIL@LAD imported-sigma.**
+Total landed 7-8 (Over6.5 won, Over8.5 lost), at the fit's mu 7.42.
+Legs: 6.5 +0.019 (model 0.583 vs mid ~0.605, model-low), 8.5 -0.002.
+Imported-sigma side tally now 2 games (CWS@HOU, MIL@LAD), both model-low
+by ~0.02 on the near line, avg leg dBrier ~+0.01: it reproduces PM or
+slightly trails it, and never cleared min_edge. **Rule: imported-sigma
+reads stay forecast-only for good and never count toward the n>=6
+fitted-sigma bar.** Record them as no-edge forecasts if cheap; do not spend
+odds.py credits only to build them. Fitted-sigma bar still 2/6 (CLE@TB
+f4b1ecd5d257/0096c34309c9 still unsettled at this retro).
+
 ## Mech second opinions: request sequencing and what the pair showed (2026-09-07 08:0xZ)
 
 Two settled instances now show the same off-chain failure shape:
