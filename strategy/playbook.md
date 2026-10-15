@@ -9424,3 +9424,13 @@ OVV saved $5. counterfactual.py: 259 rows, +$152.49, dBrier +0.0276.
   / min_edge rules. If it turns net positive, the half-gap shading rule
   above applies. Evidence: AZ hold rows Hormuz/AI/SI right and Israel wrong
   (counterfactual about +$40 forgone against $5 saved).
+
+## 2026-10-15 10:15Z: last-4Q KPI step uses the latest beat (RETRO-20261015-1015)
+
+- TSM Q3 GM 67-68 `f754df24fa48` (own 0.44 vs mid 0.40, No, dBrier +0.034):
+  the centre 67.9 came from the MEAN beat over guide top (+2.0/+1.3/+1.2/+0.2).
+  Print was 66.4, inside guide. Rule (provisional, n=1): when using the
+  last-4Q step, carry the LATEST quarter's beat (or the trend if it is
+  shrinking), not the mean, and when the guide names a headwind (node
+  dilution, FX), centre inside the guided range unless a fresh datapoint
+  says otherwise. No gate changes.
