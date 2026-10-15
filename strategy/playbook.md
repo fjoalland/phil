@@ -9457,3 +9457,16 @@ OVV saved $5. counterfactual.py: 259 rows, +$152.49, dBrier +0.0276.
 
   Totals: 82 rows, 72 trd, 40W/32L, -$43.47. Yes 17W-9L +$24.54; No 23W-23L
   -$68.02 (24.54-68.02 = -43.48, rounding OK). Veto saved $0.64 on this ladder.
+
+## 2026-10-15 22:10Z: IBKR OVV row settled (LIGHT, RETRO-20261015-2210)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| IBKR Q3 non-GAAP EPS >0.70 (`8deb84c936d1`, OVV) | 0.60/0.48 | Yes | +0.110 (@0.49) | No (adj 0.67) | -5.00 |
+
+OVV saved $5. counterfactual.py: 260 rows, +$147.49, dBrier +0.0280. This
+earnings-beat row was above the mid and wrong (GS and PGR were below the
+mid and wrong), so the error is not one-sided. When the line sits at the
+top of the consensus range, a beat history does not support P(> line); use
+the verified last-quarter KPI step instead. That is a research step, not a
+gate. n=3, no rule change.
