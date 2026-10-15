@@ -9402,3 +9402,14 @@ OVV saved $5. counterfactual.py: 259 rows, +$152.49, dBrier +0.0276.
   such a row, write the issuer's last-4-quarter value of that KPI against
   the bracket or threshold in the note. This adds a research step and does
   not change any gate.
+
+## 2026-10-15 02:10Z: transcript-count tally after the AZ rally (RETRO-20261015-0210)
+
+- Above-mid (>= 0.08) transcript-count rows: **5/9 right, sum dBrier
+  -0.157** (was 2/5, +0.153 at 10-14 04:15Z). Below side 7/13, -0.046.
+- The trigger (>= 10 above-side rows) is one row away. Pre-registered for
+  when it fires: if the above side is still net NEGATIVE, the Yes-side hold
+  is dropped and transcript-count Yes claims go back under the normal OVV
+  / min_edge rules. If it turns net positive, the half-gap shading rule
+  above applies. Evidence: AZ hold rows Hormuz/AI/SI right and Israel wrong
+  (counterfactual about +$40 forgone against $5 saved).
