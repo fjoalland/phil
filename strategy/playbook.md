@@ -9500,3 +9500,11 @@ gate. n=3, no rule change.
   is a recording error the next retro flags.
 - Shrink re-grade (3 families: Musk Oct8-10, Musk Oct10-12, this): the
   shrink would have helped all three. KEEP. Bar unchanged.
+
+## 2026-10-16 20:10Z update: DC rain OVV row (LIGHT, RETRO-20261016-2010)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| DC rain Oct 15 (`f76dae0a578e`, OVV) | 0.45/0.685 | No | +0.22 (No @0.33) | Yes | -5.00 |
+
+OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather slice 19 rows, -$58.60.
