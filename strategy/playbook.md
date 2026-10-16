@@ -5126,6 +5126,20 @@ runoff family. Both are n=1 and stay `unvalidated-method`.
   (F46.1/L45.8) overshot. The final sat at about 0.6-0.7 of linear drift.
   Before any live-count bet, use a drift sd of at least 1.5 points at
   about 30% counted.
+- State-level miss, RJ governor (RETRO-20261016-0808; n=1,
+  `unvalidated-method`). Last polls (Quaest Sep25-28: Paes 34 / Ruas 25 /
+  Garotinho 9; Datafolha Sep22-24 Paes 43-46) put Paes ahead by 9-13 in
+  round 1. The count had Ruas (PL) 49.3 / Paes 42.7 valid, then TSE voided
+  Garotinho's 274k votes and Ruas reached 50.9 for an outright round-1 win.
+  The PL candidate's valid share beat the polls by about +15 points. That
+  is several times the national +3.5 Flávio miss. My forecasts sat at mid
+  (0.89, then 0.80), so dBrier was ~0, but the market and I both missed.
+  Rule: for Brazilian state races, treat a poll lead under 15 points over
+  a PL/bolsonarista candidate as a coin-flip-plus, not a lock. Use a
+  state-level margin sd of at least 10 points. Also check for candidates
+  with pending TSE registration challenges (`sub judice`); voiding their
+  votes changes the valid-vote denominator and can turn a runoff into a
+  round-1 win.
 
 **2026-10-01 06:2xZ update (LIGHT tick, cloud; 4 `outside-view-veto` +
 1 `wide-spread-veto` rows settled, see RETRO-20261001-0625.)**
