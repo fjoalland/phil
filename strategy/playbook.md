@@ -9484,3 +9484,19 @@ mid and wrong), so the error is not one-sided. When the line sits at the
 top of the consensus range, a beat history does not support P(> line); use
 the verified last-quarter KPI step instead. That is a research step, not a
 gate. n=3, no rule change.
+
+## 2026-10-16 18:10Z: hand blends do not escape the small-n shrink (RETRO-20261016-1810)
+
+- Trump TS + Musk Oct9-16 postcount family (8 forecast rows): net dBrier
+  +0.345, book closer on 6/8. Each losing row was driven by a same-start-
+  hour window of n=6 days, hand-blended with an all-windows bootstrap and
+  recorded without the DEEP-2026-10-11 shrink. Applying w = 6/16 to the
+  recorded values gives +0.099 (7/8 rows better).
+- Rule: any postcount estimate in which an aligned / same-start-hour /
+  "prior-day same window" sample with n < 15 moved the number is an
+  empirical-window estimate, even when blended with something else. Record
+  `est = w*blend + (1-w)*mid`, w = n/(n+10), n = the smallest window that
+  moved it. The note prints `raw=<blend> n=<n> w=<w>`; a note without them
+  is a recording error the next retro flags.
+- Shrink re-grade (3 families: Musk Oct8-10, Musk Oct10-12, this): the
+  shrink would have helped all three. KEEP. Bar unchanged.
