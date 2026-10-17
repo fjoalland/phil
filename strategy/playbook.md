@@ -9568,3 +9568,17 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   family to confirm the shrink. Late-window same-clock reads went 0/2 here
   (+0.158), and 4 late-window rows now sum to +0.034. No rule change below
   the deep retro's n=50 review.
+
+## 2026-10-17 20:10Z: MrBeast wk2 bracket veto missed a win (RETRO-20261017-2010)
+
+- WSV table row (core/counterfactual.py ledger, wide-spread-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| MrBeast wk2 270-280M (`458d0fa011a5`, superseded by a292c8911808) | 0.70/0.44 | Yes | +0.110 | Yes | +3.47 |
+
+  Totals: 85 rows, 75 trd, 41W/34L, -$50.00. Yes 18W-11L +$18.02; No 23W-23L
+  -$68.02 (18.02-68.02 = -50.00, check OK). The veto cost $3.47 here. It
+  stays, since the WSV ledger is still net -$50. The power-law view-decay
+  projection from a dated anchor pair is 1-for-1 on a thin-margin bracket;
+  no rule change until n>=3.
