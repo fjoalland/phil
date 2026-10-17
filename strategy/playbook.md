@@ -6201,6 +6201,11 @@ same-rally rows that HAD transcript counts (SI, Pee-wee) matched or
 beat the mid. One row, counts toward the review above on the gate's
 side. Bill or law names with a common short form need a count of the
 FULL phrase before the row goes above the mid.
+Gated-out data point 2 (RETRO-20261017-0810): Trump Dalton GA "Clay"
+(4da6c3121fc7), 0.93 vs mid 0.90, no transcript count, hook = the rally's
+host candidate Clay Fuller. Resolved Yes, dBrier -0.005. Gated-out tally
+1 won / 1 lost. Naming the candidate a rally is held for is a structural
+near-certainty, not a thematic guess; the gate still applies to BETS.
 
 **Method note (2026-09-15): exact-phrase transcript search undercounts
 disfluent real speech.** Sourcing the base rate for the Trump NC
