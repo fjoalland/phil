@@ -6116,6 +6116,11 @@ already reversed (Sep 23 spike, last 12h flat). Rule until graded on >=3
 independent events: record the driftless (random-walk, measured sd)
 model; a drift/momentum view is written as "drift view: X" in the note
 and not recorded. Forecast-only as before.
+RETRO-20261017-0010 extension: this applies to `method=intraday-rw`
+equity-close bands too. AMZN Oct16 250-255 (6b4366779398) was trimmed
+0.30 -> 0.28 for "late-day down momentum", closed in band, and the trim
+cost 0.028 Brier. Record the driftless Phi number and put any momentum
+read in the note as "drift view: X".
 
 **2026-09-26 00:1xZ retro (RETRO-20260926-0015): an unexplained
 near-certain LIQUID book beats the xtracker API count.** Trump Truth
