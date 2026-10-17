@@ -6192,6 +6192,15 @@ claimed category edge. Review after 5 further settled utterance rows
 recorded under the gate: if gated-out rows (thematic-only, forecast
 status) start WINNING at their est more often than losing, loosen or
 drop the gate in a deep retro and say so here.
+Gated-out data point (RETRO-20261017-0210): Trump Dalton GA "Laken
+Riley Act" (1324294aae96) was recorded at 0.75 vs mid 0.72 on a
+venue/candidate hook only (Collins sponsored the Act; victim from
+Athens GA), no transcript count, and the note itself flagged that he
+often says just "Laken Riley". Resolved No, dBrier +0.044. The
+same-rally rows that HAD transcript counts (SI, Pee-wee) matched or
+beat the mid. One row, counts toward the review above on the gate's
+side. Bill or law names with a common short form need a count of the
+FULL phrase before the row goes above the mid.
 
 **Method note (2026-09-15): exact-phrase transcript search undercounts
 disfluent real speech.** Sourcing the base rate for the Trump NC
