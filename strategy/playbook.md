@@ -9542,3 +9542,29 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   rules carry an explicit cancel clause, expect UMA to apply the clause
   literally. Put about 0.05 on a different reading, not 0.10, unless there is
   a concrete sign of a dispute. Revisit at n>=3.
+
+## 2026-10-17 18:10Z: AAA daily ladder needs a sourced sd; Musk Oct15-17 (RETRO-20261017-1810)
+
+- WSV table rows (counterfactual.py ledger, wide-spread-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| AAA gas Oct17 4.3100-4.3199 (`077c6060761d`) | 0.42/0.175 | Yes | +0.090 | No (<4.31) | -5.00 |
+| AAA gas Oct17 4.3200-4.3299 (`a82da665112f`) | 0.56/0.310 | Yes | -0.040 | No (<4.31) | -5.00 |
+
+  Totals: 84 rows, 74 trd, 40W/34L, -$53.47. Yes 17W-11L +$14.54; No 23W-23L
+  -$68.02 (14.54-68.02 = -53.48, rounding OK). Veto saved $10 on this pair.
+- **AAA daily-bracket ladders need a sourced sd.** The pair above used
+  "sd ~0.0035 (assumed, unsourced)" around a sound drift read. The day's
+  change was below -1.71c, about 3 assumed sd out. Net dBrier was +0.363,
+  and the book was closer on both legs. Rule: an AAA daily-bracket estimate
+  cites a daily-change sd computed from at least 15 consecutive AAA daily
+  prints (the source and n go in the note). Without one, the row is
+  recorded at the book mid as `market-agrees`, or not recorded at all.
+  This applies the PPI-ladder ruling (documented sd only) to AAA gas.
+- Musk Oct15-17 postcount family (6 rows, net dBrier +0.366): the
+  pre-shrink judgment-mixture 350140d75b10 (+0.251) would have scored
+  +0.063 under the RETRO-20261016-1810 shrink (n=4). That is the fourth
+  family to confirm the shrink. Late-window same-clock reads went 0/2 here
+  (+0.158), and 4 late-window rows now sum to +0.034. No rule change below
+  the deep retro's n=50 review.
