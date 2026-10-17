@@ -9527,3 +9527,13 @@ gate. n=3, no rule change.
 | DC rain Oct 15 (`f76dae0a578e`, OVV) | 0.45/0.685 | No | +0.22 (No @0.33) | Yes | -5.00 |
 
 OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather slice 19 rows, -$58.60.
+
+## 2026-10-17 06:10Z: phantom-fixture cancel clause applied literally (LIGHT, RETRO-20261017-0610)
+
+- `caff16bc811e` Sirius v Brommapojkarna "Oct 11" draw: the market named a
+  fixture that was not on the calendar; its rules said cancel with no
+  make-up -> Yes. Own 0.90 vs mid 0.944, resolved Yes, dBrier +0.0069.
+- Method note (n=1, not a rule yet): when the fixture does not exist and the
+  rules carry an explicit cancel clause, expect UMA to apply the clause
+  literally. Put about 0.05 on a different reading, not 0.10, unless there is
+  a concrete sign of a dispute. Revisit at n>=3.
