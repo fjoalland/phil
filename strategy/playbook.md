@@ -7401,6 +7401,11 @@ the roll and prices at implied vol. The one rung off the model was LOW95
 The Aug 18 first test (8 legs, guessed 38pct vol, front-month spot) never
 read this clause; any re-read of those rows should check whether a roll
 fell inside that window before blaming the vol input.
+Second case (RETRO-20261017-0410): WTI HIGH $100 week of Oct 12
+(cd3721803c5f, est 0.15 vs mid 0.20, resolved No, dBrier -0.019). Nov
+CLX26 printed 101.26 on Oct 16, but the Active Month was Dec from the
+Oct 15 session, and Dec never reached 100. A front-month touch past the
+strike after the roll does not count; check which contract is Active first.
 
 **2. PCE brackets: the Fed chair's presser opening statement carries a
 staff estimate.** After CPI and PPI, the opening statement gives the
