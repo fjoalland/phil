@@ -9582,3 +9582,18 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   stays, since the WSV ledger is still net -$50. The power-law view-decay
   projection from a dated anchor pair is 1-for-1 on a thin-margin bracket;
   no rule change until n>=3.
+
+## 2026-10-17 22:10Z: KY rally SI OVV row (RETRO-20261017-2210)
+
+- OVV table row (core/counterfactual.py ledger, outside-view-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Trump KY rally SI >=1 (`8f64ccb2a9e0`, OVV / transcript-count Yes hold) | 0.72/0.645 | Yes | +0.050 (@0.67) | Yes | +2.46 |
+
+  Totals: 262 rows, 254 trd, 105W/149L, +$144.96, dBrier +0.0284. Yes
+  28W-52L +$36.84; No 77W-97L +$108.11 (sum 144.95, rounding OK).
+- SI >=1 rally rows recorded around 0.72 went 3/3 Yes (AZ, GA, KY). All of
+  them sit under the tally's 0.08 above-mid cut, so the transcript-count
+  tally stays at 5/9 above-mid and the trigger is still one row away. The
+  hold stands until the trigger fires. No rule change.
