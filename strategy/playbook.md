@@ -9597,3 +9597,17 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   them sit under the tally's 0.08 above-mid cut, so the transcript-count
   tally stays at 5/9 above-mid and the trigger is still one row away. The
   hold stands until the trigger fires. No rule change.
+
+## 2026-10-18 00:10Z: RUH airport WSV row (RETRO-20261018-0010)
+
+- WSV table row (core/counterfactual.py ledger, wide-spread-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| RUH military action by Oct15 (`c0e44178373f`, WSV, book 0.10/0.33) | 0.15/0.215 | No | -0.05 (@0.90) | No | +0.56 |
+
+  Totals: 86 rows, 76 trd, 42W/34L, -$49.44, dBrier -0.0091. Yes
+  18W-11L +$18.02; No 24W-23L -$67.46 (sum -49.44, check OK).
+- The superseded market-agrees row c983c03b4ff0 (0.33) and Kosgei
+  fbd6c3992e0d (0.28, market-agrees) were variance normal. The WSV ledger
+  is still net negative, so the veto stays. No rule change.
