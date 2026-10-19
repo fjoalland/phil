@@ -3139,6 +3139,13 @@ note records the live mid explicitly ("live mid X"). Evidence: the GOOGL
 $340-345 close band `8de7ff599222` was graded against a stale 0.725 while
 the live book was 0.36/0.74.
 
+**2026-10-19 06:12Z (RETRO-20261019-0612): touch-family tally.** All
+settled rows citing touch.py: n=61, own Brier 0.1438 vs market 0.1395
+(+0.0043 behind). Sum own est 25.15, sum mid 24.09, touches 16: the book and
+I both over-count touches. Rows from Oct 1 on (n=17) are calibrated
+(own 8.62, mid 8.35, 9 hits). Ruling unchanged: forecast-only, no default
+shade. Next re-grade at n=80 splits pre/post Oct 1 and reach/dip.
+
 **2026-09-25 22:13Z (RETRO-20260925-2213): an inferred open is not a
 measured input.** Single-stock touch rows record `touch.py` from the last
 close, or from an actually quoted premarket print. An open inferred from
