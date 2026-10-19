@@ -9611,3 +9611,16 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
 - The superseded market-agrees row c983c03b4ff0 (0.33) and Kosgei
   fbd6c3992e0d (0.28, market-agrees) were variance normal. The WSV ledger
   is still net negative, so the veto stays. No rule change.
+
+## 2026-10-19 00:10Z: Kyiv daily-target absence floor (RETRO-20261019-0010)
+
+- 967a0ef86c6c (Kyiv Oct 18, own 0.38 vs mid 0.50 at 21:2x Kyiv, Yes,
+  dBrier +0.134) is the 2nd loss from shading below the book on "no strike
+  reported yet" (1st: e5f7ac9f6cbd Oct 9, +0.069). Family: 6/6 rows Yes
+  over 3 dates.
+- **Rule (replaces the ~0.05 absence shade cap):** on "Will Russia target
+  Kyiv on <date>" markets, absence of a reported strike NEVER takes own
+  below the book mid unless I hold a live alert-map or official read that
+  is newer than the book's last move. Without one, record at the mid
+  (market-agrees). Positive evidence (a reported strike or debris) can
+  still move own up. Re-grade at the next 3 settled rows in the family.
