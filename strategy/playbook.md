@@ -4563,6 +4563,12 @@ would have COST here: <5M floored at 0.625 and 5-7M rescaled to ~0.32 at
 that the book is right: when the press centre is a studio Sat-AM figure
 already built on Friday actuals, note that in the row. Box-office forecasts
 n=42, sum dBrier +0.217, mean +0.0052. Still no-bet.
+Tally (RETRO-20261019-2210, evidence `6b0ef5204f36`, `2722b696fca3`,
+`68a7936d7265`, `c1f8dad5c88e`, `c7e7108f69aa`): Sense and Sensibility OW
+landed 7-8M, the book's modal bracket, above all press figures (6.0-6.7M).
+5 rows net dBrier +0.229. Floor applied on the 7-8M leg (0.53 vs raw
+0.21) saved ~0.40: floor record helped 3, hurt 1. Post-rule events 7;
+frozen, no re-tune. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
