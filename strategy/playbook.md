@@ -9631,3 +9631,20 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   is newer than the book's last move. Without one, record at the mid
   (market-agrees). Positive evidence (a reported strike or debris) can
   still move own up. Re-grade at the next 3 settled rows in the family.
+
+## 2026-10-19 14:12Z: quake weekly count + OVV exclusion + funnel backfill (FULL, RETRO-20261019-1412)
+
+- **Documented CF-table exclusion (reconcile.py check 5):** `2ae729db32f5`
+  (China Q3 GDP 4.3-4.6 No, outside-view-veto, settled 2026-10-19 06:23Z,
+  CF No @0.36 would have lost $5; OVV saved $5) is graded in
+  RETRO-20261019-0809 and counted in the mechanical
+  `core/counterfactual.py ledger` record (263 rows, +$139.96). It is not
+  appended to the frozen hand-kept table, per the DEEP-2026-09-30 ruling.
+- **Funnel lines backfilled:** the 08:09Z, 10:11Z and 12:12Z FULLs wrote no
+  funnel line (12 orphan forecasts). That is the same miss the top-of-file
+  rule names, three times in a row. Backfilled from cycles.log and
+  forecasts.jsonl, flagged `backfill: true`. Before the commit step, write
+  the funnel line first, then the cycles.log line. Not the other way round.
+- Quake weekly M5.5+ (Oct 12-18 ET) closed at 9. The 10/11 Yes rows lost,
+  which is Poisson variance. Next-up bracket marks ran 0.03-0.05 above the
+  mid (n=3). Watch item: no edit below ~15.
