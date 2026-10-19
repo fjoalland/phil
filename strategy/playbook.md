@@ -1255,6 +1255,16 @@ Gaussian for these brackets near a boundary; either fatten the tail
 treat any Gaussian-derived edge here as presumptively overclaimed and route
 it through the outside-view veto regardless of nominal size.**
 
+**Stall persistence (RETRO-20261019-1810, Musk Oct17-19 2-day, 11 forecast
+rows, effective n=1).** In the final <=12h, an all-windows bootstrap treats an
+in-progress posting gap as one random draw. The book treats it as persistent,
+and the book was right: 62 at 10:3xZ, then <=2 more by 16Z, resolved 40-64.
+My last three re-forecasts were all below the mid on the stall bracket, and my
+mean Brier was 0.049 behind the book. Rule: when the tracker shows >=2h of
+zero posts, condition the resample on windows that start inside a >=2h
+zero-post stretch. If there are fewer than 10 such windows, never record
+below the mid on the stall bracket without giving the reason in the note.
+
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
 (5ef2f363f039, est 0.165, RETRO-20260813-2130) and 140-159 (b7a58fd571c8,
