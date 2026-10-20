@@ -9691,3 +9691,30 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   (sum 142.78, check OK). The veto cost $2.82 here. The OVV ledger is
   net +$142.78 (the declined trades would have made money in aggregate),
   but the veto is judged at the deep retro, not per row. No rule change.
+
+## 2026-10-20 04:10Z: transcript-count trigger fired, Yes-side hold lifted (RETRO-20261020-0410)
+
+- OVV table row (core/counterfactual.py ledger, outside-view-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Trump KS rally SI >=1 (`d6971e1244d0`, OVV / transcript-count Yes hold) | 0.74/0.66 | Yes | +0.070 (@0.67) | Yes | +2.46 |
+
+  Totals: 265 rows, 257 trd, 107W/150L, +$145.24, dBrier +0.0282. Yes
+  30W-52L +$42.13; No 77W-98L +$103.11 (sum 145.24, check OK).
+- **Trigger fired at 10 above-mid rows: 6/10 right, sum dBrier -0.205**
+  (running tally). An independent recompute from forecasts.jsonl notes
+  gives 8 rows, 4/8, -0.056, over 4 rallies (OH, AK, AZ, KS). Both are net
+  negative. Per the pre-registered rule (2026-10-15 02:10Z) the
+  **transcript-count Yes-side hold is DROPPED**. Transcript-count Yes claims
+  now go under the normal OVV / min_edge / spread rules like any other
+  say-the-word claim. The half-gap shading does not apply.
+- Guard rails, because the effective n is 4 rallies: the $10 per-event cap
+  and the no-third-leg rule (DEEP-2026-10-14) still bind. A Yes-side
+  transcript-count bet must name its k/n and the rallies behind it in the
+  rationale. Re-check after 3 more rallies with above-mid Yes rows, or at
+  the first deep retro after a lifted-hold bet settles, whichever comes
+  first. If the above side has gone net positive by then, reinstate the
+  hold with half-gap shading. Tally method from now on: recompute from
+  forecasts.jsonl rows whose note says `method=transcript-count`, gap >=
+  0.08 (rounded to 2dp), and report rows AND distinct rallies.
