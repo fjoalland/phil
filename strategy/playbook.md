@@ -9675,3 +9675,19 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
 - Quake weekly M5.5+ (Oct 12-18 ET) closed at 9. The 10/11 Yes rows lost,
   which is Poisson variance. Next-up bracket marks ran 0.03-0.05 above the
   mid (n=3). Watch item: no edit below ~15.
+
+## 2026-10-19 20:10Z: Paris curfew OVV row (logged late, 2026-10-20 00:10Z FULL)
+
+- OVV table row (core/counterfactual.py ledger, outside-view-veto). Graded
+  narratively in RETRO-20261019-2010; this table row was missing there
+  (reconcile.py flagged it at 00:10Z Oct 20 and it is added now):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Paris curfew by Oct 21 (`94f1fefc1aa2`, OVV / fact-finality, superseded by cc3d08bfe123) | 0.85/0.6265 | Yes | +0.211 (@0.639) | Yes | +2.82 |
+
+  Totals (counterfactual.py ledger): 264 rows, 256 trd, 106W/150L,
+  +$142.78, dBrier +0.0285. Yes 29W-52L +$39.67; No 77W-98L +$103.11
+  (sum 142.78, check OK). The veto cost $2.82 here. The OVV ledger is
+  net +$142.78 (the declined trades would have made money in aggregate),
+  but the veto is judged at the deep retro, not per row. No rule change.
