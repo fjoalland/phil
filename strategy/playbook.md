@@ -8430,6 +8430,14 @@ read. The 90-day legs stay forecast-only (`unvalidated-method`).
   book implies the live counter is off by >= 20 posts, any row anchored
   on that counter is `unvalidated-method` until the counter re-agrees.
   n=1 tail failure; re-grade at 3 events. Bar unchanged.
+  Event #2 (RETRO-20261020-0810): Trump TS Oct13-20 at 04:14Z (cum 171,
+  11.7h left) recorded 160-179 0.48 / 180-199 0.45, leaving 200+ ~0.07,
+  while the note's own same-window sample (32,14,5,2,8,11) had 1/6 days
+  above the +29 that 200+ needed. The event went 200+ (34 posts in the
+  04Z hour). Rule extension: on a late-window ladder, the implied open
+  top-bracket mass (1 - sum of recorded legs) is never below the
+  empirical frequency of that tail in the cited sample. Write it as
+  `top-tail: k/n` in the note. 2/3 events; re-grade at 3.
 - **Streaming weekly-views ladders (RETRO-20261006-2215).** Netflix #1
   global show wk Sep28-Oct4 landed in 6-9M; my self-built wk3/wk2 decay
   prior (0.5-0.65 off a 14.5M wk2) gave P(>=9M) ~0.25 vs the ladder's 9-12M
