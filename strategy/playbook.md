@@ -4569,6 +4569,17 @@ landed 7-8M, the book's modal bracket, above all press figures (6.0-6.7M).
 5 rows net dBrier +0.229. Floor applied on the 7-8M leg (0.53 vs raw
 0.21) saved ~0.40: floor record helped 3, hurt 1. Post-rule events 7;
 frozen, no re-tune. Still no-bet.
+Review at 8 post-rule events (RETRO-20261020-0010, evidence `6c46a218f836`,
+`0c2fd08f807c`, `a98760a04b17`, `97736f5d0efd`, `cb9a05608763`): Street
+Fighter landed 30-33M (book modal); my Fri-night/Sat-noon ladders centred
+29.5-29.8M by shading my OWN Fri-multiple below Deadline's "~30M low end"
+figure (+0.39 dBrier on those 8 rows); Whalefall <8M press-centre beat the
+book (-0.06). Floor record helped 4, hurt 1: KEPT unchanged, unfrozen for
+normal per-retro tallies. NEW RULE: the Fri-night/Sat-AM centre is the
+press or studio figure itself (midpoint of a stated range; a "low end"
+figure is a lower bound on the centre). My own Fri-multiple may widen sd,
+never move the centre below the press figure. Box-office forecasts n=62,
+sum dBrier ~+0.84, mean ~+0.014. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
@@ -9319,7 +9330,7 @@ Provisional at n=1; revisit at n>=3.
   trigger needed < 0.5. The forecast stream is at the market (+0.0033).
   The trigger is closed. Record-time estimates may lean on the book, but
   no gate loosens on the stream.
-- **Box-office book-modal floor: frozen until 8 post-rule events.** Its
+- **Box-office book-modal floor: frozen until 8 post-rule events (review done RETRO-20261020-0010: kept, 4-1; see box-office block for the press-centre no-shade rule).** Its
   record is helped 2, hurt 1. The category is at the market (n=42, mean
   dBrier +0.005). Do not re-tune the floor or the sd per settlement. Log
   the tally line only. The category stays no-bet.
