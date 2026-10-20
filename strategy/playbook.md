@@ -9718,3 +9718,14 @@ OVV saved $5. counterfactual.py: 261 rows, +$142.49, dBrier +0.0287; weather sli
   hold with half-gap shading. Tally method from now on: recompute from
   forecasts.jsonl rows whose note says `method=transcript-count`, gap >=
   0.08 (rounded to 2dp), and report rows AND distinct rallies.
+
+## 2026-10-20 06:10Z: post-final no-fill forecasts are not skill evidence (RETRO-20261020-0610)
+
+Two NFL Week 6 top-RB forecasts (`670f2fa01f5f` .90 Yes, `cf73ca6ffaea` .07)
+were recorded after MNF went final, against one-sided-book mids (.51/.49).
+They settled -0.465 dBrier combined. That only shows I read the box score. **Reading
+rule:** when a retro grades forecast-side brier_delta by category, list
+rows whose note says `no-fill` and that the event was already complete/final
+as a separate line ("post-final, n=..., sum=...") and leave them out of the
+category verdict. Keep recording them, because they test my parse and the
+resolver. Do not let them stand in for calibration evidence.
