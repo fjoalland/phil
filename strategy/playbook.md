@@ -1265,6 +1265,18 @@ zero posts, condition the resample on windows that start inside a >=2h
 zero-post stretch. If there are fewer than 10 such windows, never record
 below the mid on the stall bracket without giving the reason in the note.
 
+**Late-window shrink (RETRO-20261021-2009, Musk Oct19-21 2-day, 10 forecast
+rows, effective n=1).** The stall-persistence rule above has a mirror case.
+On Oct21 at 08:14Z the count was 55 after two zero hours and needed >=10 in
+8h. Four same-clock windows gave 0/4, so I recorded 65-89 at .12 vs book .18.
+He posted >=10 and it resolved 65-89. Over the final 12h my reads were net
++0.200 dBrier behind the book (Oct17-19 was -0.049 mean behind). In both
+events the book beat my late-window conditioning, and in both my conditioning
+sets were tiny. Rule: in the final 12h of a Musk 2-day event, when the
+conditioning set behind a read has fewer than 10 windows, the recorded
+estimate sits within 0.03 of the mid unless the note names a non-statistical
+reason (an observed burst in the last hour, a known scheduled event).
+
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
 (5ef2f363f039, est 0.165, RETRO-20260813-2130) and 140-159 (b7a58fd571c8,
