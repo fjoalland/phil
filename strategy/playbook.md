@@ -9820,3 +9820,21 @@ can be named in the note as context. No gate change.
   (5fbf676cfd7f, e3bff6ca6d2d; the second is ledger-labelled info-race and
   graded here manually). 2 of the 5 settlements needed before the
   `real.allowed_edge_classes` proposal.
+
+## 2026-10-21 18:09Z: MrBeast day-4 bracket vetoes missed two wins (LIGHT, RETRO-20261021-1809)
+
+- WSV table rows (core/counterfactual.py ledger, wide-spread-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| MrBeast day-4 113-115M 08:14Z (`3118d3b41463`, superseded) | 0.62/0.79 | No | +0.090 (@0.29) | No | +12.24 |
+| MrBeast day-4 113-115M 10:17Z (`ba3b2e55c3c2`, superseded) | 0.25/0.415 | No | +0.100 (@0.65) | No | +2.69 |
+
+  Totals: 88 rows, 78 trd, 44W/34L, -$34.51, dBrier -0.0128. Yes
+  18W-11L +$18.02; No 26W-23L -$52.53 (sum -34.51, check OK). The veto
+  cost $14.93 here. It stays, since the WSV ledger is still net negative.
+- The dated-RYD-pair projection is 2-for-2 on thin-margin brackets (wk2
+  Oct17 and this family; all 5 day-4 rows beat the mid, net dBrier -0.427).
+  No rule change until n>=3.
+- Label: 3 of the 5 rows were `countable-metric`. View-count brackets are
+  `video-views` (DEEP-2026-09-27). Check the label before `forecast.py record`.
