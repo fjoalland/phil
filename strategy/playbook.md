@@ -9850,3 +9850,24 @@ can be named in the note as context. No gate change.
   No rule change until n>=3.
 - Label: 3 of the 5 rows were `countable-metric`. View-count brackets are
   `video-views` (DEEP-2026-09-27). Check the label before `forecast.py record`.
+
+## 2026-10-21 22:09Z: Meta headcount RIF centring + OVV rows (LIGHT, RETRO-20261021-2209)
+
+- OVV table rows (core/counterfactual.py ledger, outside-view-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Meta Q3 HC >72k (`eff3371dfdf2`) | 0.12/0.255 | No | +0.110 | No | +1.49 |
+| Meta Q3 HC >74k (`bfdc2aab1a42`) | 0.06/0.205 | No | +0.140 | No | +1.25 |
+| Meta Q3 HC >68k (`3bc1def5b0ce`) | 0.66/0.485 | Yes | -0.140 | No | -5.00 |
+| Meta Q3 HC >66k (`23c6f6f14074`) | 0.93/0.817 | Yes | -0.067 | Yes | refused (entry .997) |
+
+  Totals: 272 rows, 263 trd, 111W/152L, +$171.52, dBrier +0.0268. Yes
+  30W-53L +$37.13; No 81W-99L +$134.40 (sum 171.53, rounding check OK).
+  Veto net +$2.26 on this family. No rule change.
+- **Announced-RIF headcount brackets:** when the company says the
+  "majority" of an announced reduction leaves the count by period end,
+  centre on the FULL reduction plus normal attrition, and shade up only on
+  explicit backfill/hiring language. Meta Q3'26: I centred ~68.8k on 6-8k
+  of ~8k exits; the print was 66,775 (~8.7k net down), >68k at .66 cost
+  +0.200 dBrier. n=1: a centring default, not a gate.
