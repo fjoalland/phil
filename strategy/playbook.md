@@ -9812,3 +9812,11 @@ can be named in the note as context. No gate change.
   outcomes at other thresholds are a fallback, and the note says so. Here
   sibling tallies said ~0/2 at 17+/20+, but past transcripts put 18+ at
   ~3/6, which was the book. n=1, no gate change.
+
+## 2026-10-21 16:11Z: AAA Oct21 fact-final win (RETRO-20261021-1611)
+
+- `e3bff6ca6d2d` WON +$5.50 (AAA $4.2644 posted before the bet; resolver
+  matched). **fact-final running total: n=2, 2W/0L, +$36.73**
+  (5fbf676cfd7f, e3bff6ca6d2d; the second is ledger-labelled info-race and
+  graded here manually). 2 of the 5 settlements needed before the
+  `real.allowed_edge_classes` proposal.
