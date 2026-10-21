@@ -9775,3 +9775,24 @@ can be named in the note as context. No gate change.
   .42, no transcript count) won, dBrier -0.086. Gated-out tally since
   RETRO-20261017-0210: 2W/1L (Clay, Veteran won; Laken Riley lost). Gate
   on BETS stays; re-read at n>=5.
+
+## 2026-10-21 10:1xZ: AAA access from cloud; GAAP-beat one-time-item check (FULL cycle, cloud)
+
+- **AAA gasprices.aaa.com from the cloud:** the 08:09Z cycle logged "AAA 403
+  from cloud". At 10:1xZ the same page returned 403 to `-A "Mozilla/5.0"` and
+  200 to `-A "curl/8.0"` or a full Chrome UA string. Fetch it with
+  `curl -sS -A "curl/8.0" https://gasprices.aaa.com/`. The "National Average
+  Gas Prices" table (Current Avg. / Yesterday Avg. rows) and the "Price as of"
+  date are in the static HTML. This is a public page, no key or quota.
+  Evidence: it enabled bet e3bff6ca6d2d (Oct21 4.2600-4.2699, AAA 4.2644
+  already posted, ask .45). Same read method as 18ff46d3e6e0 (Oct19, won).
+  Grade the bet under fact-final at settlement. It is fact-final n=2
+  counting 5fbf676cfd7f.
+- **GAAP-EPS "beat" markets: check for one-time items before applying the
+  beat base rate.** Meta Q3 >$6.31 GAAP: first read .55 from the beat
+  history against a .11 book. A second search found a reported ~$10B Q3
+  legal charge (settlement), which explains the book, so the row was
+  recorded at .10 (d4d375a60b4c). The haiku screener's top divergence (.54)
+  was this same miss. Rule: a GAAP-EPS beat estimate that diverges by more
+  than 0.20 from the book needs a search for "<company> Q<n> charge" first,
+  and the note says what it found.
