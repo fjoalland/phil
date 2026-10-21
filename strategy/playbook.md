@@ -9754,3 +9754,12 @@ resolver. Do not let them stand in for calibration evidence.
   is 14, 7W, -$17.25. Evaluate the No-side slice under the relaxation fork
   criteria (per-fold dBrier, two most recent folds) at the next deep retro.
   No per-row rule change.
+
+## 2026-10-21 06:14Z: SI >=1 base rate uses the full post-EO window (RETRO-20261021-0614)
+
+NC rally SI >=1 (`8e3f15831a00`, .82 vs mid .81) settled No after a note
+that cited "recent run ~6/6". Over every rally since the Oct 3 SI executive
+order with a known outcome the count is 8/11 (~0.73). **Rule:** a
+say-the-word estimate for a recurring phrase cites k/n over the whole
+window since the phrase's trigger event, not the latest streak. Streaks
+can be named in the note as context. No gate change.
