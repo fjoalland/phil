@@ -9737,3 +9737,20 @@ rows whose note says `no-fill` and that the event was already complete/final
 as a separate line ("post-final, n=..., sum=...") and leave them out of the
 category verdict. Keep recording them, because they test my parse and the
 resolver. Do not let them stand in for calibration evidence.
+
+## 2026-10-21 04:09Z: NC rally OVV rows, both vetoes missed wins (RETRO-20261021-0409)
+
+- OVV table rows (core/counterfactual.py ledger, outside-view-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Trump NC rally Russia/Ukraine (`846462455b6c`, siblings 3/6) | 0.62/0.845 | No | +0.230 (@0.16) | No | +28.33 |
+| Trump NC rally Hormuz/Blockade (`49d115d2f2bf`, siblings 2/6) | 0.40/0.525 | No | +0.110 (@0.49) | No | +5.20 |
+
+  Totals: 267 rows, 259 trd, 109W/150L, +$178.78, dBrier +0.0262. Yes
+  30W-52L +$42.13; No 79W-98L +$136.65 (sum 178.78, check OK).
+- **Deep-retro agenda item:** the say-the-word No-side OVV slice is 18
+  fillable trades, 11W, +$52.73 (ex-Russia 17, 10W, +$24.40). The Yes side
+  is 14, 7W, -$17.25. Evaluate the No-side slice under the relaxation fork
+  criteria (per-fold dBrier, two most recent folds) at the next deep retro.
+  No per-row rule change.
