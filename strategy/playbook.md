@@ -9763,3 +9763,15 @@ order with a known outcome the count is 8/11 (~0.73). **Rule:** a
 say-the-word estimate for a recurring phrase cites k/n over the whole
 window since the phrase's trigger event, not the latest streak. Streaks
 can be named in the note as context. No gate change.
+
+## 2026-10-21 08:09Z: UK CPI bracket edge + gated-out "Veteran" (RETRO-20261021-0809)
+
+- UK Sep CPI 3.4-3.6 `fd12630995cf` (own .66 vs mid .71, printed 3.5,
+  dBrier +0.032): consensus on a bracket's edge pulled me below the mid,
+  and the print landed above consensus. Same shape as the China CPI TE
+  rows: a consensus figure at the edge is one input, not a reason to
+  shade against the book. n=1 here, no gate change.
+- Gated-out thematic utterance row `89b06c2179fd` (NC "Veteran", .50 vs
+  .42, no transcript count) won, dBrier -0.086. Gated-out tally since
+  RETRO-20261017-0210: 2W/1L (Clay, Veteran won; Laken Riley lost). Gate
+  on BETS stays; re-read at n>=5.
