@@ -9796,3 +9796,19 @@ can be named in the note as context. No gate change.
   was this same miss. Rule: a GAAP-EPS beat estimate that diverges by more
   than 0.20 from the book needs a search for "<company> Q<n> charge" first,
   and the note says what it found.
+
+## 2026-10-21 12:18Z: NC "Job" 18+ OVV saved a loss (RETRO-20261021-1218)
+
+- OVV table row (core/counterfactual.py ledger, outside-view-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Trump NC rally "Job" 18+ (`1eb5a39e0865`, sibling-outcome tally) | 0.33/0.50 | No | +0.150 (@0.52) | Yes | -5.00 |
+
+  Totals: 268 rows, 260 trd, 109W/151L, +$173.78, dBrier +0.0269. Yes
+  30W-52L +$42.13; No 79W-99L +$131.65 (sum 173.78, check OK).
+- For count-threshold say-the-word rows, the base rate comes from speaker
+  transcript counts when they exist (k/n over the window). Sibling-market
+  outcomes at other thresholds are a fallback, and the note says so. Here
+  sibling tallies said ~0/2 at 17+/20+, but past transcripts put 18+ at
+  ~3/6, which was the book. n=1, no gate change.
