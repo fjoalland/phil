@@ -9906,3 +9906,34 @@ can be named in the note as context. No gate change.
 |---|---|---|---|---|---|
 | Spotify MAU >800M (`928696752d3f`, OVV) | 0.07/0.26 | No | +0.170 (No @0.76) | No | +1.58 |
 | Spotify MAU >790M (`f661bdd8ab95`, WSV) | 0.42/0.73 | No | +0.080 (No @0.50) | No | +5.00 |
+
+## 2026-10-22 16:11Z: GTA VI wk1 settled, running-count pace inputs are mechanical (FULL, RETRO-20261022-1611)
+
+- OVV table rows (core/counterfactual.py ledger, outside-view-veto):
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| GTA VI wk1 60-80M Oct20 10:17 (`0fab3c90c6fe`) | 0.30/0.642 | No | +0.331 | Yes | -5.00 |
+| GTA VI wk1 40-60M Oct20 10:17 (`3355a6d2db30`) | 0.70/0.345 | Yes | +0.340 | No | -5.00 |
+| GTA VI wk1 60-80M Oct20 12:24 (`beef3eef1419`) | 0.22/0.597 | No | +0.363 | Yes | -5.00 |
+| GTA VI wk1 40-60M Oct20 12:24 (`85b1819fee85`) | 0.78/0.38 | Yes | +0.390 | No | -5.00 |
+| GTA VI wk1 60-80M Oct21 00:18 (`b85987fcbbcc`) | 0.50/0.824 | No | +0.313 | Yes | -5.00 |
+| GTA VI wk1 40-60M Oct21 00:18 (`50abe800be64`) | 0.49/0.17 | Yes | +0.310 | No | -5.00 |
+
+  Totals: 279 rows, 270 trd, 112W/158L, +$143.10, dBrier +0.0333. Yes
+  30W-56L +$22.13; No 82W-102L +$120.97 (sum 143.10, check OK). The veto
+  saved $30.00. No boundary change.
+- **Running-count pace inputs are mechanical (second violation of the
+  diurnal rule).** The projection pace in a running-count note (views,
+  posts, any count to a deadline) is the **trailing-24h add**, from two
+  dated reads 24h ±3h apart, or the same UTC hours one day earlier. The
+  note must state it. A sub-24h window may appear only as a labelled
+  sanity check. A day-over-day decay ratio needs two *measured* 24h adds.
+  It never comes from an estimated day. Without two measured adds, use
+  0.85 for a viral video past day 4 (GTA VI measured ~0.9). A note whose
+  projection input is a sub-24h pace is a violation on its face.
+  Evidence: the GTA VI Oct20 10:17Z/12:24Z rows projected the 06-10Z and
+  10-12Z trough pace with an invented 0.69 decay. They flipped against a
+  60-80M result and cost +1.64 dBrier across 4 rows. The 24h-add rows on
+  Oct18-19 and Oct21 beat or matched the mid. The first instance was
+  MrBeast plN7JMbadRg (RETRO-20261010-1815, +0.35).
