@@ -1641,6 +1641,12 @@ Prefer, in order:
      estimate stays near the historical beat base rate (large caps beat
      ~75-85%), never below .50 on one low source. n=1, date/source rule
      only.
+   - **Guide-relative KPI ladders: unverified secondary prices do not move
+     the centre (RETRO-20261022-1215, Spotify MAU, 788M print = guide).**
+     The 6-K guide + MAU-vs-guide miss series beat the book on every
+     pre-print row (net dBrier -0.63); the only wrong move was shading >790
+     from .35 to .42 on an unverified Kalshi snippet (+0.054). A secondary
+     price is the market, not KPI evidence. n=1 event, research rule only.
    - **"Consensus clears the threshold" is not an edge when PM already
      prices it ≥~0.80** (CRCL 0.845, OXY 0.91): the market has the same
      consensus. The tradeable shapes are (i) PM price *contradicting* the
@@ -9889,3 +9895,9 @@ can be named in the note as context. No gate change.
   (RETRO-20261022-0009"): report date from IR/8-K, two consensus sources,
   stay near the beat base rate when sources straddle the strike. TSLA
   `cea58c44193a` est .30 vs .50, adjusted $0.48 vs $0.43 strike, +0.240.
+
+## 2026-10-22 12:15Z: Spotify MAU ladder settled (FULL, RETRO-20261022-1215)
+
+- 7 forecast rows, net dBrier -0.63; print 788M = guide. Rule added in the
+  earnings section (search "Guide-relative KPI ladders"). OVV/WSV rows
+  forgone +$1.58/+$5.00, graded in the retro; no gate change.
