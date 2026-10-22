@@ -9901,3 +9901,8 @@ can be named in the note as context. No gate change.
 - 7 forecast rows, net dBrier -0.63; print 788M = guide. Rule added in the
   earnings section (search "Guide-relative KPI ladders"). OVV/WSV rows
   forgone +$1.58/+$5.00, graded in the retro; no gate change.
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Spotify MAU >800M (`928696752d3f`, OVV) | 0.07/0.26 | No | +0.170 (No @0.76) | No | +1.58 |
+| Spotify MAU >790M (`f661bdd8ab95`, WSV) | 0.42/0.73 | No | +0.080 (No @0.50) | No | +5.00 |
