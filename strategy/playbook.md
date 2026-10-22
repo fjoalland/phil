@@ -9882,3 +9882,10 @@ can be named in the note as context. No gate change.
   explicit backfill/hiring language. Meta Q3'26: I centred ~68.8k on 6-8k
   of ~8k exits; the print was 66,775 (~8.7k net down), >68k at .66 cost
   +0.200 dBrier. n=1: a centring default, not a gate.
+
+## 2026-10-22 00:09Z: TSLA beat, date + consensus sourcing (FULL, RETRO-20261022-0009)
+
+- Earnings-beat rule added in the earnings section (search "two sources
+  (RETRO-20261022-0009"): report date from IR/8-K, two consensus sources,
+  stay near the beat base rate when sources straddle the strike. TSLA
+  `cea58c44193a` est .30 vs .50, adjusted $0.48 vs $0.43 strike, +0.240.
