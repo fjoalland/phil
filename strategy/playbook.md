@@ -9950,3 +9950,22 @@ can be named in the note as context. No gate change.
   orphan forecasts, incl. the 14:11Z France row 40fed2e02159). Backfilled
   with `backfill` set. Same miss as 2026-10-19: write the funnel line
   before the cycles.log line.
+
+## 2026-10-22 20:10Z: two settled WSV forecast rows, CF-table exclusions (FULL, cloud)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Both rows are
+  counted in the mechanical `core/counterfactual.py ledger` record. Per the
+  DEEP-2026-09-30 ruling, they are not appended to the frozen hand-kept
+  table.
+  - `b731a366fcfc`: MrBeast RE3_PGwDwhw day-5 121-123M Yes. Own .45, book
+    .64/.78 (spread .14). Settled No at 20:10Z. A CF No @0.36 would have
+    won +$8.89, so the WSV gave up +$8.89. The estimate was on the right
+    side (dBrier vs mid about -0.30). The projection used an inferred
+    "diurnal-matched x0.9 decay". The 16:11Z running-count pace rule now
+    bans that input. This row predates the rule, so it is not a violation.
+    It is one more WSV miss on the video-views ladder, at n=1 for this
+    window. No rule change.
+  - `b1e600239e55`: USGS Oct21 daily max 5.3-5.4 Yes. Own .94, book
+    .031/.989 (liquidity $4). Settled Yes. This is a post-final no-fill
+    row (RETRO-20261020-0610 reading rule): it tests the parse and is not
+    calibration evidence. A CF Yes @0.989 would have won +$0.06.
