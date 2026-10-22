@@ -9969,3 +9969,21 @@ can be named in the note as context. No gate change.
     .031/.989 (liquidity $4). Settled Yes. This is a post-final no-fill
     row (RETRO-20261020-0610 reading rule): it tests the parse and is not
     calibration evidence. A CF Yes @0.989 would have won +$0.06.
+
+## 2026-10-22 22:10Z: one settled WSV forecast row, CF-table exclusion (FULL, cloud)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** The row is
+  counted in the mechanical `core/counterfactual.py ledger` record. Per the
+  DEEP-2026-09-30 ruling, it is not appended to the frozen hand-kept table.
+  - `cd1868213dd9`: MrBeast day-5 123-125M Yes (market 6018085). Own .50,
+    book .22/.37 at record (spread .15). Settled Yes. A CF Yes @0.37 would
+    have won +$8.51, so the WSV gave up +$8.51. Its sibling `b731a366fcfc`
+    (121-123M, own .45) settled No the same evening, so the model's centre
+    (~123.35M) put the two legs on the right sides of one another: the
+    pair is one correct distribution read, and its net CF is +$17.40 for
+    two refused fills. Both rows predate the 16:11Z running-count pace
+    rule. Two rows in one window are not enough to review max_spread for
+    video-views. The pre-registered say-the-word review at 15 fillable WSV
+    trades (risk.json) is the standing mechanism, so there is no rule
+    change here. The next deep retro should count video-views WSV rows
+    toward the same kind of trigger.
