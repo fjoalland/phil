@@ -1630,6 +1630,17 @@ Prefer, in order:
      found" as benchmark-unreachable by default for GAAP-threshold beat
      markets, the same as a basis mismatch — don't fall back to the
      non-GAAP consensus as a stand-in.
+   - **Report date and consensus each need two sources (RETRO-20261022-0009,
+     TSLA `cea58c44193a`, est .30 vs .50, Yes won, dBrier +0.240).** The
+     note said "report ~Oct 28 (aggregators)" while Tesla IR had already
+     announced Oct 21 after close, and took Benzinga's $0.41-0.42 as
+     consensus while Zacks ($0.44) and FactSet ($0.45) sat ABOVE the $0.43
+     strike. Print: adjusted $0.48. Before forming an estimate on a beat
+     market: (a) date from the company IR / 8-K, not an aggregator; (b) at
+     least two consensus sources, and when they straddle the strike, the
+     estimate stays near the historical beat base rate (large caps beat
+     ~75-85%), never below .50 on one low source. n=1, date/source rule
+     only.
    - **"Consensus clears the threshold" is not an edge when PM already
      prices it ≥~0.80** (CRCL 0.845, OXY 0.91): the market has the same
      consensus. The tradeable shapes are (i) PM price *contradicting* the
