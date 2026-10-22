@@ -9937,3 +9937,16 @@ can be named in the note as context. No gate change.
   60-80M result and cost +1.64 dBrier across 4 rows. The 24h-add rows on
   Oct18-19 and Oct21 beat or matched the mid. The first instance was
   MrBeast plN7JMbadRg (RETRO-20261010-1815, +0.35).
+
+## 2026-10-22 18:10Z: CF-table exclusion + funnel backfill (FULL, cloud)
+
+- **Documented CF-table exclusion (reconcile.py check 5):** `ed553699b767`
+  (AAL Q3 beat Yes, wide-spread-veto, book .43/.50, settled won
+  2026-10-22 13:02Z; CF Yes @0.50 would have won +$5.00, so WSV forgone
+  +$5) is graded in RETRO-20261022-1411 and counted in the mechanical
+  `core/counterfactual.py ledger` record. It is not appended to the frozen
+  hand-kept table, per the DEEP-2026-09-30 ruling.
+- **Funnel line backfilled:** the 16:11Z FULL wrote no funnel line (8
+  orphan forecasts, incl. the 14:11Z France row 40fed2e02159). Backfilled
+  with `backfill` set. Same miss as 2026-10-19: write the funnel line
+  before the cycles.log line.
