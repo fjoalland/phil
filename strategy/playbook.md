@@ -8026,6 +8026,12 @@ resolved No.
   unless a numeric survey or a dated official signal puts it lower; a
   qualitative "others see the next meeting" read does not.** Fading the
   far tail stays allowed when a numeric poll has no camp there.
+  Third ladder, CBR Oct (RETRO-20261023-1416): hold. The Oct11 hold leg
+  9c10cc2f437a sat at 0.79 vs mid 0.87 on qualitative reads plus one
+  analyst's 60/25/15 split, and lost +0.027. The Oct22 row recorded at or
+  above the mid on numeric panels won -0.036. One analyst's scenario split
+  is not a numeric survey and does not license a modal leg below the mid
+  (3 of 3).
   The operator runner graded the same settlement in RETRO-20261007-0917.
 - **USGS daily-max ladder, in-progress Poisson: first settled event
   (RETRO-20261001-2015).** Sep 30 ladder (c7cceb5a2381, 603ce1291e65,
@@ -10011,3 +10017,14 @@ can be named in the note as context. No gate change.
     No. No fill existed on either side, so the CF is $0: a post-final
     no-fill read (SPC polygons all in the Southwest), graded in
     RETRO-20261023-0409. Not calibration evidence, no rule change.
+
+## 2026-10-23 14:16Z: CBR Oct settled, OVV CF-table exclusion (LIGHT, cloud, RETRO-20261023-1416)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Counted in the
+  mechanical `core/counterfactual.py ledger` record; per DEEP-2026-09-30 not
+  appended to the frozen hand table.
+  - `5eea35ea8ed3`: CBR Oct no-change Yes (OVV). Own .88, book .77/.78.
+    Settled Yes. A CF Yes @0.78 would have won +$1.41, so the veto gave
+    that up. OVV mechanical totals: 280 rows, 271 trd, 113W/158L,
+    +$144.51. Central-bank OVV rows are now 3W/0L (BoK x2, CBR). Flagged
+    for the next deep retro; no boundary change at n=3.
