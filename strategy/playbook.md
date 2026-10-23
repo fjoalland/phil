@@ -10061,3 +10061,15 @@ can be named in the note as context. No gate change.
   such row pastes a trailing-365d USGS M6.5+ count (fdsnws query,
   minmagnitude=6.5) into the note as its rate. Forecast-only, unchanged; no
   betting change at n=5.
+
+## 2026-10-23 20:08Z: Musk wk Oct16-23 settled 260-279, 11 forecast rows (FULL, cloud, RETRO-20261023-2008)
+
+- **Postcount weekly early vs late tally (new; feeds the n>=50 bar review).**
+  Split each settled Musk/Trump weekly event's rows by hours left at record.
+  Oct16-23: early (>18h left, 8 rows) -0.323 dBrier vs mid; late (<14h left,
+  3 rows, late-window-shrink held them at mid) +0.017. Running tally of
+  events: early 1 (-0.323), late 1 (+0.017). Bar-declined CF for the event:
+  +$43.91 over 3 correlated legs (02f5e408f5bd, 2a00b4c3d7da, e7ee095e5a24).
+  Cell n=129, +0.026; the bar stands until the revisit trigger fires. Append
+  each new weekly event here. If early reads stay negative over >= 5 events,
+  argue for an early-window-only carve-out in the deep retro.
