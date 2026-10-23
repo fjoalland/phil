@@ -9987,3 +9987,16 @@ can be named in the note as context. No gate change.
     trades (risk.json) is the standing mechanism, so there is no rule
     change here. The next deep retro should count video-views WSV rows
     toward the same kind of trigger.
+
+## 2026-10-23 00:10Z: one settled WSV forecast row, CF-table exclusion (FULL, cloud)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Counted in the
+  mechanical `core/counterfactual.py ledger` record; per DEEP-2026-09-30 not
+  appended to the frozen hand table.
+  - `c045a718430c`: WTI closes >$99 Oct22 Yes (market 6009186). Own .76,
+    book .67/.83 at record (spread .16; note quoted .63/.81 from the
+    manual check minutes earlier — same timing gap as the Sep05 GenG row).
+    Settled Yes. Realizable edge vs ask −.07, so even without the veto no
+    bet would have been placed; a CF Yes @0.83 would have won +$1.02.
+    Directional read right, spread arithmetic right: a correct non-trade,
+    not a missed win. No rule change.
