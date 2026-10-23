@@ -10028,3 +10028,27 @@ can be named in the note as context. No gate change.
     that up. OVV mechanical totals: 280 rows, 271 trd, 113W/158L,
     +$144.51. Central-bank OVV rows are now 3W/0L (BoK x2, CBR). Flagged
     for the next deep retro; no boundary change at n=3.
+
+## 2026-10-23 16:10Z: AAA unsourced-sd rule broken again -> aaa_log tool; UMich Oct final (FULL, cloud, RETRO-20261023-1610)
+
+- **AAA daily-rung rows: the sd must come from `strategy/tools/aaa_log.py sd`.**
+  The Oct22 ladder (a39b45d46cb8, 088afbfad046, bca511b6c49b) used an
+  unsourced "N(-0.2c, 0.7c)" despite the 2026-10-17 rule. AAA printed +2.25c
+  and the ladder lost +0.212 dBrier against the mid (the Oct17 ladder lost
+  +0.363). AAA's page has no 15-day history, so the rule was unmeetable and
+  got skipped. Now: every FULL cycle runs `python3 strategy/tools/aaa_log.py
+  record` (cheap, one curl). Any AAA daily-rung forecast pastes the
+  `aaa_log.py sd` JSON into its note. While `sd_cents` is null (n < 15),
+  the row is `market-agrees` at the mid. A fact-final read (the day's print
+  already posted) is unaffected and needs no sd.
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical `core/counterfactual.py ledger` record; per DEEP-2026-09-30 not
+  appended to the frozen hand table.
+  - `a39b45d46cb8` AAA Oct23 4.2600-4.2699 Yes, own .42, book .02/.37 -> No; CF -$5.00.
+  - `088afbfad046` AAA Oct23 4.2700-4.2799 Yes, own .40, book .02/.37 -> No; CF -$5.00.
+  - `2f8b20bc6692` UMich Oct final 46.0-48.9 Yes, own .57, book .33/.62 -> Yes; CF +$3.06.
+  - `d96ac3d2c8b9` UMich Oct final 43.0-45.9 Yes, own .39 (model side No @.68), book .32/.49 -> No; CF +$2.35.
+  WSV mechanical totals: 100 rows, 88 trd, 52W/36L, -$9.98. The UMich
+  revision-sd model won its second ladder. Its sd is also recalled, not
+  sourced, so the next UMich ladder cites the revision history. No rule
+  change at n=2.
