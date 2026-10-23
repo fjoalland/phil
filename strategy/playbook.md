@@ -10073,3 +10073,18 @@ can be named in the note as context. No gate change.
   Cell n=129, +0.026; the bar stands until the revisit trigger fires. Append
   each new weekly event here. If early reads stay negative over >= 5 events,
   argue for an early-window-only carve-out in the deep retro.
+
+## 2026-10-23 22:12Z: FL rally Russia + Hormuz veto rows, both vetoes saved (LIGHT, cloud, RETRO-20261023-2212)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical `core/counterfactual.py ledger` record; per DEEP-2026-09-30 not
+  appended to the frozen hand table.
+  - `532966193dc9`: FL rally Russia/Ukraine Yes (OVV). Own .63, book
+    .79/.82. Settled Yes. CF No @0.22 would have lost -$5.00 (veto saved).
+  - `ff1f9c567581`: FL rally Hormuz/Blockade Yes (WSV). Own .52, book
+    .55/.89. Settled Yes. CF No @0.45 (edge +.03 < min_edge) would have
+    lost -$5.00: a correct non-trade.
+  OVV mechanical totals: 281 rows, 272 trd, 113W/159L, +$139.51.
+- Say-the-word No-side OVV slice (deep-retro agenda, 2026-10-21 04:09Z) is
+  now 19 trades, 11W, +$47.73. The same phrase pair went No at NC and Yes
+  at FL: the sibling k/n tally is 2/4 on side. No rule change at n=4.
