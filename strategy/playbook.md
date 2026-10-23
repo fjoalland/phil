@@ -10052,3 +10052,12 @@ can be named in the note as context. No gate change.
   revision-sd model won its second ladder. Its sd is also recalled, not
   sourced, so the next UMich ladder cites the revision history. No rule
   change at n=2.
+
+## 2026-10-23 18:08Z: USGS weekly M6.5+ count, 3 rows settled (LIGHT, cloud, RETRO-20261023-1808)
+
+- **USGS weekly M6.5+ rows: source lambda, do not recall it.** The Oct 12-18
+  '4'/'5' rows (411e528e0e07, 3d624d4b07e6, 4d7671a9d70f) beat the mid by
+  -0.030 combined (family n=5, -0.106), but used "~45/yr" from memory. Next
+  such row pastes a trailing-365d USGS M6.5+ count (fdsnws query,
+  minmagnitude=6.5) into the note as its rate. Forecast-only, unchanged; no
+  betting change at n=5.
