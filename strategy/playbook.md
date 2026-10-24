@@ -10106,3 +10106,21 @@ can be named in the note as context. No gate change.
   dBrier) plus the AL/NC SI rows (2/2 not-said vs mids .79/.665). Review
   at n>=5 SI rows under this check.
 - Other k/n updates: AI 3/10, Fentanyl/Deport 1/7.
+
+## 2026-10-24 02:10Z: Kyiv Oct 17 settled No, two WSV vetoes saved (FULL, cloud, RETRO-20261024-0210)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical `core/counterfactual.py ledger` record; per DEEP-2026-09-30 not
+  appended to the frozen hand table.
+  - `733dd3b0f5b3` (superseded): Kyiv Oct 17 Yes, own .78, book .64/.75.
+    Settled No. CF Yes @.75 would have lost -$5.00 (veto saved).
+  - `a4f876211dfe`: Kyiv Oct 17 Yes, own .25, book .091/.152. Settled No.
+    CF Yes @.152 would have lost -$5.00 (veto saved).
+  WSV mechanical totals: 104 rows, 92 trd, 52W/40L, -$29.98.
+- **Kyiv rule addendum (extends 2026-10-19 00:10Z):** only a PRIMARY report
+  can move own above the book: Kyiv CMA/city officials, UAF, Kyiv
+  Independent, Reuters/AP naming a Kyiv-city strike, engagement or debris.
+  An aggregator claim on its own (Archyde-type) does not count; record at
+  the mid. Both Oct 17 rows rose on one aggregator alert claim (net +0.173
+  dBrier). Count the family base rate by DATE: 3/4 Yes (Oct 9/12/18 Yes,
+  Oct 17 No), not "6/6 rows".
