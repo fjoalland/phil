@@ -10088,3 +10088,21 @@ can be named in the note as context. No gate change.
 - Say-the-word No-side OVV slice (deep-retro agenda, 2026-10-21 04:09Z) is
   now 19 trades, 11W, +$47.73. The same phrase pair went No at NC and Yes
   at FL: the sibling k/n tally is 2/4 on side. No rule change at n=4.
+
+## 2026-10-24 00:12Z: FL rally settlements, 2 bets won + 5 forecasts (FULL, cloud, RETRO-20261024-0012)
+
+- **Bets:** `ba37b7aef342` Data Center No +$1.85 and `33cae292d1ae`
+  Transgender 5+ Yes +$1.41 both won. Updated k/n: Data Center
+  speaker-only 2/12 Yes; Transgender >=5 met 8/9.
+- **Documented CF-table exclusion (reconcile.py check 5):** `3c84ca7ec4f8`:
+  FL rally SI Yes (WSV). Own .69, book .56/.63. Settled No. CF Yes @0.63
+  would have lost -$5.00 (veto saved). Counted in the mechanical record;
+  per DEEP-2026-09-30 not appended to the frozen hand table. WSV
+  mechanical totals: 102 rows, 90 trd, 52W/38L, -$19.98.
+- **SI recency check (new, shading only).** Post-EO window now 9/14 (IA N,
+  FL N in a row; 2 of the last 3 rallies had no SI). Next SI row quotes both
+  the full-window k/n and the last-3 k/n. If they differ by more than one
+  hit, a Yes est takes the lower rate. Evidence: 3c84ca7ec4f8 (+0.122
+  dBrier) plus the AL/NC SI rows (2/2 not-said vs mids .79/.665). Review
+  at n>=5 SI rows under this check.
+- Other k/n updates: AI 3/10, Fentanyl/Deport 1/7.
