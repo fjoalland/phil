@@ -1277,6 +1277,19 @@ conditioning set behind a read has fewer than 10 windows, the recorded
 estimate sits within 0.03 of the mid unless the note names a non-statistical
 reason (an observed burst in the last hour, a known scheduled event).
 
+**Graded (RETRO-20261024-1810, Musk Oct22-24 2-day, 9 forecast rows,
+effective n=1): the same-clock sample beat the book.** Every re-read sat
+below the mid on 65-89 and above it on 90-114, including the 12:12Z read
+inside a 6h 07-12Z stall (65-89 .79 vs .845, 90-114 .21 vs .145), and the
+count landed 90-114. All 9 rows beat the mid: sum dBrier -0.966 (mean
+-0.107). The 12:12Z/14:13Z reads used the full 23-window same-clock set, so
+neither the stall-persistence nor the late-window-shrink rule bound them
+(both target conditioning sets <10; the quiet-subset n=6 was only color).
+Event tally for final-12h Musk 2-day reads: book 2 (Oct17-19, Oct19-21,
+both tiny conditioning sets), counter-sample 1 (Oct22-24, n=23). No rule
+change: it is the split those two rules already encode. Re-grade at 6
+events. Postcount stays category-barred for bets.
+
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
 (5ef2f363f039, est 0.165, RETRO-20260813-2130) and 140-159 (b7a58fd571c8,
