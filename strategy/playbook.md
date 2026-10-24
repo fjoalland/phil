@@ -3185,6 +3185,12 @@ I both over-count touches. Rows from Oct 1 on (n=17) are calibrated
 (own 8.62, mid 8.35, 9 hits). Ruling unchanged: forecast-only, no default
 shade. Next re-grade at n=80 splits pre/post Oct 1 and reach/dip.
 
+**2026-10-24 16:10Z (RETRO-20261024-1610): tally n=62**, own 0.1438 vs
+market 0.1409. BTC dip $80k Oct19-25 `928f11303960` touched: touch.py 0.71,
+recorded 0.62 after a shade citing "above-mid touch reads lost
+historically". The family record is NOT a row-specific reason; that shade
+cost 0.060 Brier (row still beat mid by 0.081). Record touch.py as is.
+
 **2026-09-25 22:13Z (RETRO-20260925-2213): an inferred open is not a
 measured input.** Single-stock touch rows record `touch.py` from the last
 close, or from an actually quoted premarket print. An open inferred from
