@@ -1609,6 +1609,13 @@ otherwise record at the mid. Evidence: the Gemini 4/Argon family
 d7e0ffbd54f7, 16e825efdc9c, 1413e7390f0b, 3d8e42d35baa), all below the mid,
 all Yes, family dBrier +0.596. The 13 mid rows were flat. Later-than-market
 reads are now 12/12 against me.
+**Update (RETRO-20261025-0610):** Fable 5.2+ by Oct 24 resolved No. The
+Oct14 row 84ad37e66d6f (0.85 vs mid 0.91, no primary source, so it broke
+the pre-record check) won -0.106 vs the mid: tally now 12/13 against. Its
+first win came from a rule violation on a 4th launch event, so no change.
+The 0.65 -> 0.91 unexplained rise on that rung was noise (market fell to
+0.28 and resolved No). One graded case: an unexplained sharp rise on an AI
+rung is not proof of informed flow.
 
 **Treasury touch drift rule (RETRO-20260928-2215).** For a Treasury
 par-yield touch rung ("hit X% in <month>") with 5 or fewer prints left,
