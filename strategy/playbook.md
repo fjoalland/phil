@@ -10143,3 +10143,18 @@ can be named in the note as context. No gate change.
   the mid. Both Oct 17 rows rose on one aggregator alert claim (net +0.173
   dBrier). Count the family base rate by DATE: 3/4 Yes (Oct 9/12/18 Yes,
   Oct 17 No), not "6/6 rows".
+
+## 2026-10-25 04:10Z: GA Perry rally settlements, 4 forecasts (FULL, cloud, RETRO-20261025-0410)
+
+- **Documented CF-table exclusion (reconcile.py check 5):** `56a2d13c8805`:
+  GA Perry rally Russia/Ukraine Yes (OVV). Own .74, book .87/.88. Settled
+  No. CF No @.13 would have WON +$33.46 (veto cost). Counted in the
+  mechanical record; per DEEP-2026-09-30 not appended to the frozen hand
+  table. OVV mechanical totals: 282 rows, 273 trd, 114W/159L, +$172.97.
+- Say-the-word No-side OVV slice (deep-retro agenda, 2026-10-21 04:09Z) is
+  now 20 trades, 12W, +$81.19; Russia/Ukraine pair on-side 3/5 (NC N, FL
+  Y, GA N). One .13-ask win dominates the slice: the deep retro weighs it
+  with the payoff skew stated, not as a hit rate.
+- k/n updates: SI post-EO 10/15, last-3 1/3 (recency check row 1 of 5:
+  shaded .64 -> .55, said); Russia/Ukraine since Oct 13 6/10; Hormuz/Blockade
+  5/8; AI 3/11.
