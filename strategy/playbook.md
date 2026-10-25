@@ -10165,3 +10165,14 @@ can be named in the note as context. No gate change.
 - k/n updates: SI post-EO 10/15, last-3 1/3 (recency check row 1 of 5:
   shaded .64 -> .55, said); Russia/Ukraine since Oct 13 6/10; Hormuz/Blockade
   5/8; AI 3/11.
+
+## 2026-10-25 16:10Z: AAA week Oct19-25 ladder + Oct25 daily settled, 6 forecasts (FULL, cloud, RETRO-20261025-1610)
+
+- **AAA weekly touch rows on wide books are not skill evidence.** 5 of 6
+  rows beat the mid by 0.12-0.26 each, but the mids came from .03/.99,
+  .28/.98 and .05/.98 books and the No asks sat at or above own No (edge
+  <= .02). When a retro or deep retro weighs commodities forecast dBrier as
+  a reason to loosen a bet rule, it drops rows whose book spread at record
+  was >= .50 (or grades them against the ask). The Oct25 daily row followed
+  the aaa_log n<15 market-agrees rule (zero dBrier; print 4.2892 missed
+  4.29 by 0.08c). No rule change.
