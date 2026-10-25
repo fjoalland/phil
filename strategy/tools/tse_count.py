@@ -24,15 +24,25 @@ the -u.json files carry the results.
 import argparse
 import concurrent.futures as cf
 import json
+import time
+import urllib.error
 import urllib.request
 
 BASE = "https://resultados.tse.jus.br/oficial/ele2026/{ele}/"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; paper-trader-tse)"}
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers=UA)
-    return json.load(urllib.request.urlopen(req, timeout=20))
+def fetch(url, tries=4):
+    # TSE CDN answers bursts with 429 (R2 night 2026-10-25, 20:20Z and
+    # 22:1xZ, even on the single config fetch): back off and retry.
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            return json.load(urllib.request.urlopen(req, timeout=20))
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == tries - 1:
+                raise
+            time.sleep(3 * 2 ** i)
 
 
 def walk(o):
@@ -66,6 +76,8 @@ def main():
     ap.add_argument("--cargo", default="0001")
     ap.add_argument("--ufs", default="all")
     ap.add_argument("--names", default="LULA,FLAVIO BOLSONARO")
+    ap.add_argument("--workers", type=int, default=64,
+                    help="parallel fetches; use ~4 when the CDN 429s")
     args = ap.parse_args()
     names = args.names.split(",")
     cfg = fetch(BASE.format(ele=args.ele) +
@@ -73,7 +85,7 @@ def main():
     want = None if args.ufs == "all" else set(args.ufs.split(","))
     jobs = [(a["cd"], m["cd"]) for a in cfg["abr"]
             if want is None or a["cd"] in want for m in a["mu"]]
-    with cf.ThreadPoolExecutor(64) as ex:
+    with cf.ThreadPoolExecutor(args.workers) as ex:
         res = list(ex.map(lambda j: muni(args, *j), jobs))
     agg, fails, latest = {}, 0, ""
     for uf, votes, vv, est, te, hg in res:
