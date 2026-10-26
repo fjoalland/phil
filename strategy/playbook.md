@@ -4635,11 +4635,12 @@ press or studio figure itself (midpoint of a stated range; a "low end"
 figure is a lower bound on the centre). My own Fri-multiple may widen sd,
 never move the centre below the press figure. Box-office forecasts n=62,
 sum dBrier ~+0.84, mean ~+0.014. Still no-bet.
-Tally (RETRO-20261026-2010, evidence `c0c124a57d79`, pending
+Tally (RETRO-20261026-2010 + RETRO-20261026-2210, evidence `c0c124a57d79`,
 `5a2554fd20f6`): Wildwood OW (Laika family animation, A CinemaScore) landed
 12-14M, above every press midpoint (Deadline 11.2M, range 10.5-13M). My
 press-centred ladder put .60 on 10-12M against a .455 mid (+0.153), and
-12-14M sits at .33 vs .3665 (about +0.026 pending). The book weighted the
+12-14M settled Yes at .33 vs .3665 (+0.048; the 2010 retro's +0.026 was
+an arithmetic slip). Event net about +0.20 against me. The book weighted the
 upside better. The note flagged a family Saturday bump but did not price it.
 Watch, not a rule (n=1): on family or animated openings with an A-range
 CinemaScore, when the press range spans more than one bracket, cap the
