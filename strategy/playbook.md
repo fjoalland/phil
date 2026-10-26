@@ -10244,3 +10244,15 @@ can be named in the note as context. No gate change.
   won Yes: AAA printed 4.2858 (-0.34c). Zero dBrier by construction. The
   aaa_log series is at n_changes=4; AAA daily rungs stay market-agrees
   until sd_cents is non-null. No rule change.
+
+## 2026-10-26 18:10Z: Musk Oct24-26 postcount settled 65-89, 6 forecasts (FULL, cloud, RETRO-20261026-1810)
+
+- **3-day-window same-clock tally (new; feeds the n>=50 bar review).**
+  Mid-window rows (>4h left; 08Z/12Z pairs `3d4b27f0a87d`, `15e4663cce02`,
+  `b73bcf5f9bea`, `6f67b2e15d10`): +0.178 vs mid. The month-wide
+  same-clock base rate (n=25) overstated the tail on a quiet live day.
+  Final-2h rows (`a576e297078f`, `3e0f4e743581`): -0.096. Running tally
+  of 3-day events: mid-window 1 (+0.178), final-2h 1 (-0.096). If
+  mid-window reads lose to the mid in >=3 of the next 5 three-day events,
+  argue in the deep retro for conditioning on live-day activity, or for
+  w<=0.5. Bar unchanged.
