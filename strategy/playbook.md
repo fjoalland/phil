@@ -10237,3 +10237,10 @@ can be named in the note as context. No gate change.
   correct (ask .997 > est). Its -0.160 dBrier is against a stale $12 book
   (bid .202 / ask .997); read wide-book forecast dBrier as count-reading,
   not skill. No rule change.
+
+## 2026-10-26 16:15Z: AAA Oct26 daily rung settled (FULL, cloud, RETRO-20261026-1615)
+
+- `c191e02d4761` (market-agrees at mid .885 under the aaa_log n<15 rule)
+  won Yes: AAA printed 4.2858 (-0.34c). Zero dBrier by construction. The
+  aaa_log series is at n_changes=4; AAA daily rungs stay market-agrees
+  until sd_cents is non-null. No rule change.
