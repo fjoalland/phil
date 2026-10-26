@@ -10230,3 +10230,10 @@ can be named in the note as context. No gate change.
   `"<id> (existing, unchanged)"`, never `null`.
 - Mechanical CF `unvalidated-method`: 161 rows, 150 trd, 78W/72L,
   +$70.89.
+
+## 2026-10-26 12:15Z: Celina DF R2 10-15 forecast settled (FULL, cloud, RETRO-20261026-1215)
+
+- `73afd0e35baf` est .99 (TSE 99.66% count, margin 14.32) won Yes; skip was
+  correct (ask .997 > est). Its -0.160 dBrier is against a stale $12 book
+  (bid .202 / ask .997); read wide-book forecast dBrier as count-reading,
+  not skill. No rule change.
