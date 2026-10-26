@@ -10201,3 +10201,20 @@ can be named in the note as context. No gate change.
   at ~99.6% counted (51.78 projected vs 51.75 counted), which is not a
   test. Next use: log one projection at <=70% counted, so the
   count-projection method can be graded.
+
+## 2026-10-26 06:15Z: Brazil R2 state/abroad family settled, 14 forecasts (FULL, cloud, RETRO-20261026-0615)
+
+- **Runoff rule extended to sub-national rows (evidence `9d0fbc408d0f`,
+  `2c11b9d6acb5`, `15c9b4ed5db8`, `fffd93f88992`; +0.36 dBrier against
+  me combined):** a state/abroad runoff row starts from the R1 two-party
+  share in that unit and adds the NATIONAL swing implied by the final-poll
+  average (R1 national two-party -> poll-average R2). Do not add a
+  separate "R1 others break ~65/35 to X" transfer guess and do not apply
+  any R1 directional poll-error prior. The sd includes the national
+  poll-error term, which every state row shares, so the family is one
+  draw. Brazil 2026: R1 national two-party Flavio 51.0 -> result Lula
+  51.75 (~5.5pt toward Lula); every row built on the right-leaning
+  transfer guess lost to the mid, every row leaning Lula vs the book beat
+  it. Same event as `bada004f3122`: n stays 1 for the rule.
+- Mechanical CF `unvalidated-method`: 159 rows, 148 trd, 77W/71L,
+  +$73.65 (one-event jump, not validation).
