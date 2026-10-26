@@ -10176,3 +10176,28 @@ can be named in the note as context. No gate change.
   was >= .50 (or grades them against the ask). The Oct25 daily row followed
   the aaa_log n<15 market-agrees rule (zero dBrier; print 4.2892 missed
   4.29 by 0.08c). No rule change.
+
+## 2026-10-26 04:10Z: Brazil winner family settled, 7 forecasts (FULL, cloud, RETRO-20261026-0410)
+
+- **Documented CF-table exclusions (reconcile.py check 5):** both Sep 21
+  OVV rows, per DEEP-2026-09-30 not appended to the frozen hand table,
+  counted in the mechanical record:
+  - `9c5be5868fda` (superseded): Lula wins, Yes. Own .47, book .38/.39.
+    Settled Yes. CF Yes @.39 would have WON +$7.82 (veto cost).
+  - `c67d8b6559ef` (superseded): Flavio wins, Yes. Own .44, book
+    .608/.614. Settled No. CF No @~.39 would have WON +$7.76 (veto cost).
+  OVV mechanical totals: 284 rows, 275 trd, 116W/159L, +$188.55. One event,
+  two legs of one distribution: one data point.
+- **Runoff rule (new, evidence `bada004f3122`):** a directional
+  poll-error prior learned from FIRST rounds (Brazil: right-ward, n=3)
+  does not carry to a two-way runoff. There the minor-candidate shares
+  that drove the R1 misses do not exist. Centre a runoff distribution on
+  the final-poll average and widen the sd for poll error in either
+  direction. Brazil 2026 R2: polls Flavio +1.9, I centred at +4.5, the
+  result was Lula +3.5 (a 5.4pt miss toward Lula). The shift added error.
+  The DEEP-2026-10-05 "use as the runoff prior" line is superseded for
+  runoffs.
+- **tse_count.py runoff grade still owed:** the only R2 read logged was
+  at ~99.6% counted (51.78 projected vs 51.75 counted), which is not a
+  test. Next use: log one projection at <=70% counted, so the
+  count-projection method can be graded.
