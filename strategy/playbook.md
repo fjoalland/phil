@@ -10218,3 +10218,15 @@ can be named in the note as context. No gate change.
   it. Same event as `bada004f3122`: n stays 1 for the rule.
 - Mechanical CF `unvalidated-method`: 159 rows, 148 trd, 77W/71L,
   +$73.65 (one-event jump, not validation).
+
+## 2026-10-26 08:15Z: Brazil R2 margin legs + Serbia + MI rally AI settled, 4 forecasts (FULL, cloud, RETRO-20261026-0815)
+
+- Brazil 4-6 / 6-8 Flavio margin legs: the same R2 draw as
+  `bada004f3122`. The runoff rule already covers it. n stays 1.
+- k/n update: rally "AI" 3/12, last-4 0/4 (MI St Clair No). Recency
+  shading toward the lower rate was right in direction (one row).
+- Funnel discipline reminder (reconcile FAIL 08:15Z on the 06:17Z line):
+  a re-checked market with no new row still cites the live row id as
+  `"<id> (existing, unchanged)"`, never `null`.
+- Mechanical CF `unvalidated-method`: 161 rows, 150 trd, 78W/72L,
+  +$70.89.
