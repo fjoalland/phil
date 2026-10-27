@@ -10297,3 +10297,16 @@ can be named in the note as context. No gate change.
   too, not the identity alone.
 - `3a0e50a2badb` Kane Ballon d'Or won, market-agrees, own .74 vs mid .7615
   (+0.011). No rule change.
+
+## 2026-10-27 04:10Z: Toronto mayor forecasts settled, 3 rows one event (LIGHT, cloud, RETRO-20261027-0410)
+
+- **Municipal two-way poll method tally (n=1 event).** Settled rows:
+  `c5046205d93e` (.27 Bradford, superseded), `357790f4bce3` (.35
+  Bradford) and `1b5504de6a44` (.84 Chow) all beat the mid: -0.020,
+  -0.014 and -0.018. Chow won. The method stays `unvalidated-method`
+  (IVR poll-error sd sourced from one prior election).
+- **Owed:** the official Chow-Bradford margin. Log it against the Oct 25
+  centre (Chow +2, after a 1.5pt "polls overstate Chow" shade) and the
+  Oct 26 final-poll average (+7.6). It is the one thing that can grade
+  the shade. Until then, do not reuse that shade.
+- Mechanical CF `unvalidated-method`: 163 rows, 80W/72L, +$81.85.
