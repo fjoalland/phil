@@ -10286,3 +10286,14 @@ can be named in the note as context. No gate change.
     Settled No. CF No @.23 would have WON +$16.74 (veto cost).
   OVV mechanical totals: 286 rows, 277 trd, 118W/159L, +$222.22. One event,
   two legs of one distribution: one data point.
+
+## 2026-10-27 02:10Z: Korea Q3 GDP + Kane Ballon d'Or forecasts settled (FULL, cloud, RETRO-20261027-0210)
+
+- **Quarterly GDP YoY base-effect identity tally (new).** YoY_Q ~= YoY_Q-1
+  + qoq_Q - qoq_(Q-4), with a guessed qoq sd and no named consensus.
+  Settled rows: `a577447862d8` Korea Q3'26 3.0-3.4 Yes, own .38 vs mid
+  .315, dBrier -0.085 (n=1). Stays `unvalidated-method`, forecast-only.
+  Review after 5 settled rows; a bet needs a named nowcast/consensus check
+  too, not the identity alone.
+- `3a0e50a2badb` Kane Ballon d'Or won, market-agrees, own .74 vs mid .7615
+  (+0.011). No rule change.
