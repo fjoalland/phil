@@ -10310,3 +10310,12 @@ can be named in the note as context. No gate change.
   Oct 26 final-poll average (+7.6). It is the one thing that can grade
   the shade. Until then, do not reuse that shade.
 - Mechanical CF `unvalidated-method`: 163 rows, 80W/72L, +$81.85.
+
+## 2026-10-27 06:12Z: Musk Oct20-27 300-319 settled No early, 2 forecasts (FULL, cloud, RETRO-20261027-0612)
+
+- Partial settlement of the weekly event, for the early-vs-late tally:
+  `7a67710dd98b` (29.7h left, early) -0.067 and `d152796a4d70` (21.8h left,
+  early) -0.001 vs mid. Same-clock window samples with n>=24 beat or matched
+  the book on this leg. The 16:00Z close settles 320-339/340-359. At that
+  point, append the full event to the weekly tally (DEEP 10-23 block). Bar
+  unchanged.
