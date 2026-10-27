@@ -10126,6 +10126,12 @@ can be named in the note as context. No gate change.
   Cell n=129, +0.026; the bar stands until the revisit trigger fires. Append
   each new weekly event here. If early reads stay negative over >= 5 events,
   argue for an early-window-only carve-out in the deep retro.
+  - Oct20-27 (settled 320-339, RETRO-20261027-1810, 9 rows): early (>18h
+    left, 3 rows) -0.080; middle (15.7h, 2 rows) -0.022; late (<6h, 4 rows,
+    shaded to the tail for a quiet live morning) +0.040. Tally now: early 2
+    events (-0.323, -0.080), late 2 events (+0.017, +0.040). Same split as
+    Oct16-23. No rule change at 2 events; the late rows lost by shading off
+    the mid, so in the final 6h hold at the mid unless a burst is observed.
 
 ## 2026-10-23 22:12Z: FL rally Russia + Hormuz veto rows, both vetoes saved (LIGHT, cloud, RETRO-20261023-2212)
 
