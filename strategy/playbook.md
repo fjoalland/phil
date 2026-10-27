@@ -8093,6 +8093,15 @@ resolved No.
   4/4 legs beat the mid, -0.0242 combined. Edges were 0.02-0.03, under
   min_edge, correctly skipped. One event: keep using the method for
   forecasts; no betting change until a second settled ladder agrees.
+- **USGS count markets: count reviewed us-network events only
+  (RETRO-20261027-2210).** USGS M6.5+ Oct19-25 '3' (5775546) resolved Yes
+  while a naive fdsnws query showed 6. Three unassociated PTWC `Mi` rows
+  (pt26293000, a dup of a us 6.3 that stayed unmerged 6+ days, plus two
+  Bonin rows stamped 24h early) were all excluded. pt26286001 merged into
+  us6000u214 the week before. That is 2/2: the resolver follows the
+  us-net reviewed list. Put residual duplicate risk at <= .10, not the
+  .25-.45 I used (my late rows were +0.117 behind the mid). Revisit if a
+  resolution ever counts a pt row.
 - **Empty-book forecast rows are excluded from edge claims
   (RETRO-20261001-2015).** Yen intervention cbcbeb568399 scored -0.131
   vs a 0.375 "mid" that was bid 0.01 / ask 0.74 on $11 liquidity. That
