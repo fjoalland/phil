@@ -6554,6 +6554,15 @@ shade toward a single outlier poll that the aggregate already absorbs.
 Both edges (0.025, 0.03) sat under min_edge 0.04; at ask they would have
 paid about +$0.58 combined. Too small to touch min_edge.
 
+**Late settlement, Quebec seat brackets (RETRO-20261027-0818, n=1, no rule change).**
+UMA settled the PQ/PLQ seat brackets on 2026-10-27, 22 days after the vote. The final
+brackets were PQ 60-64 and PLQ 36-39. An election-night row recorded at ~87% counted
+(PQ 59, top edge of 55-59; own .70 vs a .77/.95 book) beat the mid by -0.250. The night
+count moved a riding across the bracket edge. When a partial count sits within ~1 seat of
+a bracket edge, shade for late flips instead of trusting the leader tally, and treat a
+wide-spread mid as no benchmark. The pre-vote Qc125-normal row (PLQ 40-43, .21 vs .195)
+was market-agrees (+0.006).
+
 **Watch item: majority-threshold conversion is a distinct task from
 most-seats (RETRO-20261006-0748, n=1, no rule change.)** Same Quebec
 election, different market: "PQ wins a majority" (needs ~63-64 of 127
