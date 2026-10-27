@@ -10334,3 +10334,17 @@ can be named in the note as context. No gate change.
   the book on this leg. The 16:00Z close settles 320-339/340-359. At that
   point, append the full event to the weekly tally (DEEP 10-23 block). Bar
   unchanged.
+
+## 2026-10-27 20:10Z: Bulgaria R1 margin ladder settled, poll centre missed by ~12 pts (FULL, cloud, RETRO-20261027-2010)
+
+- **Low-turnout first-round margin rule (n=1, provisional).** CIK final
+  margin was Iotova +2.8 at 23% turnout. The final-week decided-voter poll
+  average was about +15 (range 12.8-24.4), so the miss was about 2 sd at my
+  sd 6. The 10-20 No bet won (+$9.29), but only because the miss went
+  outside the bracket. The distribution was wrong. Until a second event
+  grades it: (a) use a margin sd of at least 8 pts for decided-voter
+  first-round polls; (b) when expected turnout is under 35% or falling
+  sharply, shade the leader's margin toward zero by a third; (c) "leader
+  wins by X-Y" brackets stay forecast-only (`unsourced-sd`). This mirrors
+  the Toronto shade: polls overstated the incumbent-camp candidate there
+  too. Toronto's official margin is still owed.
