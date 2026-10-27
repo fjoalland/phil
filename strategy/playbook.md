@@ -4645,6 +4645,14 @@ upside better. The note flagged a family Saturday bump but did not price it.
 Watch, not a rule (n=1): on family or animated openings with an A-range
 CinemaScore, when the press range spans more than one bracket, cap the
 modal bracket at book mid + 0.10. Re-check after 3 such events. Still no-bet.
+Tally (RETRO-20261027-0010, evidence `a9478c52a1f4`, `24a82f8e0817`):
+Clayface OW post-Sunday boundary case. Studio est exactly $24.0M (Deadline
+24.5M); >=24M includes 24.0. Book priced a ~6pt Monday down-revision (.82 on
+22.5-24M); actuals held >=24M. My .45/.53 beat the mid by -0.776 combined.
+Press-centre rule held; my genre-downside shade still cost ~.10 per leg. When
+the Sunday studio figure sits ON a bracket boundary, weight the side it
+resolves to by the typical ~2pct revision only, no extra genre shade (n=1,
+watch). Box-office forecasts n=51, brier_delta -0.0011. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
@@ -10266,3 +10274,15 @@ can be named in the note as context. No gate change.
   mid-window reads lose to the mid in >=3 of the next 5 three-day events,
   argue in the deep retro for conditioning on live-day activity, or for
   w<=0.5. Bar unchanged.
+
+## 2026-10-27 00:10Z: Clayface OW brackets settled, 2 OVV forecasts (FULL, cloud, RETRO-20261027-0010)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical `core/counterfactual.py ledger` record; per DEEP-2026-09-30 not
+  appended to the frozen hand table.
+  - `a9478c52a1f4`: Clayface OW >=24M Yes (OVV). Own .45, book .115/.228.
+    Settled Yes. CF Yes @.228 would have WON +$16.93 (veto cost).
+  - `24a82f8e0817`: Clayface OW 22.5-24M Yes (OVV). Own .53, book .77/.87.
+    Settled No. CF No @.23 would have WON +$16.74 (veto cost).
+  OVV mechanical totals: 286 rows, 277 trd, 118W/159L, +$222.22. One event,
+  two legs of one distribution: one data point.
