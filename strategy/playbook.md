@@ -8085,6 +8085,14 @@ resolved No.
   above the mid on numeric panels won -0.036. One analyst's scenario split
   is not a numeric survey and does not license a modal leg below the mid
   (3 of 3).
+  Fourth, RBNZ Oct binary +25bp (RETRO-20261028-0410): held at 2.75% in a
+  surprise 4-3 vote (Governor plus 3 externals voted to hold). Modal leg LOST. The rows
+  at the mid (.645/.72/.86) cost ~0 vs the book (-0.016 combined). The Oct14 row at
+  .48 vs .515, set below the mid on a split named-bank call (Westpac pause),
+  gained -0.035. The rule protected against the book, not against the
+  outcome. Add one check, not yet a rule (1 instance): before recording a
+  central-bank leg, read the previous meeting's vote split and minutes. A
+  dissent there counts as a dated official signal under this rule.
   The operator runner graded the same settlement in RETRO-20261007-0917.
 - **USGS daily-max ladder, in-progress Poisson: first settled event
   (RETRO-20261001-2015).** Sep 30 ladder (c7cceb5a2381, 603ce1291e65,
