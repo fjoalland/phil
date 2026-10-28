@@ -8102,6 +8102,10 @@ resolved No.
   us-net reviewed list. Put residual duplicate risk at <= .10, not the
   .25-.45 I used (my late rows were +0.117 behind the mid). Revisit if a
   resolution ever counts a pt row.
+  RETRO-20261028-0010: the sibling "2" row (01c77ed8a14f, .40 vs .72)
+  scored -0.358, but only because the Bonin 6.5 arrived after it was
+  recorded. Its ~.45 duplicate-inclusion leg was wrong too. Do not cite it
+  as evidence that pt rows count.
 - **Empty-book forecast rows are excluded from edge claims
   (RETRO-20261001-2015).** Yen intervention cbcbeb568399 scored -0.131
   vs a 0.375 "mid" that was bid 0.01 / ask 0.74 on $11 liquidity. That
