@@ -8109,6 +8109,14 @@ resolved No.
   economist poll and a dated OIS/futures read disagree, est_prob follows the
   futures side and the poll goes in the note as "poll view: X". The poll
   remains the tie-breaker only where no dated futures read exists.
+  Sixth, FOMC Oct28 (RETRO-20261028-2015): hold, two dissents. All three
+  rows cost vs mid (+0.075 combined). Hike row 1bde03ef5b5d .29 vs .24 was
+  recorded at the Kalshi ASK (.26/.29), not the Kalshi mid .275. Rule (n=1,
+  recording only): a cross-venue benchmark enters est_prob at that venue's
+  MID, never its ask or bid. Dissent ladder: my modal bucket (2 dissents,
+  .33) sat below the book mid .365 because I spread mass over 0/1/3 on
+  qualitative reads; it won. On a count ladder, do not record the modal
+  bucket below the mid without a numeric source (same shape as CBR #3).
 - **USGS daily-max ladder, in-progress Poisson: first settled event
   (RETRO-20261001-2015).** Sep 30 ladder (c7cceb5a2381, 603ce1291e65,
   e879bdcdfa8c, 1150efff6222): observed max 5.6 with 3.7h left, 365d
