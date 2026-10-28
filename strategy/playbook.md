@@ -10369,3 +10369,18 @@ can be named in the note as context. No gate change.
   wins by X-Y" brackets stay forecast-only (`unsourced-sd`). This mirrors
   the Toronto shade: polls overstated the incumbent-camp candidate there
   too. Toronto's official margin is still owed.
+
+## 2026-10-28 12:2xZ: Toronto mayor margin graded, the "polls overstate Chow" shade was wrong-signed (FULL, cloud)
+
+- **Evidence.** City of Toronto count (via Wikipedia, retrieved 2026-10-27):
+  Chow 532,201 (54.16%), Bradford 404,013 (41.11%), margin **Chow +13.05**.
+  Final-poll average was +7.6, my Oct 25 centre +2 (after the 1.5pt
+  "polls overstate Chow" shade). Polls UNDERstated the incumbent by ~5.5;
+  my shade added ~1.5 of error in the wrong direction and the centre was
+  ~11 pts off.
+- **Rule.** Retire the incumbent-overstatement shade: no directional poll
+  shade on municipal two-way races without at least two graded events
+  pointing the same way. The Bulgaria R1 note above ("mirrors the Toronto
+  shade") is withdrawn as support: n=2 events, opposite signs -> the honest
+  read is a wide symmetric error (sd >= 8 pts on margin), not a bias.
+  Margin brackets in such races stay forecast-only (`unsourced-sd`).
