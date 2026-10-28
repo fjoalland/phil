@@ -8102,6 +8102,13 @@ resolved No.
   central-bank leg, read the previous meeting's vote split and minutes. A
   dissent there counts as a dated official signal under this rule.
   The operator runner graded the same settlement in RETRO-20261007-0917.
+  Fifth, BoC Oct +25bp (RETRO-20261028-1615): hiked. Hike legs at the mid
+  (.68/.80) flat; the hold leg ff9673f9dbeb at .22 vs .187, shaded up on the
+  Reuters poll (19/34 hike = 44% hold) against OIS ~75% hike, lost +0.013.
+  Recording rule (n=1): inside 7 days of a decision, when a numeric
+  economist poll and a dated OIS/futures read disagree, est_prob follows the
+  futures side and the poll goes in the note as "poll view: X". The poll
+  remains the tie-breaker only where no dated futures read exists.
 - **USGS daily-max ladder, in-progress Poisson: first settled event
   (RETRO-20261001-2015).** Sep 30 ladder (c7cceb5a2381, 603ce1291e65,
   e879bdcdfa8c, 1150efff6222): observed max 5.6 with 3.7h left, 365d
