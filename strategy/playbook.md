@@ -1661,6 +1661,14 @@ Prefer, in order:
      estimate stays near the historical beat base rate (large caps beat
      ~75-85%), never below .50 on one low source. n=1, date/source rule
      only.
+   - **Strike set above consensus: model the surprise, not the beat rate
+     (RETRO-20261028-1415, LH `2eb46b1d835a`, est .40 vs mid .375, No,
+     dBrier +0.019).** When the market's fixed strike sits above every
+     consensus source (LH $4.80 vs $4.65 Zacks/Yahoo/Barchart), the beat
+     base rate does not apply; the question is P(surprise >= strike gap).
+     A normal on the trailing-surprise mean/sd (LH N(3.1%, 2%) vs a 3.4%
+     gap -> ~.44, shaded to .40) put the print ($4.78, +2.8%) right at the
+     median: normal variance, method held. n=1, keep grading this shape.
    - **Guide-relative KPI ladders: unverified secondary prices do not move
      the centre (RETRO-20261022-1215, Spotify MAU, 788M print = guide).**
      The 6-K guide + MAU-vs-guide miss series beat the book on every
