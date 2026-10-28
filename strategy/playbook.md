@@ -10407,3 +10407,25 @@ can be named in the note as context. No gate change.
   shade") is withdrawn as support: n=2 events, opposite signs -> the honest
   read is a wide symmetric error (sd >= 8 pts on margin), not a bias.
   Margin brackets in such races stay forecast-only (`unsourced-sd`).
+
+## 2026-10-28 22:15Z: Warsh SI OVV + GOOGL beat WSV settled, both vetoes saved (FULL, cloud, RETRO-20261028-2215)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger; per DEEP-2026-09-30 not appended to the frozen table.
+  - `e348330ed97e` Warsh SI Yes (OVV). Own .20, book .55/.59. Settled Yes.
+    CF No @.45 LOST -$5.00 (veto saved).
+  - `92a6940ff173` GOOGL Q3 GAAP beat $3.10 Yes (WSV). Own .62, book
+    .21/.38. EPS $2.12 (SpaceX mark loss ~$8.2-8.7B). CF Yes @.38 LOST
+    -$5.00 (veto saved).
+  Mechanical totals: OVV 287 rows, 278 trd, 118W/160L, +$217.22; WSV 105
+  rows, 93 trd, 52W/41L, -$34.98.
+- **Say-the-word, pre-trigger counts are n=0.** Applying RETRO-20261021-0614:
+  if the speaker has had no event since the phrase's trigger event
+  (e.g. the Oct 3 SI order), the k/n is 0/0. Pre-trigger transcripts can
+  be cited only as context, and a book that the trigger event explains is
+  not "unexplained".
+- **GAAP-beat, non-operating marks.** With the strike at or above
+  consensus and a mark-to-market holding that can move EPS by more than
+  the strike gap, est <= 0.55 unless a SOURCED quarter-end mark (filing,
+  or a priced round dated in the quarter) sets the sign. One secondary
+  valuation estimate is not a source.
