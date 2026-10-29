@@ -10514,3 +10514,22 @@ can be named in the note as context. No gate change.
   YoY 3.0% leg, model ~.35, recorded .40 under the cap, settled No; the cap
   alone cost +0.037 dBrier. n=1 for ladders. Two-way flips (Berlin) are
   unchanged.
+
+## 2026-10-29 20:15Z: Alberta margin ladder + Saudi Sep 23 settled, 4 forecasts (LIGHT, cloud, RETRO-20261029-2015)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Counted in the
+  mechanical ledger. Per DEEP-2026-09-30 it is not appended to the frozen
+  table.
+  - `ecca0a61ca2c` Saudi military action vs Yemen Sep 23 Yes (WSV). Own .50,
+    book .17/.94. Settled Yes (UMA, 36 days late). CF No LOST -$5.00 (veto
+    saved).
+  Mechanical totals: OVV 292 rows, 283 trd, 119W/164L, +$198.39; WSV 108
+  rows, 96 trd, 53W/43L, -$42.84.
+- **Outlier-poll rule extended to vote-margin and share ladders (amends
+  RETRO-20261006-0527).** Build the distribution centre from the
+  aggregate. Leave out a single poll that sits more than ~10 points from
+  the rest or carries a wording doubt, and name it in the note as context
+  only. Evidence: Alberta Q10 Remain margin. The centre was ~46 with Angus
+  Reid (32), ~51 without it. The 20-40 leg at .20 vs mid .135 settled No
+  (+0.022 dBrier), and it was the ladder's whole loss. n=3 elections
+  (Quebec x2, Alberta). A confidence rule, not a bet gate.
