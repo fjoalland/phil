@@ -1679,6 +1679,14 @@ Prefer, in order:
      strike, with NO beat-history lift and NO pessimism-correction lift. The
      strike was set above that history already. Own centre below strike ->
      P(Yes) < .50. n=5 correlated events: centring rule, not a gate.
+     **Update (RETRO-20261029-2215, REAL `1f0d269ee4b4` WSV, est .40 vs
+     mid .59, settled Yes, dBrier +0.192): 1/6 Yes.** Strike >0.00 vs
+     consensus -0.01 (a 2c gap); Q2 beat by 1c; Q3 adj EBITDA margin +290bp
+     YoY. The first Yes on this shape, so the 0/5 is a centring prior, not
+     a reason to sit below the surprise model. At cents granularity near
+     breakeven, the gap is one or two ticks: when the issuer's margin trend
+     is rising, centre at the last surprise plus the trend, not the last
+     surprise alone. n=1 for the near-zero cents case.
    - **Guide-relative KPI ladders: unverified secondary prices do not move
      the centre (RETRO-20261022-1215, Spotify MAU, 788M print = guide).**
      The 6-K guide + MAU-vs-guide miss series beat the book on every
@@ -10533,3 +10541,15 @@ can be named in the note as context. No gate change.
   Reid (32), ~51 without it. The 20-40 leg at .20 vs mid .135 settled No
   (+0.022 dBrier), and it was the ladder's whole loss. n=3 elections
   (Quebec x2, Alberta). A confidence rule, not a bet gate.
+
+## 2026-10-29 22:15Z: REAL Q3 non-GAAP beat settled, 1 forecast (FULL, cloud, RETRO-20261029-2215)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Counted in the
+  mechanical ledger. Per DEEP-2026-09-30 it is not appended to the frozen
+  table.
+  - `1f0d269ee4b4` RealReal Q3 non-GAAP EPS > 0.00 Yes (WSV). Own .40,
+    book .51/.67. Settled Yes. CF No LOST -$5.00 (veto saved).
+  Mechanical totals: OVV 292 rows, 283 trd, 119W/164L, +$198.39; WSV 109
+  rows, 97 trd, 53W/44L, -$47.84.
+- **Strike-above-consensus shape now 1/6 Yes** (see the extension under
+  "Strike set above consensus"). Centring note only, no gate change.
