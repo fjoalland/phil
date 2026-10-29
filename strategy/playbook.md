@@ -10466,3 +10466,12 @@ can be named in the note as context. No gate change.
   vol24 >= $2k sits at >= .85 or <= .15, est moves at least 2/3 of the way
   from k/n toward the mid. This changes calibration only. A thin-sample
   row is never a bet (OVV/unvalidated-method still applies).
+
+## 2026-10-29 04:10Z: Trump OH rally Hell 15+ / SI / AI forecasts settled No (FULL, cloud, RETRO-20261029-0410)
+
+- All three were forecast-only rows (no bet, no veto), so the CF table is
+  unchanged. Each beat the mid: -0.017, -0.060, -0.010 dBrier.
+- **SI recency check, row 2 of 5:** `42f0a5b0c4cc` was shaded .58 -> .47 (last-5
+  2/5) and settled No. Row 1 (GA) was shaded and said. Review stays at n>=5.
+- k/n updates for Trump rallies: SI post-EO 11/20, last-6 2/6; AI post-EO 3/16,
+  last-8 0/8; "Hell" 15+ 7/16, last-6 1/6.
