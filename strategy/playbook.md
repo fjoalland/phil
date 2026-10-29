@@ -10447,3 +10447,22 @@ can be named in the note as context. No gate change.
   the window-mean Poisson and the latest-event Poisson. Est stays between
   them, and within 0.10 of the latest-event value when the threshold sits
   between the two rates. k/n alone is not a method for a trending count.
+
+## 2026-10-29 02:10Z: Trump OH rally "Ass" + "America First" OVV rows settled Yes, both vetoes saved (FULL, cloud, RETRO-20261029-0210)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger. Per DEEP-2026-09-30 they are not appended to the
+  frozen table.
+  - `c59f7ba10a3f` Trump "Ass" OH rally Yes (OVV+WSV). Own .42, book
+    .67/.76. Settled Yes. CF No LOST -$5.00 (veto saved).
+  - `59aa0b4621aa` Trump "America First" OH rally Yes (OVV). Own .50, book
+    .91/.93. Settled Yes. CF No LOST -$5.00 (veto saved).
+  Mechanical totals: OVV 290 rows, 281 trd, 118W/163L, +$202.22.
+- **Thin exact-phrase base rates vs liquid books.** "America First" plain
+  was 0/5 in the gamma transcripts, and the two latest rallies had no
+  transcript. The $3k book at .92 was right. Rule: when an exact-phrase
+  k/n rests on 5 or fewer events, or misses the latest 2 events, and the
+  phrase is a speaker staple, the note says "thin-sample". If a book with
+  vol24 >= $2k sits at >= .85 or <= .15, est moves at least 2/3 of the way
+  from k/n toward the mid. This changes calibration only. A thin-sample
+  row is never a bet (OVV/unvalidated-method still applies).
