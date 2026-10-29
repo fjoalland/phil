@@ -1669,6 +1669,16 @@ Prefer, in order:
      A normal on the trailing-surprise mean/sd (LH N(3.1%, 2%) vs a 3.4%
      gap -> ~.44, shaded to .40) put the print ($4.78, +2.8%) right at the
      median: normal variance, method held. n=1, keep grading this shape.
+     **Extension (RETRO-20261029-1430, LLY `9d76d308b832` -$5, MA, TW x2):
+     0/5 Yes on this shape so far.** LLY 7.48 vs 7.49, MA 5.31 vs 5.32, TW
+     1.02 vs 1.04/1.05, LH 4.78 vs 4.80. The surprise model graded fine.
+     Brier was lost only where a lift sat on top of it: LLY's own centre was
+     ~7.35 (< strike), yet "7 straight beats" took it to .50 vs ask .41
+     (+0.082); TW 1.04's "logged pessimism" shade cost +0.030. Rule: on a
+     strike-above-consensus market, P(Yes) = own surprise model vs the
+     strike, with NO beat-history lift and NO pessimism-correction lift. The
+     strike was set above that history already. Own centre below strike ->
+     P(Yes) < .50. n=5 correlated events: centring rule, not a gate.
    - **Guide-relative KPI ladders: unverified secondary prices do not move
      the centre (RETRO-20261022-1215, Spotify MAU, 788M print = guide).**
      The 6-K guide + MAU-vs-guide miss series beat the book on every
@@ -10475,3 +10485,9 @@ can be named in the note as context. No gate change.
   2/5) and settled No. Row 1 (GA) was shaded and said. Review stays at n>=5.
 - k/n updates for Trump rallies: SI post-EO 11/20, last-6 2/6; AI post-EO 3/16,
   last-8 0/8; "Hell" 15+ 7/16, last-6 1/6.
+
+## 2026-10-29 14:30Z: LLY/MA/TW beat markets settled (FULL, RETRO-20261029-1430)
+
+- LLY bet lost -$5 (7.48 vs 7.49 strike); MA 5.31 vs 5.32; TW 1.02. Strike-
+  above-consensus shape now 0/5 Yes. Extension added under "Strike set above
+  consensus": no beat-history or pessimism lift on top of the surprise model.
