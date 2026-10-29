@@ -10429,3 +10429,21 @@ can be named in the note as context. No gate change.
   the strike gap, est <= 0.55 unless a SOURCED quarter-end mark (filing,
   or a priced round dated in the quarter) sets the sign. One secondary
   valuation estimate is not a source.
+
+## 2026-10-29 00:10Z: Warsh AI 3+ OVV + WTI>$104 WSV settled, both vetoes saved (FULL, cloud, RETRO-20261029-0010)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger; per DEEP-2026-09-30 not appended to the frozen table.
+  - `b4743c789af0` Warsh "AI" 3+ Yes (OVV). Own .55, book .27/.45. Settled
+    No. CF Yes @.45 LOST -$5.00 (veto saved).
+  - `c580bb65062a` WTI close > $104 Oct 28 Yes (WSV). Own .33, book
+    .07/.30. Settled No. CF Yes @.30 LOST -$5.00 (veto saved).
+  Mechanical totals: OVV 288 rows, 279 trd, 118W/161L, +$212.22; WSV 106
+  rows, 94 trd, 52W/42L, -$39.98.
+- **Say-the-word N+ thresholds, trending counts.** Warsh's AI counts went
+  5, 4, 2 and I quoted k/n = 2/3 for 3+ (est .55). The latest-event Poisson
+  (lambda=2) gives P(>=3) = .32, and the book sat at .36. Rule: when the
+  per-event counts move monotonically over 3+ events, the note quotes both
+  the window-mean Poisson and the latest-event Poisson. Est stays between
+  them, and within 0.10 of the latest-event value when the threshold sits
+  between the two rates. k/n alone is not a method for a trending count.
