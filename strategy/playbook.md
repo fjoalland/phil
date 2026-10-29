@@ -9398,6 +9398,8 @@ fillable price. Recording rule stands; category bar stands.
   whose outcome is the same on both sides of the edge is not capped
   (house 163+ ccc9f72c326e at 0.25 was right). n=1: a confidence cap, not
   a bet gate.
+- Ladders of 3+ buckets: the cap applies to the pair's split, never
+  raising a leg above its distribution (RETRO-20261029-1620).
 
 ## 2026-10-12 18:15Z update: Musk Oct10-12 settled (FULL, RETRO-20261012-1815)
 
@@ -10491,3 +10493,24 @@ can be named in the note as context. No gate change.
 - LLY bet lost -$5 (7.48 vs 7.49 strike); MA 5.31 vs 5.32; TW 1.02. Strike-
   above-consensus shape now 0/5 Yes. Extension added under "Strike set above
   consensus": no beat-history or pessimism lift on top of the surprise model.
+
+## 2026-10-29 16:20Z: Sep Core PCE + Q3 GDP ladders settled, 10 forecasts (LIGHT, cloud, RETRO-20261029-1620)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger. Per DEEP-2026-09-30 they are not appended to the
+  frozen table.
+  - `dc5a8866bb0f` Core PCE Sep MoM 0.4% Yes (WSV). Own .23, book .30/.41.
+    Settled No. CF No +$2.14 (missed win).
+  - `5e27ab259621` Core PCE Sep YoY 3.0% Yes (OVV). Own .40, book .21/.22.
+    Settled No. CF Yes LOST -$5.00 (veto saved).
+  - `5b40560331e8` Core PCE Sep YoY 2.9% Yes (OVV). Own .02, book .19/.21.
+    Settled No. CF No +$1.17 (missed win).
+  Mechanical totals: OVV 292 rows, 283 trd, 119W/164L, +$198.39; WSV 107
+  rows, 95 trd, 53W/42L, -$37.84.
+- **Knife-edge cap in ladders (amends RETRO-20261012-1400).** In a ladder
+  of 3 or more buckets, the 0.40-0.60 cap applies to the two knife-edge
+  legs' split of their combined mass (each leg gets 40-60% of the pair's
+  total). It never raises a leg above its own distribution value. Evidence:
+  YoY 3.0% leg, model ~.35, recorded .40 under the cap, settled No; the cap
+  alone cost +0.037 dBrier. n=1 for ladders. Two-way flips (Berlin) are
+  unchanged.
