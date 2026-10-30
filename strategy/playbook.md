@@ -10592,3 +10592,15 @@ can be named in the note as context. No gate change.
 - `52b1e030fe2c` (unsourced-sd, .20 vs .125, No): the forecast-only rule
   for margin brackets held. One more data point for the 10-27 low-turnout
   rule, which is unchanged.
+
+## 2026-10-30 06:15Z: Saudi-Yemen Oct 29 market-agrees row settled Yes (FULL, cloud, RETRO-20261030-0615)
+
+- `e4f35078e92a` (market-agrees, .64 vs mid .60, Yes, dBrier -0.030). The
+  decomposition (campaign active x resolver credits Saudi forces) was
+  right on side; edge .03 vs the .61 ask was below min_edge, so the skip
+  was correct. No rule change.
+- Resolver speed in this series depends on the leg. The Oct 29 leg settled
+  ~1h after close. The Oct 6/8/12 legs are still open after 18-24 days
+  (attribution-disputed), and Sep 23 took 36 days. When estimating a daily
+  strike leg, the lag risk comes from attribution ambiguity, not from the
+  calendar.
