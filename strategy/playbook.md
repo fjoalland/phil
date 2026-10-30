@@ -10604,3 +10604,13 @@ can be named in the note as context. No gate change.
   (attribution-disputed), and Sep 23 took 36 days. When estimating a daily
   strike leg, the lag risk comes from attribution ambiguity, not from the
   calendar.
+
+## 2026-10-30 08:10Z: Musk Oct 23-30 boundary bracket lost to an overnight burst (LIGHT, cloud, RETRO-20261030-0810)
+
+- `da0ed0814922` 320-339 (market-agrees, .58 vs mid .59, No, dBrier
+  -0.012). A same-window sample of n=6 (12h windows, max 34) put the final
+  ~338. The account posted 37 in the 4h from 02Z to 06Z. When a sample
+  mean sits within ~1 sd below a boundary, the bracket above holds the
+  burst tail. A 3/6 split understates it, and so did the book.
+- The note omitted `raw= n= w=` (2026-10-16 rule); flagged as a recording
+  error. Shrink re-grade family 4: shrink helps -> KEEP, bar unchanged.
