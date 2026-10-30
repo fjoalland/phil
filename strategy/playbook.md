@@ -10215,6 +10215,15 @@ can be named in the note as context. No gate change.
     events (-0.323, -0.080), late 2 events (+0.017, +0.040). Same split as
     Oct16-23. No rule change at 2 events; the late rows lost by shading off
     the mid, so in the final 6h hold at the mid unless a burst is observed.
+  - Oct23-30 (settled 380+, RETRO-20261030-0810/1615/1810, 8 rows, all
+    late <14h): +0.025 net. The 340-359 rows at or under the mid gained.
+    The 360-379 rows lifted toward "the bracket above" lost -0.096, because
+    the burst landed two brackets up. Tally: early 2 events (-0.323,
+    -0.080), late 3 events (+0.017, +0.040, +0.025). Rule extended: in the
+    final 10h, hold every bracket at the mid and lift none. An n=6 sample
+    cannot place the burst tail, and RETRO-20261030-0810's "bracket above"
+    note is a reason not to fade the upper brackets, not a reason to lift
+    one.
 
 ## 2026-10-23 22:12Z: FL rally Russia + Hormuz veto rows, both vetoes saved (LIGHT, cloud, RETRO-20261023-2212)
 
