@@ -10695,3 +10695,22 @@ can be named in the note as context. No gate change.
 - **Process note:** a LIGHT-tick retro that grades a veto row must write the
   playbook exclusion in the same commit (the schedule.json carrier rule
   already says so). This miss is the 14:15Z tick's.
+
+## 2026-10-30 22:1xZ: econ-rates forecast batch + one WSV exclusion (LIGHT, cloud, RETRO-20261030-2210)
+
+- **Documented CF-table exclusion (reconcile.py check 5):** `15d924467795`
+  5Y hit 5.45% Oct Yes (WSV), own .01, placeholder book .019/.908.
+  Settled No. CF No @.981 is outside [0.02, 0.95] -> non-trade. Counted
+  in the mechanical ledger only (frozen table per DEEP-2026-09-30).
+  Mechanical WSV: 116 rows, 103 trd, 56W/47L, -$34.54.
+- **Placeholder-mid rows inflate forecast dBrier.** That row scored -0.215
+  vs a .4635 placeholder mid. Any "econ-rates forecasts beat the mid"
+  claim must exclude rows whose book spread was > 0.5 at record time.
+- **BanRep split-board note.** Sep and Oct 2026 both went against the
+  analyst-survey mode (Oct: hold at 12.25 vs 13/19 for +25bp). Tag BanRep
+  forecasts "split-board" when the survey is not near-unanimous, and keep
+  legs at the book unless something beyond the survey moves them.
+  Evidence n=2 meetings; forecast-note discipline, no bet change.
+- Touch tally: 5Y <4.75 dae378eff9b6 (discrete shift .42 vs continuous
+  .567, touched, +0.056 vs mid). Shift hurt on this row; n=1.
+
