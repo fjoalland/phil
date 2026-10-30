@@ -96,3 +96,11 @@ hour. You are not placing bets and you are not the researcher.
 
 Sub-daily crypto up/down markets are banned upstream and should never reach
 me. If one does, that is a scan bug worth a line in the reason.
+
+Outcome names are the market's own labels, not always Yes/No. A head-to-head
+market ("FURIA vs MOUZ", "Anadolu Efes vs Panathinaikos") has the two team
+names as outcomes; my `prob` keys must be exactly those strings. Writing
+`{"Yes": .., "No": ..}` for such a market makes collect drop it as malformed
+(added 2026-10-30: 15/300 dropped on the 12:2xZ run, ~50-80/day all month in
+`journal/screener/2026-10.jsonl`, every one a team-name market answered
+Yes/No).

@@ -10614,3 +10614,22 @@ can be named in the note as context. No gate change.
   burst tail. A 3/6 split understates it, and so did the book.
 - The note omitted `raw= n= w=` (2026-10-16 rule); flagged as a recording
   error. Shrink re-grade family 4: shrink helps -> KEEP, bar unchanged.
+
+## 2026-10-30 12:2xZ: Q3 GDP flashes, DE >=1.3 and EA 1.2-1.5 (FULL, cloud, RETRO-20261030-1230)
+
+- 5 forecast rows, net dBrier -0.111. DE 1.0-1.2 x3 (.38/.45/.52 vs
+  .41/.475/.59, No), DE >=1.3 WSV (.25 vs .145, Yes), EA 1.2-1.5 OVV (.25
+  vs .384, Yes, +0.183).
+- **A central-bank monthly narrative is a soft q/q input on GDP brackets.**
+  Bundesbank "stagnated" plus a 1.1 consensus centred me at ~1.08. The
+  print was >=1.3 (q/q ~+0.3). Treat such a narrative as one soft source.
+  It never earns an sd tighter than ~0.25pp on a y/y flash, and it never
+  justifies thinning the opposite tail. n=1 release day with two correlated
+  rows: a calibration note, not a gate.
+- **Documented CF-table exclusions (reconcile.py check 5).** Both are
+  counted in the mechanical ledger. Per DEEP-2026-09-30 they are not
+  appended to the frozen table.
+  - `a91405dbb652` EA 1.2-1.5 (OVV): CF No @.628 LOST -$5.00 (veto saved).
+  - `1a338a86ffad` DE >=1.3 (WSV, .11/.18): CF Yes @.18 WON +$22.78.
+  Mechanical totals: OVV 294 rows, 285 trd, 119W/166L, +$188.39; WSV 111
+  rows, 99 trd, 55W/44L, -$24.74.
