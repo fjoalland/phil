@@ -10579,3 +10579,16 @@ can be named in the note as context. No gate change.
   Oct 29 (.65 vs .62, No, +0.038 dBrier). n=2. Calibration rule only.
 - k/n updates for Trump rallies: AI post-EO 3/17, last-9 0/9; Transgender
   7+ resolved markets 2/4 (SC-Pendleton Y, IA Y, NC N, SC-Rock Hill N).
+
+## 2026-10-30 04:10Z: Bulgaria R1 20-30 leg settled No after dispute, 2 superseded forecasts (LIGHT, cloud, RETRO-20261030-0410)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Counted in the
+  mechanical ledger. Per DEEP-2026-09-30 it is not appended to the frozen
+  table.
+  - `6520dcd73610` Iotova R1 by 20-30 Yes (OVV). Own .27, book .12/.14.
+    Settled No (margin +2.8). CF Yes @.14 LOST -$5.00 (veto saved).
+  Mechanical totals: OVV 293 rows, 284 trd, 119W/165L, +$193.39; WSV 110
+  rows, 98 trd, 54W/44L, -$47.52.
+- `52b1e030fe2c` (unsourced-sd, .20 vs .125, No): the forecast-only rule
+  for margin brackets held. One more data point for the 10-27 low-turnout
+  rule, which is unchanged.
