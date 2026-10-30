@@ -10675,3 +10675,23 @@ can be named in the note as context. No gate change.
   unchanged. Evidence n=1; re-grade at the next StatCan release.
 - CF exclusions (retro-documented): `dd083248e2af` OVV CF LOST -$5.00
   (saved); `68d35047f1db` WSV gas touch CF WON +$11.67 (cost).
+
+## 2026-10-30 20:1xZ: CF-table exclusions for three WSV rows settled at 12:56Z/14:03Z (FULL, cloud)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** These rows were
+  graded in RETRO-20261030-1415 (LIGHT), but no playbook exclusion was
+  written, so reconcile.py flagged them for 6h. They are counted in the
+  mechanical ledger. Per DEEP-2026-09-30 they are not appended to the
+  frozen table.
+  - `c1ec2bfb0c73` Mexico Q3 GDP >=3.5 Yes (WSV), own .45, book .041/.197.
+    Settled No. CF Yes @.197 LOST -$5.00 (veto saved).
+  - `5b91625ce4cd` Mexico Q3 GDP 3.0-3.5 Yes (WSV), own .40, book .50/.82.
+    Settled Yes. Own est was below the ask, so this was never a bet; the
+    mechanical CF is as computed by core/counterfactual.py.
+  - `21e7c4cce2c5` Colgate Q3 beat >0.96 Yes (WSV), own .45, book .14/.59.
+    Settled Yes. Own est was below the ask, so this was never a bet either.
+  Mechanical totals: OVV 295 rows, 286 trd, 119W/167L, +$183.39; WSV 115
+  rows, 103 trd, 56W/47L, -$34.54.
+- **Process note:** a LIGHT-tick retro that grades a veto row must write the
+  playbook exclusion in the same commit (the schedule.json carrier rule
+  already says so). This miss is the 14:15Z tick's.
