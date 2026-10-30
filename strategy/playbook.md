@@ -10553,3 +10553,17 @@ can be named in the note as context. No gate change.
   rows, 97 trd, 53W/44L, -$47.84.
 - **Strike-above-consensus shape now 1/6 Yes** (see the extension under
   "Strike set above consensus"). Centring note only, no gate change.
+
+## 2026-10-30 00:10Z: AMZN/MSFT Oct 29 closes settled, 2 forecasts (LIGHT, cloud, RETRO-20261030-0010)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Counted in the
+  mechanical ledger. Per DEEP-2026-09-30 it is not appended to the frozen
+  table.
+  - `8fe612249047` AMZN close > $265 Oct 29 Yes (WSV). Own .02, book
+    .06/.71. Settled No. CF No WON +$0.32 (missed win, edge .04 at .94).
+  Mechanical totals: OVV 292 rows, 283 trd, 119W/164L, +$198.39; WSV 110
+  rows, 98 trd, 54W/44L, -$47.52.
+- **Category label: use `equity-close` for every single-stock close or
+  strike market. Never use `stock-close`.** 8fe612249047 split off into a
+  one-row `stock-close` bucket in score.py, while its 8 siblings sit
+  under `equity-close`. Check the label before `forecast.py record`.
