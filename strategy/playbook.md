@@ -10567,3 +10567,15 @@ can be named in the note as context. No gate change.
   strike market. Never use `stock-close`.** 8fe612249047 split off into a
   one-row `stock-close` bucket in score.py, while its 8 siblings sit
   under `equity-close`. Check the label before `forecast.py record`.
+
+## 2026-10-30 02:10Z: Trump Rock Hill SC Transgender 7+ / AI forecasts settled No (FULL, cloud, RETRO-20261030-0210)
+
+- Forecast-only rows (market-agrees), no veto: CF table unchanged.
+- **Count-threshold knife-edge (say-the-word).** When the speaker's riff
+  mean sits within ~1 of a count threshold, est stays at or inside the
+  mid. One high transcript driven by a venue- or opponent-specific attack
+  line (Pendleton SC 13, ~6 from the Andrews line) does not move the
+  centre. Evidence: Transgender 7+ NC Oct 20 (.50 vs .535, No) and SC
+  Oct 29 (.65 vs .62, No, +0.038 dBrier). n=2. Calibration rule only.
+- k/n updates for Trump rallies: AI post-EO 3/17, last-9 0/9; Transgender
+  7+ resolved markets 2/4 (SC-Pendleton Y, IA Y, NC N, SC-Rock Hill N).
