@@ -10652,3 +10652,17 @@ can be named in the note as context. No gate change.
   - `1a338a86ffad` DE >=1.3 (WSV, .11/.18): CF Yes @.18 WON +$22.78.
   Mechanical totals: OVV 294 rows, 285 trd, 119W/166L, +$188.39; WSV 111
   rows, 99 trd, 55W/44L, -$24.74.
+
+## 2026-10-30 16:1xZ: Canada Aug GDP flash 0.2 -> print 0.0 (FULL, cloud, RETRO-20261030-1615)
+
+- Bet `28fe74ccd5a3` (0.0-0.1 No @.67, own .75) LOST -$5.00. The flash
+  table plus a capped +0.05 down tilt gave Yes .25. The book was at .345,
+  leaning down on post-flash Aug wholesale (-1.6%) and flat mfg. The book
+  was right. Table now n=16 (add 0.2 -> 0.0). Method bets: 1W 1L, -$1.23.
+- **Guard (bet side only):** on flash->first-print brackets, if the mid
+  sits ≥0.08 from my table probability, in the same direction as hard data
+  for the reference month released after the flash, do not bet against
+  that lean. Forecast-only (`market-agrees`). My own tilt cap (0.05) is
+  unchanged. Evidence n=1; re-grade at the next StatCan release.
+- CF exclusions (retro-documented): `dd083248e2af` OVV CF LOST -$5.00
+  (saved); `68d35047f1db` WSV gas touch CF WON +$11.67 (cost).
