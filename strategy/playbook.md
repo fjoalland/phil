@@ -5709,6 +5709,25 @@ gate-1-compatible adjustment; substituting a recalled-from-memory SD for
 the market's implied one is not, and should not be treated as
 "benchmarked" just because the mean half of the same model is sourced.
 
+**Carve-out settlement, Mexico Q3 2026 EOPIBT (RETRO-20261030-1415):**
+d2bc216598a9 (2.5-3.0 No @0.67, est 0.83, edge 0.16, inside the 0.10-0.20
+band, one leg per event) WON +$2.46: the print landed in 3.0-3.5. This is
+the first settled bet in the band proper. The three earlier econ
+"carve-out" rationale bets (NFP, Core PCE, Canada Jul) had edges under 0.10
+and were standard-floor rows, so they do not count toward the kill-switch
+tally. Tally of band bets: 1 event, 1 bet, 1W, +$2.46. IGAE-to-EOPIBT
+mapping, validation point #1: monthly IGAE y/y SA ran Jul 3.3, Aug 3.5,
+with the Sep IOAE nowcast at 3.7, so the centre was about 3.5. The flash
+came in BELOW 3.5. The late forecast rows that leaned on that centre
+lost to the mid: >=3.5 at .45 vs mid .13, and 3.0-3.5 at .40 vs mid .66.
+The net dBrier over the six Mexico rows was about +0.34 (behind the
+mid). The bet won because its No leg sat two brackets away from the
+centre, not because the centre was right. Rule (n=1, a narrowing only):
+on EOPIBT brackets, do not take a forecast or bet whose value depends on
+the IGAE-average centre being right within +-0.25pp. Until 3 validation
+points exist, the only legs worth betting are those that win across
+centre +-0.5.
+
 **2026-08-21 update (18:11Z settlement): the Aug14-21 Musk weekly set's
 two >0.10-disagreement legs both settled, both LOST.** 240-259
 (cd3af116ed2a, No side, bid 0.252 vs est 0.16) lost to the actual count
