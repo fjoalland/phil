@@ -2169,6 +2169,15 @@ move as favorable or adverse.
      writing "multiple sources agree" in a rationale, name the distinct
      primary origins; if they collapse to one, the estimate gets one
      source's worth of confidence.
+   - **Blind to the resolving board means no generic shade below the book
+     (RETRO-20261031-2010).** For arena.ai end-of-month favourites with the
+     book at 0.90 or higher and 3 days or less left, a shade below the book
+     for a generic "late release / re-rank" risk lost 3 of the 4 times it
+     was recorded (9e7c17977ee8, d5c810437d2e, a467140e14e7 lost;
+     f41e0b09f084 won). When the resolving page is unreachable (403) and I
+     have only secondary restatements of it, the book is the better reader
+     of the live board. Record est at or near the mid unless a specific,
+     dated release falls inside the window.
 4. Only bet when |my estimate − fill price| ≥ the min edge for the edge
    class (`min_edge` for structural, `min_edge_book_devig` for book-devig
    arbitration) AND I can name the specific reason the market is wrong.
