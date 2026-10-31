@@ -10774,3 +10774,19 @@ can be named in the note as context. No gate change.
 - **Label: Musk post-count brackets use `countable-metric`.** One event's
   rows were split across `social-media-postcount` and `countable-metric`
   (a80574ef8fb1 / dedff5c93b5d), so score.py split them as well.
+
+## 2026-10-31 22:10Z: Saudi-Yemen Oct 6 leg settled Yes after 25 days, 3 veto forecasts (FULL, cloud, RETRO-20261031-2210)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger only (frozen table, DEEP-2026-09-30):
+  `488609de0812` OVV No @.21 -$5.00 (veto saved), `dfd46d67ea74` WSV No
+  @.23 -$5.00 (veto saved), `e9b8fa882a88` OVV Yes @.76 +$1.58 (veto cost).
+  OVV mechanical: 297 rows, 288 trd, 120W/168L, +$179.97. WSV: 120 rows,
+  106 trd, 56W/50L, -$49.54.
+- **Daily strike series attribution rule (calibration only).** When the
+  attacking state or its coalition publicly claims an ongoing campaign, do
+  not shade a daily "military action on <date>" leg below a deep book for
+  generic attribution risk. Shade only for a dated pause/truce report or
+  credible attribution of that day's strikes to another force. Evidence:
+  both attribution-shaded rows (.68/.72 vs .80/.87) lost to the book, and
+  the post-claim row (.90 vs .74) beat it. n=3 on one market.
