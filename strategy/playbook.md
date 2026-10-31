@@ -10748,3 +10748,15 @@ can be named in the note as context. No gate change.
 - The last-session sqrt-time relative-sd read (.88 vs book .94, -0.011)
   was a little underconfident after a large one-day move. n=1, so there is
   no rule yet. Watch for more of these.
+
+## 2026-10-31 16:10Z: AAA gas $4.50 WSV + Musk Oct29-31 115-139 settled No (FULL, cloud, RETRO-20261031-1610)
+
+- **Documented CF-table exclusion (reconcile.py check 5):** `436eaaf43f82`
+  AAA gas hits $4.50 (High) by Oct 31, Yes (WSV), own .03, placeholder book
+  .03/.91, liquidity ~$20. Settled No. CF No @.97 is outside [0.02, 0.95],
+  so it is a non-trade. It is counted in the mechanical ledger only (the
+  table stays frozen per DEEP-2026-09-30). Mechanical WSV: 119 rows, 105
+  trd, 56W/49L, -$44.54.
+- **Label: Musk post-count brackets use `countable-metric`.** One event's
+  rows were split across `social-media-postcount` and `countable-metric`
+  (a80574ef8fb1 / dedff5c93b5d), so score.py split them as well.
