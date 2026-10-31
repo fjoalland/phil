@@ -10733,3 +10733,18 @@ can be named in the note as context. No gate change.
   (it would have saved ~0.13). New rule in the box-office tally block:
   every ladder note must carry the `floor:` token. Floor record: helped 5,
   hurt 1.
+
+## 2026-10-31 12:10Z: Apple largest / 2nd-largest Oct 31 chain settled, 8 forecasts (FULL, cloud, RETRO-20261031-1210)
+
+- Forecast-only rows, no veto: CF table unchanged.
+- **Mcap-rank complement rule.** Two rank books on one pair (largest /
+  2nd-largest) are one spread. Price the thin or wide book as
+  1 - P(deep book) - third-company tail. Evidence: Apple-2nd 7f025a93403a
+  (.48 vs a .44/.66 book mid .55, +0.072) and b80052937a1c (+0.048). This
+  is a calibration rule only. It has no edge class until n>=15 settled.
+- **Label: use `equities-mcap` for every market-cap-rank market.**
+  477bac8393d0 was filed under `equity-close` and split from its 7
+  siblings in score.py.
+- The last-session sqrt-time relative-sd read (.88 vs book .94, -0.011)
+  was a little underconfident after a large one-day move. n=1, so there is
+  no rule yet. Watch for more of these.
