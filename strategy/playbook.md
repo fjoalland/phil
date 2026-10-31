@@ -4679,6 +4679,16 @@ Press-centre rule held; my genre-downside shade still cost ~.10 per leg. When
 the Sunday studio figure sits ON a bracket boundary, weight the side it
 resolves to by the typical ~2pct revision only, no extra genre shade (n=1,
 watch). Box-office forecasts n=51, brier_delta -0.0011. Still no-bet.
+Tally (RETRO-20261031-0015, evidence `f9e9a4b12cc1`, `3703afc7814c`):
+YCSE wk2 landed 18-19.5M, the book's modal bracket (mid .6225), below every
+press figure (Deadline 19-20M, THR ~20M). I recorded .44/.43 split across
+18-19.5/19.5-21; event net +0.298. The book-modal floor applied (modal mid
+>= .55, within one bracket of my ~19.4M centre) and was NOT applied; floored
+it would have been ~+0.167, saving ~0.13. Floor record helped 5, hurt 1.
+RULE: every Fri-night/Sat box-office ladder note carries the token
+`floor: <bracket> mid <x> -> applied|n/a (<reason>)`. A ladder recorded
+without that token is incomplete. Box-office forecasts (raw, incl.
+superseded) n=68, sum dBrier +0.563. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
