@@ -10724,3 +10724,12 @@ can be named in the note as context. No gate change.
 - Touch tally: 5Y <4.75 dae378eff9b6 (discrete shift .42 vs continuous
   .567, touched, +0.056 vs mid). Shift hurt on this row; n=1.
 
+
+## 2026-10-31 00:1xZ: YCSE wk2 ladder, book-modal floor skipped (FULL, cloud, RETRO-20261031-0015)
+
+- `f9e9a4b12cc1` 18-19.5M .44 vs mid .6225 WON (+0.171); `3703afc7814c`
+  19.5-21M .43 vs .24 LOST (+0.127). The actual sat in the book's modal
+  bracket, below every press figure. The floor applied and was not used
+  (it would have saved ~0.13). New rule in the box-office tally block:
+  every ladder note must carry the `floor:` token. Floor record: helped 5,
+  hurt 1.
