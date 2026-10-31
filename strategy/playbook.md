@@ -1289,6 +1289,11 @@ Event tally for final-12h Musk 2-day reads: book 2 (Oct17-19, Oct19-21,
 both tiny conditioning sets), counter-sample 1 (Oct22-24, n=23). No rule
 change: it is the split those two rules already encode. Re-grade at 6
 events. Postcount stays category-barred for bets.
+**Graded (RETRO-20261031-1810, Musk Oct29-31 2-day, 9 rows):** the
+full-set same-clock/bootstrap reads beat the book through the 00-05Z
+Saturday stall (sum -0.351, final-12h -0.194). Only the 08:14Z near-mid
+reads lost, and only slightly. Tally: book 2, counter-sample 2 (both
+full-set wins). No rule change; re-grade at 6 events.
 
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
