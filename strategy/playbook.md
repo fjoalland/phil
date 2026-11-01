@@ -10832,3 +10832,17 @@ can be named in the note as context. No gate change.
   The seat-band rule above now rests on 6/6 above-book rows lost across 2
   markets (net +0.457 dBrier). Envelope or late-count narratives do not
   count as an above-book projection source.
+
+## 2026-11-01 18:10Z: AAA Nov1 rung + week-Oct26 touch strikes settled, 5 forecasts (FULL, cloud, RETRO-20261101-1810)
+
+- **Trend-vs-book test (pre-registered on 452c350a1c2b) went to the book.**
+  AAA Nov1 printed 4.1732 (-1.05c). A linear -2.1c/d trend pointed to 4.163
+  (4.16 rung); the book had 4.17 at .77, pricing a slowdown. The book was
+  right. That is the third AAA family where a trend read lost to the book
+  (Oct17 pair, $4.50 touch plateau, Nov1). The aaa_log n<15 market-agrees
+  rule stays as written. Even after n>=15, a sourced sd does not license a
+  linear-drift centre that a liquid sibling book contradicts. Centre on
+  the book's implied change unless a dated source (EIA weekly, wholesale
+  RBOB move) supports the steeper drift.
+- The 4 week-Oct26 touch rows (est .01-.05, all Yes lost) beat empty-book
+  mids (.41-.90). Per RETRO-20261025-1610 these are not skill evidence.
