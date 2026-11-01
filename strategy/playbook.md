@@ -1621,6 +1621,14 @@ first win came from a rule violation on a 4th launch event, so no change.
 The 0.65 -> 0.91 unexplained rise on that rung was noise (market fell to
 0.28 and resolved No). One graded case: an unexplained sharp rise on an AI
 rung is not proof of informed flow.
+**Update (RETRO-20261101-0610):** Fable 5.2+ by Oct 31 also resolved No.
+da3de7687cab sat at the mid (0.79), so the rule cost nothing against the
+book (dBrier +0.002). The whole ladder (Oct 17/24/31) resolved No, while the
+book priced 0.79-0.91 on the later rungs. On this one launch event the book
+was too early, the opposite of the 12 earlier cases. The tally of off-mid
+rows with no primary source stays 12/13 against. The mid-anchor rule stays:
+n=1 counter-event. If a second launch event resolves later than a ladder
+priced at 0.75 or more, re-open the rule in a deep retro.
 
 **Treasury touch drift rule (RETRO-20260928-2215).** For a Treasury
 par-yield touch rung ("hit X% in <month>") with 5 or fewer prints left,
