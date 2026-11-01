@@ -10816,3 +10816,19 @@ can be named in the note as context. No gate change.
   "most seats" rows recorded at the book were fine. n=3, one market. Re-open
   if a later election gives 3+ seat-band rows where an above-book source
   existed.
+
+## 2026-11-01 16:12Z: Yisrael Beiteinu 8-9 seats settled No, 3 WSV forecasts (FULL, cloud, RETRO-20261101-1612)
+
+- **CF-table rows / documented exclusions (reconcile.py check 5).** Counted
+  in the mechanical ledger only (frozen table, DEEP-2026-09-30):
+  `7fa33ee7b718` WSV Yes, own .42, book .15/.33: fillable CF trade (edge
+  +.09), LOST -$5.00. `711f1f72a2d9` WSV Yes, own .55, book .34/.72: REFUSED
+  (past min_minutes_to_resolution, edge -.170), no CF trade.
+  `d0786408242b` WSV Yes, own .65, book .34/.72: REFUSED (edge -.070), no
+  CF trade. WSV mechanical: 125 rows, 107 trd, 56W/51L, -$54.54.
+- **Seat-band rule evidence update.** YB 8-9 rows .42/.55/.65 vs mids
+  .24/.53/.53 all lost, net +0.282 dBrier. The .65 row leaned on "soldier
+  envelopes help YB", the same envelope narrative that lost on Yashar.
+  The seat-band rule above now rests on 6/6 above-book rows lost across 2
+  markets (net +0.457 dBrier). Envelope or late-count narratives do not
+  count as an above-book projection source.
