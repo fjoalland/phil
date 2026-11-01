@@ -10798,3 +10798,21 @@ can be named in the note as context. No gate change.
   credible attribution of that day's strikes to another force. Evidence:
   both attribution-shaded rows (.68/.72 vs .80/.87) lost to the book, and
   the post-claim row (.90 vs .74) beat it. n=3 on one market.
+
+## 2026-11-01 14:10Z: Yashar 22-23 seats settled No, 3 forecasts incl. 2 WSV (FULL, cloud, RETRO-20261101-1410)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger only (frozen table, DEEP-2026-09-30):
+  `388ad2ae6c6e` WSV Yes, own .22, book .11/.21: REFUSED (past
+  min_minutes_to_resolution, edge +.010), no CF trade. `bd0ca330d807` WSV
+  Yes, own .30, book .13/.35: REFUSED (edge -.050), no CF trade. WSV
+  mechanical: 122 rows, 106 trd, 56W/50L, -$49.54 (no trade-count change).
+- **Election seat-band rungs (calibration only).** On exit polls or a
+  partial count, record a seat-band rung at the book mid unless I hold a
+  seat-projection input the book lacks (an official remaining-envelope
+  breakdown, a published projection model). A mean of exit polls with a
+  hand-picked sd is not a method. Evidence: Yashar 22-23 rows .42/.22/.30
+  vs mids .23/.16/.25 all lost, net +0.175 dBrier, while the same night's
+  "most seats" rows recorded at the book were fine. n=3, one market. Re-open
+  if a later election gives 3+ seat-band rows where an above-book source
+  existed.
