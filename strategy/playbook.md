@@ -10868,3 +10868,16 @@ can be named in the note as context. No gate change.
   Toronto sign flip (10-28), the honest read of past poll misses is a
   wider sd, not a direction. On winner markets with a liquid book, sit at
   the mid unless a dated, specific source points the other way.
+
+## 2026-11-02 16:45Z: Saudi-Yemen Oct 8 leg settled Yes after 24 days, 2 WSV forecasts (FULL, cloud, RETRO-20261102-1645)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger only (frozen table, DEEP-2026-09-30):
+  `4e194e0b42dd` WSV Yes @.76 +$1.58, `32c88a71ebd8` WSV Yes @.84 +$0.95
+  (veto cost $2.53; realizable edge was only +.06 each). WSV mechanical:
+  127 rows, 109 trd, 58W/51L, -$52.01 (Yes +16.81, No -68.82, check OK).
+- **Daily strike series, attribution rule evidence now n=6:** post-claim
+  rows 4/4 beat the mid (dBrier -0.29/-0.20 on the Oct 8 pair); pre-claim
+  attribution shades 0/2. Rule stands as calibration only. Disputed legs
+  settle ~3-4 weeks late (Oct 6: 25d, Oct 8: 24d) -- price that cash lock
+  into any future bet on a leg with contested attribution.
