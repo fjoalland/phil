@@ -4720,6 +4720,11 @@ RULE: every Fri-night/Sat box-office ladder note carries the token
 `floor: <bracket> mid <x> -> applied|n/a (<reason>)`. A ladder recorded
 without that token is incomplete. Box-office forecasts (raw, incl.
 superseded) n=68, sum dBrier +0.563. Still no-bet.
+Tally (RETRO-20261102-2210, evidence `975884c3795d`, `4b1d6e3515ed`):
+YCSE wk3 10-12M settled Yes. Press-centred (10.6-10.65M) at sd 0.4M,
+recorded .90/.95 vs mid .88/.945, net dBrier -0.005. Weekend-3 sd<=0.4M
+rule: second clean event. Floor token present (n/a). Box-office forecasts
+(raw) n=70, sum dBrier ~+0.558. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
