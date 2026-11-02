@@ -10856,3 +10856,15 @@ can be named in the note as context. No gate change.
   generalized use at n>=5 non-SI rows.
 - k/n: Russia/Ukraine since Oct 13 9/19, last-3 1/3; Transgender 7+ 5/12,
   last-4 0/4.
+
+## 2026-11-02 06:15Z: Bulgaria runoff winner chain settled Yes, 3 forecasts (LIGHT, cloud, RETRO-20261102-0615)
+
+- Forecast-only, CF table unchanged. Iotova winner rows .84/.67/.97 vs
+  mids .865/.715/.99, all Yes, net +0.036 dBrier (all three below the book).
+- **Scope limit on the 10-27 low-turnout rule (b).** The "shade the leader
+  toward zero" step is for margin-bracket centres only. Do not port a
+  first-round poll miss into a below-book shade on the winner/runoff
+  market: 203967287442 did that (.67 vs .715) and paid +0.028. With the
+  Toronto sign flip (10-28), the honest read of past poll misses is a
+  wider sd, not a direction. On winner markets with a liquid book, sit at
+  the mid unless a dated, specific source points the other way.
