@@ -10846,3 +10846,13 @@ can be named in the note as context. No gate change.
   RBOB move) supports the steeper drift.
 - The 4 week-Oct26 touch rows (est .01-.05, all Yes lost) beat empty-book
   mids (.41-.90). Per RETRO-20261025-1610 these are not skill evidence.
+
+## 2026-11-02 02:15Z: Trump Dubuque IA rally, 2 forecasts settled (FULL, cloud, RETRO-20261102-0215)
+
+- Forecast-only rows, CF table unchanged. Russia/Ukraine (.36 vs mid .375)
+  said, +0.019; Transgender 7+ (.38 vs .405) No, -0.020. Net ~0.
+- **Recency check used outside SI:** non-SI tally 1 for, 1 against (both
+  shades ~.07 off the full-window rate). Shading only; review the
+  generalized use at n>=5 non-SI rows.
+- k/n: Russia/Ukraine since Oct 13 9/19, last-3 1/3; Transgender 7+ 5/12,
+  last-4 0/4.
