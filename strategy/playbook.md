@@ -1294,6 +1294,15 @@ full-set same-clock/bootstrap reads beat the book through the 00-05Z
 Saturday stall (sum -0.351, final-12h -0.194). Only the 08:14Z near-mid
 reads lost, and only slightly. Tally: book 2, counter-sample 2 (both
 full-set wins). No rule change; re-grade at 6 events.
+**Graded (RETRO-20261102-2010, Musk Oct31-Nov2 2-day, 11 rows): book won
+again, sum +0.194.** The 08:15Z read put 90-114 at .70 vs .785 inside a 7h
+stall. It was a blend that leaned on two n=5 sets, with the n=127 set
+present but not dominant, so the late-window-shrink rule escaped on a
+technicality. Zero posts followed for ~9h. Tally: book 3 (all small-set
+stall phases), counter-sample 2 (both full-set reads). **Rule tightening:
+a blend counts as small-set when more than half its weight comes from sets
+of <10 windows. The 0.03-of-mid bound then applies. Citing an earlier
+retro's lesson is not a non-statistical reason.** Re-grade at 6 events.
 
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
@@ -10900,3 +10909,15 @@ can be named in the note as context. No gate change.
 - **Partial count beats exit polls on seat brackets.** Joint List 10-11:
   exit-poll row .58 lost to the mid (+0.064), the 31%-count row .45 beat it
   (-0.195). Once a third of the count is in, re-centre on the count.
+
+## 2026-11-02 20:10Z: Saudi-Yemen Oct 12 + Musk Oct31-Nov2 settled, 13 forecasts (FULL, cloud, RETRO-20261102-2010)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Mechanical
+  ledger only: `4b2c84b44dbc` WSV Yes @.66 +$2.58 (superseded),
+  `8c8ac8c28eaa` WSV Yes @.64 +$2.81. WSV mechanical: 131 rows, 112 trd,
+  60W/52L, -$51.62 (Yes +22.20, No -73.82, check OK).
+- **Daily strike series:** post-claim rows now 6/6 beat the mid (Oct 12
+  pair -0.145/-0.150); third disputed leg resolved Yes (21 days late).
+  Calibration note only: one market, one campaign.
+- **Musk 2-day:** book 3 / counter-sample 2; the blend loophole in the
+  late-window-shrink rule is closed (see the Musk section above).
