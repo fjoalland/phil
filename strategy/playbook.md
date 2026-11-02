@@ -10881,3 +10881,22 @@ can be named in the note as context. No gate change.
   attribution shades 0/2. Rule stands as calibration only. Disputed legs
   settle ~3-4 weeks late (Oct 6: 25d, Oct 8: 24d) -- price that cash lock
   into any future bet on a leg with contested attribution.
+
+## 2026-11-02 18:30Z: ISM Oct ladder, Joint List, AAA Nov 2 settled, 12 forecasts (FULL, cloud, RETRO-20261102-1830)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Mechanical
+  ledger only: `99bfe0a278bd` WSV No @.50 -$5.00, `83dedce45e77` WSV
+  refused. WSV mechanical: 129 rows, 110 trd, 58W/52L, -$57.01
+  (Yes +16.81, No -73.82, check OK).
+- **Consensus-centred ladder sd test (pre-registered 2026-10-01): not
+  triggered.** ISM Mfg Oct printed 55.x, outside the book's modal pair
+  (53.x/54.x); the conventional N(54.2, 1.3) ladder beat the book by
+  -0.117 dBrier over 5 legs. Tally: book mode won 2 (BanRep Sep, ISM Sep),
+  wide sd won 1 (ISM Oct). Keep the rule as written.
+- **Regional-survey tilt on ISM, n=1 against.** The Oct ladder shifted its
+  centre down 0.3 on a Philly Fed collapse (37.8 -> 20.9); ISM came in
+  above September instead. Next ISM ladder note must say whether it tilts
+  on regional Fed surveys and cite more than one survey if it does.
+- **Partial count beats exit polls on seat brackets.** Joint List 10-11:
+  exit-poll row .58 lost to the mid (+0.064), the 31%-count row .45 beat it
+  (-0.195). Once a third of the count is in, re-centre on the count.
