@@ -10943,3 +10943,14 @@ can be named in the note as context. No gate change.
   actuals in, sd 0.8M was too wide. The 8-10M neighbour of the floored
   10-12M bracket sat at .24 vs mid .12 and lost (+0.043). Use sd <= 0.6M
   for wk2 brackets once Friday actuals are known. Review at n=3.
+
+## 2026-11-03 04:10Z: Clayface wk2 10-12M won under the mid (FULL, cloud, RETRO-20261103-0410)
+
+- **Box-office wk2 sd rule (enacted at the n=3 review; 3 rows, 2 events):**
+  evidence `4721b9378371` (+0.040), `290bfb23afee` (+0.034), `8f3034b2b2c0`
+  (+0.043), plus the RE late-run cume row (RETRO-20261103-0010). Once
+  Friday actuals are known, the wk2 weekend sd = max(0.4M, 0.04 x centre),
+  replacing 0.8M. sd 0.8M pushed mass out of the modal bracket into the
+  neighbour every time. The book-modal floor was covering for this
+  instead of being a backstop. Forecast-only (box-office stays no-bet).
+  Revisit if a wk2 bracket loses on the far side of the centre.
