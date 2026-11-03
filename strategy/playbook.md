@@ -10983,5 +10983,5 @@ can be named in the note as context. No gate change.
   daily change.
 - JOLTS Sep printed >=7.4M against an unsourced ~7.15M centre. Treat it
   as variance: the ladder hugged the book. The LinkUp-centre rule
-  (DEEP-2026-09-29) stands, and the next JOLTS record must try LinkUp
+  (DEEP-2026-09-30) stands, and the next JOLTS record must try LinkUp
   before using an unsourced centre.
