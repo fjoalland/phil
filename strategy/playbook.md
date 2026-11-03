@@ -4725,6 +4725,13 @@ YCSE wk3 10-12M settled Yes. Press-centred (10.6-10.65M) at sd 0.4M,
 recorded .90/.95 vs mid .88/.945, net dBrier -0.005. Weekend-3 sd<=0.4M
 rule: second clean event. Floor token present (n/a). Box-office forecasts
 (raw) n=70, sum dBrier ~+0.558. Still no-bet.
+Tally (RETRO-20261103-0010, evidence `f88dd60d5049`, `943d15601726`,
+`c6c9feeb03fc`, `9b11e785dcda`): Resident Evil cume 150-160M by Oct31 Yes;
+my chain .83/.88/.93 sat under the book every time (+0.021/+0.008/+0.001).
+Wildwood wk2 7-9M Yes at .82 vs .865 (+0.014; no Fri print, floor applied).
+Event net +0.045. Watch (n=1): late-run cumulative-total brackets (decay
+measured >=2 weeks) take sd <=~1.5M over ~2 weeks, not 2.5M. Box-office
+forecasts (raw) n=74, sum dBrier ~+0.603. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
