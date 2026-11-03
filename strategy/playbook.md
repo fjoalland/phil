@@ -10933,3 +10933,13 @@ can be named in the note as context. No gate change.
   Calibration note only: one market, one campaign.
 - **Musk 2-day:** book 3 / counter-sample 2; the blend loophole in the
   late-window-shrink rule is closed (see the Musk section above).
+
+## 2026-11-03 02:10Z: 1win token WSV win + Clayface wk2 neighbour miss (FULL, cloud, RETRO-20261103-0210)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Mechanical
+  ledger only: `865fdbe9b5da` WSV Yes @.683 +$2.32. WSV mechanical: 132
+  rows, 113 trd, 61W/52L, -$49.30 (Yes +24.52, No -73.82, check OK).
+- **Box-office wk2 sd watch (n=2 with RETRO-20261103-0010):** with Friday
+  actuals in, sd 0.8M was too wide. The 8-10M neighbour of the floored
+  10-12M bracket sat at .24 vs mid .12 and lost (+0.043). Use sd <= 0.6M
+  for wk2 brackets once Friday actuals are known. Review at n=3.
