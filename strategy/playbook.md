@@ -10964,3 +10964,24 @@ can be named in the note as context. No gate change.
   neighbour every time. The book-modal floor was covering for this
   instead of being a backstop. Forecast-only (box-office stays no-bet).
   Revisit if a wk2 bracket loses on the far side of the centre.
+
+## 2026-11-03 18:10Z: BG runoff turnout, AAA Nov3, JOLTS Sep ladders settled, 15 forecasts (FULL, cloud, RETRO-20261103-1810)
+
+- Net dBrier vs mid -0.318, mostly wide-book legs (not skill evidence per
+  RETRO-20261025-1610).
+- **Converging PVTs: shading rule (provisional).** Bulgaria 27.5-30 leg:
+  two independent 100%-sample PVTs both read 29.1 (1.1pt inside the
+  boundary), and the leg was recorded at .70 against a .66 mid. It won.
+  When >=2 independent full-sample PVTs agree and sit >=1pt inside a
+  bracket edge, record that leg at >=.80. This is a shading rule only.
+  Review at n>=3 such rows.
+- **AAA Nov3 .30 row (77d0efa10029) won on a wrong thesis.** Its note
+  predicted deceleration (staying above 4.16), but the print was 4.1493
+  (-2.01c, re-acceleration). Do not count it as support for
+  deceleration or trend reads. The aaa_log n<15 market-agrees rule
+  stands, with four families now in which no drift read pinned the next
+  daily change.
+- JOLTS Sep printed >=7.4M against an unsourced ~7.15M centre. Treat it
+  as variance: the ladder hugged the book. The LinkUp-centre rule
+  (DEEP-2026-09-29) stands, and the next JOLTS record must try LinkUp
+  before using an unsourced centre.
