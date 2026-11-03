@@ -8070,6 +8070,16 @@ family forecast-only.
   PM led futures to the decision. If a second CB fade of this shape
   loses, make it a rule: cross-market needs a futures read within 72h of
   the decision.
+  Second instance, RBA Nov 3 (RETRO-20261103-0610): RBA hiked +25 to
+  4.85%. Forecast 560217987a71 (Oct31, ~61h out) put hold at .13 vs mid
+  .0885 because ASX futures implied ~.19 hold; it lost +0.009. The two
+  earlier hold rows (.34/.30 vs .305/.245) lost +0.023/+0.030. Rows at the
+  mid (.12 vs .117, hike .90 vs .9225) cost ~0. The 72h window would not
+  have saved this one; it was inside it. **Rule (2 of 2, RBA Sep + Nov):
+  when PM leans the same way as the futures read but further, and the
+  named major banks agree with PM, est_prob for the decision is no farther
+  from the PM mid than 0.02 toward futures; the futures read goes in the
+  note as "futures view: X". No cross-market bet on that gap.**
 
 ## Validated-feed list addition: IMF PortWatch chokepoint 7-day MA (2026-09-30 12:4xZ, FULL cycle, cloud)
 
