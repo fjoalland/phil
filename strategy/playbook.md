@@ -1303,6 +1303,15 @@ stall phases), counter-sample 2 (both full-set reads). **Rule tightening:
 a blend counts as small-set when more than half its weight comes from sets
 of <10 windows. The 0.03-of-mid bound then applies. Citing an earlier
 retro's lesson is not a non-statistical reason.** Re-grade at 6 events.
+**Graded (RETRO-20261104-2010, Musk Nov2-4 2-day, 4 rows, six-event
+re-grade): sum -0.078, but -0.048 of it is a capture artifact.** The
+06:13Z .72 matched the live book quoted in the note (.715), while
+forecast.py recorded a .645 mid. Rule: when a note's quoted live book
+differs from `market_prob_at_record` by more than .03, grade against the
+quoted book and give the row zero skill weight. Six-event tally: book 3
+(small-set stall phases), counter 2 (full-set reads), neutral 1. The
+existing rules already encode that split, so nothing else changes and
+postcount stays barred. Re-grade at 10 events.
 
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
