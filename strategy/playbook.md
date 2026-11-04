@@ -11000,3 +11000,15 @@ can be named in the note as context. No gate change.
   as variance: the ladder hugged the book. The LinkUp-centre rule
   (DEEP-2026-09-30) stands, and the next JOLTS record must try LinkUp
   before using an unsourced centre.
+
+## 2026-11-04 10:10Z: Alaska concession WSV row settled No (FULL, cloud, RETRO-20261104-1010)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Mechanical
+  ledger only: `ba8a434be012` (Alaska Senate loser concedes by Nov 3, Yes
+  .03, book .18/.83) settled No. A CF No @0.82 would have won +$1.10, so the
+  WSV gave up +$1.10. WSV mechanical: 133 rows, 62W/52L, -$48.20.
+- **Deadline-before-count rows:** when a market's deadline falls before
+  the polls close or before the count can start, the outcome is fixed by
+  the calendar, not by events. Note that in the forecast row. The WSV
+  "fact not yet final" clause still applies (n=1, +$1.10 forgone). Review
+  if a second such row clears min_edge.
