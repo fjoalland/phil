@@ -11012,3 +11012,13 @@ can be named in the note as context. No gate change.
   the calendar, not by events. Note that in the forecast row. The WSV
   "fact not yet final" clause still applies (n=1, +$1.10 forgone). Review
   if a second such row clears min_edge.
+
+## 2026-11-04 14:10Z: UBER GAAP-beat forecast settled No (FULL, cloud, RETRO-20261104-1410)
+
+- **GAAP-beat, mark-dependent Yes: stay at or below the mid
+  (provisional, n=2).** UBER Q3 >$0.98 GAAP (`3b6b852da75f`): own .24 vs
+  mid .185. Yes needed a ~+$1.1B equity-revaluation gain whose sign was
+  unsourced. GAAP printed $0.25 (net mark loss); dBrier +0.023. GOOGL Q3
+  (`92a6940ff173`) failed the same way. Rule: when Yes needs a mark gain
+  larger than the operating gap and no sourced quarter-end mark sets the
+  sign, est <= mid. Review at n>=4.
