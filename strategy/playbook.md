@@ -1932,6 +1932,11 @@ prior cycle's official figure plus the prior miss, not below it. (2) In a
 multi-day vote with remote e-voting, the first print after the online
 votes are added front-loads them; carry it forward with the front-loaded
 model, not with an in-person day-1 ratio from a past cycle.
+(3) (RETRO-20261104-0410, Serbia Oct 25 >=70% resolved No; 5 forecasts,
+net ~level with the mid) On election-night hourly extrapolation, carry the last
+measured hourly deceleration into the final hour (18Z read: +2.7/h slowing ->
+~69.9, right). An observer's verbal "expects final >X, last hour +3-4" is not
+a measurement: do not move the centre on it alone (20Z .66 overshoot).
 
 **Regional-sweep roster-check note (RETRO-20260925-1432, same Russia
 Duma event, "United Russia wins every region" market).** Bet
