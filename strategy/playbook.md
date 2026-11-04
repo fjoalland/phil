@@ -11022,3 +11022,28 @@ can be named in the note as context. No gate change.
   (`92a6940ff173`) failed the same way. Rule: when Yes needs a mark gain
   larger than the operating gap and no sourced quarter-end mark sets the
   sign, est <= mid. Review at n>=4.
+
+## 2026-11-04 18:10Z: Israel turnout, gas touch $4.14, ISM Services, BTC Nov 4 settled, 12 forecasts (FULL, cloud, RETRO-20261104-1810)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Mechanical
+  ledger only (frozen table, DEEP-2026-09-30): `1b9a00b9e538` WSV Israel
+  turnout >=77% Yes .75, won, REFUSED (entry .997 outside [0.02, 0.95]).
+  `e3af75810b5e` WSV gas touch $4.14 Yes .30, settled Yes, CF No @.79 LOST
+  -$5.00, so the veto saved $5. WSV mechanical: 135 rows, 115 trd,
+  62W/53L, -$53.20.
+- **AAA touch strikes: no drift-read centre (n=5 families, 0 pinned).**
+  e3af's deceleration read (remaining -2.9c "won't come") lost when Nov 3
+  re-accelerated (-2.0c) and Nov 4 printed below 4.13. While aaa_log
+  n<15, a weekly touch row's est is a driftless walk with the last 7
+  printed daily changes as the sd (`strategy/tools/touch.py`). If the
+  book is tight (spread < .10), use the book mid instead. Deceleration or
+  acceleration narratives are context only.
+- **Market-agrees means est = mid.** The BTC Nov 4 close rows were
+  labelled market-agrees but recorded .015-.035 below the mid on a
+  driftless guessed-sd lognormal. All three cost Brier (+0.070). If the
+  gap to the mid is inside my own model's noise, record the mid. Shading
+  needs a named, sourced input.
+- **Consensus-centred ladder tally:** ISM Services Oct printed 54.x, the
+  mode of the N(cons 54.9, 1.5) ladder, not the book's 55.x mode (-0.012
+  over 5 legs). Tally: book mode won 2, conventional ladder won 2. The
+  rule is unchanged.
