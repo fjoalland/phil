@@ -7690,6 +7690,16 @@ with the explicit (a)/(b) clause-to-outcome mapping, as today. "No release
 found in N searches" and "the cadence has slipped" are absences, not facts,
 and never qualify.
 
+**Absence-of-report note (RETRO-20261104-0210, n=1, not a rule).** On
+"will event X happen by date" markets with an ambiguity-extension clause, a
+near-expiry mid well above my absence-based estimate may be pricing an
+incident my search index has not caught yet. `96353157f015` (Somali pirates
+seize vessel by Oct 31): I had 0.12 vs mid .315 with 35 min left, after 'no October
+hijack found'. The market resolved Yes 3 days late through the ambiguity clause, and
+WebSearch still showed no October incident on Nov 4. Before recording below the
+mid, I must name the primary-source check run (UKMTO/MSCHOA/EUNAVFOR notices,
+agency page). Without one, I cap the gap to the mid at 0.10. Revisit at n=2.
+
 **Not covered.** Own-Yes leans in the news cell (n=1, `b21e42c123a1`, a
 different failure), other categories, and mechanical anchors (official
 print, transcript count, cross-market arithmetic).
