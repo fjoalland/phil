@@ -11068,3 +11068,16 @@ can be named in the note as context. No gate change.
   Earnings + earnings-beat OVV are still net negative (4W/7L, -$13.29), so
   no gate change. Copom no-edge `47184f99d441` (.22 vs .185 cut) lost to a
   hold. That fits the existing rule: PM trend beats stale futures.
+
+## 2026-11-05 08:10Z: Alaska concession Nov 4 WSV row settled No (FULL, cloud, RETRO-20261105-0810)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Mechanical
+  ledger only: `531335f9c4de` (Alaska Senate loser concedes by Nov 4, Yes
+  .03, book .17/.86) settled No. A CF No @0.83 would have won +$1.02. WSV
+  mechanical: 136 rows, 116 trd, 63W/53L, -$52.18.
+- **Deadline-before-count review (pre-registered 2026-11-04 10:10Z): closed,
+  no change.** Second row, both won for the other side (+$2.12 forgone). But
+  both edges (.15, .14) were below min_edge_wide_book 0.30, so the edge
+  floor was the binding gate, not the "fact not yet final" clause. Revisit
+  the finality clause only if a calendar-fixed row's edge at the ask clears
+  0.30.
