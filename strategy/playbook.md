@@ -11056,3 +11056,15 @@ can be named in the note as context. No gate change.
   mode of the N(cons 54.9, 1.5) ladder, not the book's 55.x mode (-0.012
   over 5 legs). Tally: book mode won 2, conventional ladder won 2. The
   rule is unchanged.
+
+## 2026-11-05 00:10Z: Copom hold + AMPL beat OVV (FULL, cloud, RETRO-20261105-0010)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| AMPL Q3 beat (`8334b8b0ef1b`, OVV) | 0.35/0.21 | Yes | +0.110 (Yes @0.24) | Yes | +15.83 |
+
+  OVV mechanical: 298 rows, 289 trd, 121W/168L, +$195.80 (No 86W/108L
+  +$150.10; Yes 35W/60L +$45.70; sum 195.80, check OK). Veto cost $15.83.
+  Earnings + earnings-beat OVV are still net negative (4W/7L, -$13.29), so
+  no gate change. Copom no-edge `47184f99d441` (.22 vs .185 cut) lost to a
+  hold. That fits the existing rule: PM trend beats stale futures.
