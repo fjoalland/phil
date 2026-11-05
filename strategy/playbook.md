@@ -11104,3 +11104,16 @@ can be named in the note as context. No gate change.
   settled No. Consistent with the 14:17Z rule (est <= .50 when the strike
   sits at or above the higher consensus source). Tally: 2/2 No. Still
   provisional; review at n>=4.
+
+## 2026-11-05 18:10Z: AAA Nov5 <4.10 settled No by 0.03c (FULL, cloud, RETRO-20261105-1810)
+
+- `6cabba8c490e` (.815 market-agrees at mid, aaa_log n=7) and its
+  fact-final superseder `f32a58c0063a` (.01) both settled No (AAA 4.1003).
+  The rule was followed (dBrier 0). Evidence about the mid: the day needed
+  a drop of more than 2.39c, and only 1 of the 7 prior stored daily changes
+  (-2.13/-2.12/-2.09/-1.05/-0.38/-2.01/-2.54c) cleared that. The mid
+  priced it at .815. **Pre-registered check:** when `aaa_log sd` first
+  returns a number (n>=15, around 2026-11-12), the next AAA daily-threshold
+  row records the sd-based estimate. Its note says whether it differs from
+  the mid by more than .15 and cites this case. The n<15 -> market-agrees
+  rule is unchanged at n=1.
