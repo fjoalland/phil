@@ -11096,3 +11096,11 @@ can be named in the note as context. No gate change.
   at n>=4.
 - WRBY GAAP >$0.10 (`98a5290aa97a`, .08) settled No: GAAP-vs-adjusted
   strike read confirmed (n=1, no rule change).
+
+## 2026-11-05 16:15Z: BGC Q3 beat forecast settled (FULL, cloud, RETRO-20261105-1615)
+
+- **Earnings strike at top of consensus range, n=2.** `bbed5fcc6f5c` BGC
+  >$0.34 (consensus .33-.34) recorded .32 with no beat-history lean,
+  settled No. Consistent with the 14:17Z rule (est <= .50 when the strike
+  sits at or above the higher consensus source). Tally: 2/2 No. Still
+  provisional; review at n>=4.
