@@ -8241,6 +8241,18 @@ resolved No.
   .33) sat below the book mid .365 because I spread mass over 0/1/3 on
   qualitative reads; it won. On a count ladder, do not record the modal
   bucket below the mid without a numeric source (same shape as CBR #3).
+  Seventh, Banxico Nov5 (RETRO-20261105-2215): cut, against the poll.
+  Nov4 row 8b2121375995 at .75 hold vs mid .72, poll ~.92 vs futures ~.60;
+  I shaded above the mid toward the poll because the futures read was a
+  403'd snippet. Futures side won; +.044 vs mid. **Poll-vs-futures rule
+  now 2 of 2 (BoC Oct ff9673f9dbeb, Banxico Nov): when a poll and a
+  futures/OIS read disagree inside 7 days, est_prob is never recorded on
+  the poll side of the book mid. An unverified futures read cannot lift
+  this; it only means est sits at the mid instead of at the futures
+  number.** Also: 67f0142cf9bb (Nov3, .89 at mid) ignored the Sep minutes
+  (3/5 open to cut) - second case for the read-previous-minutes check
+  (RBNZ Oct, Banxico Nov): a minutes majority open to moving counts as a
+  dated official signal against the hold leg.
 - **USGS daily-max ladder, in-progress Poisson: first settled event
   (RETRO-20261001-2015).** Sep 30 ladder (c7cceb5a2381, 603ce1291e65,
   e879bdcdfa8c, 1150efff6222): observed max 5.6 with 3.7h left, 365d
