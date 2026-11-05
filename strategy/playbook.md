@@ -11081,3 +11081,18 @@ can be named in the note as context. No gate change.
   floor was the binding gate, not the "fact not yet final" clause. Revisit
   the finality clause only if a calendar-fixed row's edge at the ask clears
   0.30.
+
+## 2026-11-05 14:17Z: TRIP WSV + WRBY GAAP + quake "11" settled (FULL, cloud, RETRO-20261105-1417)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Mechanical
+  ledger only: `3fe7ab6f7336` WSV TRIP Q3 beat Yes .55 (book .08/.68)
+  settled No; CF Yes @.68 LOST -$5.00, so the veto saved $5. WSV
+  mechanical: 137 rows, 117 trd, 63W/54L, -$57.18.
+- **Earnings-beat, strike at top of consensus range: est <= .50
+  (provisional, n=1).** TRIP strike $0.45 = the higher of two sources
+  (0.4505 / 0.37); I added a Q3-history lean to .55 and it missed. When
+  the strike sits at or above the higher consensus source, do not lean on
+  beat history: est <= .50. Extends the 2026-10-22 straddle rule. Review
+  at n>=4.
+- WRBY GAAP >$0.10 (`98a5290aa97a`, .08) settled No: GAAP-vs-adjusted
+  strike read confirmed (n=1, no rule change).
