@@ -11172,3 +11172,16 @@ can be named in the note as context. No gate change.
   n>=8.
 - Astra 6.1+ on/by Nov 5 (3 rows, all within .05 of mid, all No): rumour-
   sourced release dates keep market-agrees; no change.
+
+## 2026-11-06 12:15Z: Musk Oct30-Nov6 280-299 chain + USGS '12' settled No (FULL, cloud, RETRO-20261106-1215)
+
+- **Postcount early/late tally, event 4 (Oct30-Nov6, 5 rows, net -0.085 vs
+  mid).** Early (>18h left, 2 rows) +0.022; late (<14h, 3 rows) -0.107.
+  Tally now: early 3 events (-0.323, -0.080, +0.022), late 4 events
+  (+0.017, +0.040, +0.025, -0.107). The late-window hold-at-mid rule held
+  up again; the early tally is still negative overall.
+- **Observed-burst exception to the final-10h hold, first grade (1/1
+  helped).** `b5368bb63798` moved to .20 vs mid .31 after +18 in one hour
+  (cum 295 with 8.6h left) and gained -0.057 when the bracket died at 302.
+  Keep the exception. It applies only when the burst is seen on the
+  tracker, never when a burst is merely expected. Review at n>=5.
