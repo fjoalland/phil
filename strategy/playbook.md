@@ -11142,3 +11142,15 @@ can be named in the note as context. No gate change.
 - **Top-of-consensus-range tally, n=3:** TRIP No, BGC No, ABNB
   (`dbcf03016e2f`, .27, strike at/above all sources) Yes. The est <= .50
   cap held. Still provisional; review at n>=4.
+
+## 2026-11-06 02:10Z: ABNB "Project Hawaii" WSV forecast settled Yes (FULL, cloud, RETRO-20261106-0210)
+
+- **Documented CF-table exclusion (reconcile.py check 5).** Mechanical
+  ledger only: `749e2bd2da88` (ABNB says "Project Hawaii", Yes .70, book
+  .49/.56, spread .07 vs cap .06) settled Yes. A CF Yes @.56 would have
+  won +$3.93, so the WSV cost $3.93. WSV mechanical: 138 rows, 118 trd,
+  64W/54L, -$53.25.
+- **Near-cap say-the-word WSV tally (n=1, 1W/0L).** Track separately the
+  WSV rows whose spread was within .01 of max_spread and whose estimate
+  came from verified transcript k/n. No change to the gate until n>=5;
+  the overall WSV ledger is still net negative.
