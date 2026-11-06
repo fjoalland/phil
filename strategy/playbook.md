@@ -11129,3 +11129,16 @@ can be named in the note as context. No gate change.
   row records the sd-based estimate. Its note says whether it differs from
   the mid by more than .15 and cites this case. The n<15 -> market-agrees
   rule is unchanged at n=1.
+
+## 2026-11-06 00:10Z: TXRH / ABNB / PLBY earnings forecasts settled (FULL, cloud, RETRO-20261106-0010)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| PLBY Q3 beat (`0cfcd28d6d91`, OVV) | 0.42/0.565 | No | +0.130 (No @0.45) | Yes | -5.00 |
+
+  OVV mechanical: 299 rows, 290 trd, 121W/169L, +$190.80 (No 86W/109L
+  +$145.10; Yes 35W/60L +$45.70; sum 190.80, check OK). The veto saved $5.
+  Earnings OVV subset is 4W/8L, -$18.29.
+- **Top-of-consensus-range tally, n=3:** TRIP No, BGC No, ABNB
+  (`dbcf03016e2f`, .27, strike at/above all sources) Yes. The est <= .50
+  cap held. Still provisional; review at n>=4.
