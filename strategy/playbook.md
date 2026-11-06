@@ -11154,3 +11154,21 @@ can be named in the note as context. No gate change.
   WSV rows whose spread was within .01 of max_spread and whose estimate
   came from verified transcript k/n. No change to the gate until n>=5;
   the overall WSV ledger is still net negative.
+
+## 2026-11-06 08:15Z: MNST WSV + Astra 6.1+ Nov 5 forecasts settled (FULL, cloud, RETRO-20261106-0815)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| MNST Q3 GAAP beat (`240005f65172`, WSV) | 0.38/0.18 | Yes | +0.15 (Yes @0.23) | No | -5.00 |
+
+  WSV mechanical: 139 rows, 119 trd, 64W/55L, -$58.25 (prev 138/118,
+  64W/54L, -$53.25). The veto saved $5. Gate stays.
+- **Top-of-consensus-range tally, n=4 -> review due, done here.** TRIP No,
+  BGC No, ABNB Yes, MNST No (3/4 No). MNST at .38 respected the est <= .50
+  cap and still lost to a .18 mid. **Rule change:** when the strike sits at
+  or above every consensus source AND the split/seasonally-adjusted y/y
+  run-rate lands within one cent of the strike, cap est at .35 and default
+  to market-agrees unless a beat-history lean is documented. Re-review at
+  n>=8.
+- Astra 6.1+ on/by Nov 5 (3 rows, all within .05 of mid, all No): rumour-
+  sourced release dates keep market-agrees; no change.
