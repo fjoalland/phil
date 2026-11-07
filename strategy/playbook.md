@@ -11229,3 +11229,20 @@ can be named in the note as context. No gate change.
   venue type. Rule: on say-the-word rows, a venue-specific lift with no
   validated transcript base for that venue type may move the estimate
   from the rally base toward the mid, but not past it. Review at n>=5.
+
+## 2026-11-07 22:15Z: Bab el-Mandeb Oct 31 7d-MA bracket set settled 25-29 (FULL, cloud, RETRO-20261107-2215)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Mandeb Oct31 25-29 (`51a9833a3d96`, OVV) | 0.45/0.305 | Yes | +0.14 (Yes @0.31) | Yes | +11.13 |
+| Mandeb Oct31 20-24 (`38f4dbc15867`, OVV) | 0.30/0.355 | No | +0.05 (No @0.65) | No | +2.70 |
+
+  OVV mechanical: 301 rows, 292 trd, 123W/169L, +$204.63 (No 87W/109L
+  +$147.80; Yes 36W/60L +$56.83; sum 204.63, check OK). The veto cost
+  $13.83 on one event. No boundary change at one event.
+- **PortWatch month-end MA: regime base vs level shift (tally, n=1
+  event).** The Oct 2 regime-distribution read beat the Oct 5 read that
+  moved weight into 30-34 after one 10-day MA rise (+.043 vs mid on that
+  leg; batch sum -0.195 vs mid). Rule (provisional): inside a stable
+  regime, a short-window level move shifts at most half of its implied
+  weight into the adjacent bracket. Review at n>=3 events.
