@@ -11212,3 +11212,20 @@ can be named in the note as context. No gate change.
   +.062 and late -.007; event 4 now early +.084, late -.114. Early tally:
   -.323, -.080, +.084 (weekly) plus Nov5-7 +.123 (2-day). The early-window
   carve-out argument is off until the sign settles.
+
+## 2026-11-07 02:10Z: approval bracket + Cape Canaveral "AI" forecasts settled (FULL, cloud, RETRO-20261107-0210)
+
+- **Stale-benchmark rows anchor to the mid.** `ff93fb018f1c` (RCP
+  39.0-39.4, own .55 vs mid .64, settled Yes, +.073): the RCP read was a
+  search snippet older than the market's information, because the RCP page
+  is 403 from cloud. Rule: when my only benchmark read is older than the
+  market's likely latest print, the forecast stays at the mid unless that
+  stale read itself points off the mid. Here it pointed toward Yes. A
+  drift-model guess never moves the forecast against the stale read's
+  direction. Review at n>=5.
+- **Unvalidated venue lifts stop at the mid.** `d63013d4dcda` (Trump "AI"
+  at Cape Canaveral, own .42 vs mid .35, settled No, +.054): I lifted the
+  rally base on topic adjacency, with no verified transcript set for the
+  venue type. Rule: on say-the-word rows, a venue-specific lift with no
+  validated transcript base for that venue type may move the estimate
+  from the rally base toward the mid, but not past it. Review at n>=5.
