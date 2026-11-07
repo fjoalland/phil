@@ -11185,3 +11185,30 @@ can be named in the note as context. No gate change.
   (cum 295 with 8.6h left) and gained -0.057 when the bracket died at 302.
   Keep the exception. It applies only when the burst is seen on the
   tracker, never when a burst is merely expected. Review at n>=5.
+
+## 2026-11-07 00:10Z: Oct jobs report, SPY touch WSV, Musk 300-319 + Nov5-7 rows settled (FULL, cloud, RETRO-20261107-0010)
+
+- **Documented CF-table exclusions (reconcile.py check 5).** Counted in the
+  mechanical ledger; per DEEP-2026-09-30 not appended to the frozen table.
+  - `5f377b27e53c` NFP Oct 25-50k Yes (WSV). Own .15, book .20/.35.
+    Settled No (NFP >=100k). CF No @.80 WON +$1.25 (veto missed a win).
+  - `2e17053c8f64` SPY low <=730 wk Nov2 Yes (WSV). Own .76, book
+    .632/.769. Settled No. CF Yes @.769 LOST -$5.00 (veto saved).
+- **U-3 legs: no payroll-trend tilt.** Oct U-3 printed 4.1%; I tilted 4.3
+  up and 4.1 down on a soft payroll trend (+.059 combined vs mid). From
+  now on the U-3 legs adjacent to the consensus mode are held at the mid
+  unless claims or ADP give a sourced lean, cited in the note.
+- **NFP centre when ADP beats.** Second large upside miss (Aug >=150k vs
+  ~55k; Oct >=100k vs 59-65k, ADP 86k vs 75k). When ADP beats its own
+  consensus, centre the NFP model midway between the NFP consensus and the
+  ADP print; keep the sd. Forecast rule only. Review at n>=5 releases.
+- **Short postcount windows (2-3 days).** Musk Nov5-7 40-64: the
+  judgment-mixture row leaned on a last-48h quiet regime and went .55 vs
+  mid .43 (+.118); the empirical-window row (.14 vs .205) took the right
+  side. Rule: on a 2-3 day window, est stays within .05 of the mid unless
+  the empirical-window method on the full tracker sample agrees on the
+  side. A recent-regime read alone never moves the estimate.
+- **Postcount tally update.** Oct30-Nov6 300-319 rows add early (18.7h)
+  +.062 and late -.007; event 4 now early +.084, late -.114. Early tally:
+  -.323, -.080, +.084 (weekly) plus Nov5-7 +.123 (2-day). The early-window
+  carve-out argument is off until the sign settles.
