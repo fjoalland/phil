@@ -11270,7 +11270,7 @@ can be named in the note as context. No gate change.
 
 | Row | own/mkt | Side | Edge | Result | CF pnl |
 |---|---|---|---|---|---|
-| AAA High >=4.26 (`ace1468dfa73`, WSV) | 0.02/0.475 | No | refused (No ask .91 > band? recorded spread .77) | No | refused |
+| AAA High >=4.26 (`ace1468dfa73`, WSV) | 0.02/0.475 | No | +0.070 (No @0.91) | No | **+0.49** |
 | AAA High >=4.18 (`0db4c680eb2a`, WSV) | 0.20/0.51 | No | refused (entry .97) | No | refused |
 | AAA High >=4.20 (`4a4e281355c0`, WSV) | 0.08/0.51 | No | refused (entry .97) | No | refused |
 | AAA High >=4.22 (`f93e391146e1`, WSV) | 0.04/0.49 | No | refused (entry .99) | No | refused |
@@ -11279,8 +11279,9 @@ can be named in the note as context. No gate change.
 
   WSV mechanical (`core/counterfactual.py ledger --skip-reason
   wide-spread-veto`): 147 rows, 122 trd, 66W/56L, -$61.51 (No -74.96;
-  Yes +13.45; sum -61.51, check OK). All six rows were direction-right
-  and unexecutable: the veto cost nothing. Their large negative dBrier
+  Yes +13.45; sum -61.51, check OK). All six rows were direction-right;
+  five were unexecutable and one (ace1468dfa73, No @.91) was fillable
+  for +$0.49, so the veto cost $0.49 this week. Their large negative dBrier
   is against placeholder mids and is not evidence of edge (same for
   the no-ask Low rows cb5cc8b5d9f7/a387da6ec2d4 at mid .88). No rule
   change.
