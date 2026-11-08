@@ -11285,3 +11285,17 @@ can be named in the note as context. No gate change.
   is against placeholder mids and is not evidence of edge (same for
   the no-ask Low rows cb5cc8b5d9f7/a387da6ec2d4 at mid .88). No rule
   change.
+
+## RETRO-20261108-2210 ruling: fresh `mww` magnitudes are revisable too
+
+- **Biggest quake Nov 7 (`8ca453d52c06`, 5.9-6.0 Yes .97, market-agrees)
+  lost.** The deciding event (Mid-Atlantic Ridge, M5.9 mww, 23:17Z) was
+  updated to M5.8 mww at 06:08Z, about 7h later, so 5.7-5.8 won. The
+  RETRO-20261005-2015 revision rule (0.20 weight) covers `mb`/`ml` only.
+  **Extension (provisional, n=1): if a daily-max or count outcome depends
+  on an `mww` event less than 12h old whose magnitude sits exactly on a
+  bucket edge, give at least 0.08 to the bucket it would fall into after a
+  0.1 revision across that edge. Such an event never creates a bet's edge.
+  Write the event's age and its `updated` timestamp in the note.** The next
+  deep retro should sample how often M5.5+ `mww` values change in their
+  first 24h, then size this weight properly.
