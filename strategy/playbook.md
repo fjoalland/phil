@@ -11246,3 +11246,22 @@ can be named in the note as context. No gate change.
   leg; batch sum -0.195 vs mid). Rule (provisional): inside a stable
   regime, a short-window level move shifts at most half of its implied
   weight into the adjacent bracket. Review at n>=3 events.
+
+## 2026-11-08 04:10Z: CNN exit-poll white voters (D/R mirror) settled D (LIGHT, cloud, RETRO-20261108-0410)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| CNN white voters D (`bcfed2f86d19`, OVV) | 0.78/0.894 | No | +0.108 (No @0.112) | Yes | -5.00 |
+| CNN white voters R (`f504cbd442e8`, OVV) | 0.21/0.065 | Yes | +0.131 (Yes @0.079) | No | -5.00 |
+
+  OVV mechanical: 303 rows, 294 trd, 123W/171L, +$194.63 (No 87W/110L
+  +$142.80; Yes 36W/61L +$51.83; sum 194.63, check OK). The veto saved
+  $10 on one event.
+- **Unreachable resolution page vs subgroup reconstruction (tally, n=1
+  event).** I could not load the CNN page and rebuilt the topline from
+  rounded NBC subgroups (R +0.8), then stood 11 points off a liquid book
+  that could see the source. Both rows lost to the mid (+.077). Rule
+  (provisional): when the named resolution page is unreachable and the
+  market prices a plain read of it, a reconstruction from rounded
+  subgroup figures may move the estimate toward a flip by at most half
+  the gap to the mid. Review at n>=3 events.
