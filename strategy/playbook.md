@@ -11307,3 +11307,25 @@ can be named in the note as context. No gate change.
   Write the event's age and its `updated` timestamp in the note.** The next
   deep retro should sample how often M5.5+ `mww` values change in their
   first 24h, then size this weight properly.
+
+## 2026-11-09 04:10Z: China Oct CPI ladder lost to the book; WSV CF row (LIGHT, cloud, RETRO-20261109-0410)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| China CPI Oct <=0.6% (`c53c0b3c346c`, WSV) | 0.25/0.14 | Yes | +0.07 (Yes @0.18) | No | **-5.00** |
+
+  WSV mechanical (`core/counterfactual.py ledger --skip-reason
+  wide-spread-veto`): 148 rows, 123 trd, 66W/57L, -$66.51 (No -74.96;
+  Yes +8.45; sum -66.51, check OK). The veto saved $5.00.
+
+- **China NBS CPI brackets: record at the mid by default.** The print was
+  0.7 y/y. My ladder (centre ~0.7, "sd ~0.25 by convention") had the
+  centre right but the spread too wide. The rows went 9f777542d389 .45 vs
+  .57 on the winning leg and c53c0b3c346c .25 vs .14 on the tail, for net
+  +.158 dBrier over the 3-row ladder. With Aug (19cf14c87979,
+  7bacc91ddf91) and Sep (fc10ca9ae3bb), every off-mid China CPI read over 3
+  prints has lost to the book. **Rule: est_prob = mid unless a SOURCED
+  base-effect m/m AND a published consensus other than TE alone both lean
+  the same way off it. A conventional-sd ladder goes in the note as
+  "ladder view", never into est_prob.** This only tightens recording; no
+  gate changes. Review after 3 more prints.
