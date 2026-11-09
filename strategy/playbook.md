@@ -11391,3 +11391,24 @@ can be named in the note as context. No gate change.
   note.** Below 45% the press-centre rule stands unchanged (Other Mommy,
   Street Fighter). Box-office forecasts n=61 (deduped), brier_delta
   +0.0113. Still no-bet. Review after 2 more preview-dominant openings.
+
+## 2026-11-09 22:15Z: Fable 5.2+ by Nov19 released; OVV saved $5 (FULL, cloud, RETRO-20261109-2215)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Fable 5.2+ by Nov19 (`de60bc36c81f`, OVV) | 0.58/0.745 | No | +0.16 (No @0.26) | Yes | **-5.00** |
+
+  OVV mechanical (`core/counterfactual.py ledger --skip-reason
+  outside-view-veto`): 304 rows, 295 trd, 123W/172L, +$189.63 (No +137.80;
+  Yes +51.83; sum +189.63, check OK). The veto saved $5.00.
+
+- **AI-release cadence reads vs a leak-fed book.** The 12-week cadence put
+  the release just after the deadline (.58). The book held .74-.75 on leak
+  and pre-IPO reporting and was right. **Rule: on AI-release-by-date
+  markets, a cadence-only estimate may sit at most 0.05 below a book that
+  has held >= .70 for 2+ days. Record it `market-agrees` unless a sourced
+  item (official date, model card, API id) argues against the leaks.**
+  ai-model-release forecasts n=52, brier_delta +0.0583. Review after 3 more
+  rows in this shape.
+- Quake `f1889c5814e9`/`525695a02432` (won, -.23/-.21) sat on placeholder
+  spreads (> .80 wide): not evidence of edge, excluded from verdicts.
