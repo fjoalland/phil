@@ -8188,6 +8188,14 @@ resolved No.
   barrier, est_prob is the raw touch.py value and the reversal view goes
   in the note as "shade view: X", like an inferred open (2026-09-25 rule).
   Recording rule only; touch stays forecast-only.
+  Tally update RETRO-20261109-0010: ETH dip $2,200 Nov 2-8
+  efdda63f56cc, above-mid (+.085, own .50 vs mid .415), touched, -.092.
+  Now above n=20 (one helped). That row was recorded as .50, shaded from
+  touch.py .571 because "touch reads have lost to the book". The shade
+  had no measured print behind it, so it broke DEEP-2026-09-26: est_prob
+  should have been .571, with "shade view: .50" in the note. It cost .066
+  (raw .184 vs .250). A pooled track record is a shade reason, not an
+  input.
 - **Validated-feed sweep, 10-06 retirement test already decided.** The
   test was "retire if no leg outside the Parcl set shows ask-edge >=
   min_edge". USGS '7' bucket 9a2944acc280 (Yes @0.12, own 0.16, edge
