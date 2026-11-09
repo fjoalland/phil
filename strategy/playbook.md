@@ -11334,3 +11334,14 @@ can be named in the note as context. No gate change.
   the same way off it. A conventional-sd ladder goes in the note as
   "ladder view", never into est_prob.** This only tightens recording; no
   gate changes. Review after 3 more prints.
+
+## 2026-11-09 08:12Z: cancel-clause note n=2; 60 Minutes No row (LIGHT, cloud, RETRO-20261109-0812)
+
+- Cancel/postponement clause applied literally again: SPL Matchweek 13
+  draws (01926f67263a, 52134dfd827a, e18487949e27; .965 vs mid .935, all
+  Yes, -.003 each). Three rows, one event -> the 2026-10-17 note is now at
+  **n=2 independent events, 2/2 literal**. Keep ~.03-.05 on a different
+  reading; revisit at n>=3.
+- Say-the-word No-side bet 4ee82084f57a (Trump 60 Minutes "Susie"/"Wiles",
+  own .78 vs ask .73) won +$1.85. Interview venue, distinct day. No sizing
+  change: one win at a .73 ask says nothing about edge.
