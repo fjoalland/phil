@@ -8196,6 +8196,11 @@ resolved No.
   should have been .571, with "shade view: .50" in the note. It cost .066
   (raw .184 vs .250). A pooled track record is a shade reason, not an
   input.
+  Tally update RETRO-20261109-0614: BTC reach $82k Nov 2-8
+  47e420da8487, within-0.05 (-.01, own .575 vs mid .585), no touch,
+  -.012. Raw touch.py .611 (band .50-.68) would have cost .043 more;
+  est = mid was the 2026-11-04 in-band rule, with the raw value in the
+  note, so this is compliant, not a shade breach.
 - **Validated-feed sweep, 10-06 retirement test already decided.** The
   test was "retire if no leg outside the Parcl set shows ask-edge >=
   min_edge". USGS '7' bucket 9a2944acc280 (Yes @0.12, own 0.16, edge
