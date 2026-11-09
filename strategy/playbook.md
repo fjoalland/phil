@@ -11350,3 +11350,18 @@ can be named in the note as context. No gate change.
 - Say-the-word No-side bet 4ee82084f57a (Trump 60 Minutes "Susie"/"Wiles",
   own .78 vs ask .73) won +$1.85. Interview venue, distinct day. No sizing
   change: one win at a .73 ask says nothing about edge.
+
+## 2026-11-09 18:08Z: AAA near-threshold touch won; quake 0-count won (FULL, cloud, RETRO-20261109-1808)
+
+- **Scope of the aaa_log n<15 -> market-agrees rule.** It governs AAA
+  DAILY-rung rows. Exempt: AAA touch rows (any day in a window of 3 days or
+  more) whose threshold is within 0.5c of the last print. Those are
+  sd-insensitive, so record the model estimate and say "sd-insensitive
+  touch" in the note. Evidence: `c769ee4686e3` $4.02 Low week of Nov 9
+  (needed -0.03c from 4.0203), .97, won. **When such a row's book spread is
+  > .30, its dBrier against the placeholder mid (-.163 here) is NOT
+  evidence of gas-price edge.** Exclude it from category verdicts. n=1.
+  Review at the first loss in this class.
+- Quake `320f098034c8` (0 M6.5+, .965 vs .945, won, -.002): mechanical
+  fdsnws read plus a sourced 365d rate. No change. UMA took 7 days to
+  settle (known).
