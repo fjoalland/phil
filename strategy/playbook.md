@@ -8648,6 +8648,11 @@ would have won by ~0.22. One more such miss triggers the revisit.
 
 **Label slip:** `89733920b201` (Musk tweets) was recorded as
 `countable-metric`; tweet counts are `social-media-postcount`.
+**Second slip (RETRO-20261109-1414):** `7e35e516a34a` (Musk Nov7-9
+40-64) was again recorded as `countable-metric`. Pre-record check, n=2:
+before any `forecast.py record` on a "post N tweets" / "Truth Social
+posts" question, the category is `social-media-postcount`, never
+`countable-metric`.
 
 ## 2026-10-03 01:3xZ update: Parcl Dec 31 legs need same-season conditioning (FULL sweep)
 
