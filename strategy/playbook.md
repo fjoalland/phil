@@ -11365,3 +11365,29 @@ can be named in the note as context. No gate change.
 - Quake `320f098034c8` (0 M6.5+, .965 vs .945, won, -.002): mechanical
   fdsnws read plus a sourced 365d rate. No change. UMA took 7 days to
   settle (known).
+
+## 2026-11-09 20:10Z: Godzilla OW landed 28-31M below the press; WSV CF row (LIGHT, cloud, RETRO-20261109-2010)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Godzilla OW 28-31M (`0fcc822124b4`, WSV) | 0.55/0.725 | No | +0.10 (No @0.35) | Yes | **-5.00** |
+
+  WSV mechanical (`core/counterfactual.py ledger --skip-reason
+  wide-spread-veto`): 149 rows, 124 trd, 66W/58L, -$71.51 (No -79.96;
+  Yes +8.45; sum -71.51, check OK). The veto saved $5.00.
+
+- **Box-office preview-dominance exception to the press-centre rule
+  (evidence `cd9e88cfadf6`, `061366d5e056`, `1aa1ed90d0b0`, `0fcc822124b4`;
+  Digger `837ebfc5d863`).** Godzilla Minus Zero: Thu previews $6.7M were
+  ~50% of the $13.5M Fri-incl-previews figure. The press said 30-33M, and
+  the weekend landed 28-31M, the book's modal bracket all weekend. My own
+  02:13Z bottom-up (27.8-30.1M) was right. The 20261020 "never move the
+  centre below the press figure" rule overrode it. Over 9 rows the net was
+  +0.698 dBrier. Digger (Fri ~50% previews, press ran ~20% high) is the
+  same shape, so n=2, and both events went the same way. **Rule: when Thu
+  previews are >= 45% of Fri-incl-previews, the Fri-night/Sat centre is the
+  MIDPOINT of the press centre and my own Fri-multiple projection (Sat
+  1.2-1.4x true Fri, Sun 0.75x Sat). Write `preview-share: <x>%` in the
+  note.** Below 45% the press-centre rule stands unchanged (Other Mommy,
+  Street Fighter). Box-office forecasts n=61 (deduped), brier_delta
+  +0.0113. Still no-bet. Review after 2 more preview-dominant openings.
