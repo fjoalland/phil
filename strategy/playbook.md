@@ -11482,3 +11482,18 @@ adjacent legs as a near coin flip, and never as a book-beating centre.
   into est_prob. Before running forecast.py on such a rung, check: mid?
   If not, URL in the note? If neither, change est_prob to the mid. Re-grade
   shade views at the next launch event.
+
+## 2026-11-10 20:10Z: Nov 3-10 post-count rows; shrink rule skipped (FULL, cloud, RETRO-20261110-2010)
+
+- 5 postcount rows settled, net dBrier +.420; the book was closer on 4/5.
+  Trump TS 60-79 (`d1282104d10e`, .85 vs mid .60) lost on a late burst.
+  Its .85 came from a same-slot n=6 sample with no shrink; the 2026-10-16
+  rule gives .69 (dBrier +.122, not +.362). Musk 280-299 `99d8f48654f9`
+  had the same omission (n=6 same-hour windows).
+- **Pre-record check for every postcount row (same form as the AI-release
+  check):** before running forecast.py, ask: did any same-slot,
+  same-hour or prior-days window with n < 15 move the number? If yes, the
+  note must print `raw=<x> n=<n> w=<n/(n+10)>` and est_prob must equal
+  `w*raw + (1-w)*mid`. If the note lacks `raw=`, compute the shrink
+  before recording. "Slot max was 3" is not evidence against a burst for
+  an account with burst days (Trump: 25 posts on Nov 7).
