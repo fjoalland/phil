@@ -11446,3 +11446,9 @@ can be named in the note as context. No gate change.
   event as the 2026-11-09 note, so the cancel-clause note stays at **n=2
   independent events**. Count events, not rows, when revisiting at n>=3.
   Clause-read rows stay out of soccer match-outcome edge verdicts.
+
+## 2026-11-10 14:15Z: BTC $74k dip row is zero-weight (FULL, cloud, RETRO-20261110-1415)
+
+- `c28b43f14276` (BTC dip $74k Nov 10, own .80 vs mid .785, gap 0.42%,
+  Coinbase proxy) WON, dBrier -.006. Barrier within 0.5% of spot: listed,
+  carries no weight in the touch tally (rule above). Ruling unchanged.
