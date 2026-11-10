@@ -11464,3 +11464,21 @@ one month or more, until two more validation points exist. **CPI MoM
 bracket note:** the Oct print was 0.350% unrounded, right on the 0.3/0.4
 edge. When the nowcast sits within 0.05pp of an edge, treat the two
 adjacent legs as a near coin flip, and never as a book-beating centre.
+
+## 2026-11-10 18:15Z: Gemini Carbon family settled Yes (FULL, cloud, RETRO-20261110-1815)
+
+- 9 Carbon release rows settled Yes (launch Nov 10). 8 of them sat below the
+  ladder mid with no primary-source date, which broke the anchoring rule and
+  its pre-record check. Family dBrier +0.657. Later-than-market tally:
+  **20/21 rows against, 5 launch events.** The 4 OVV and 1 WSV No-side
+  counterfactual trades would all have lost (-$25), so the vetoes worked.
+- **Hard recording rule (supersedes the "within .05 of book" AI-release
+  leeway):** for an AI or product release-date rung (by-date, exact-date or
+  window), if the note has no primary-source URL (an official post, docs or
+  changelog entry, or a named-exec statement) giving a date or showing the
+  launch live, then est_prob = the ladder mid, rounded to 0.01. Precedent
+  gaps ("Argon 13d"), "no date found", pricing leaks and "informed flow I
+  can't see" are shade views. They go in the note as `shade: X` and never
+  into est_prob. Before running forecast.py on such a rung, check: mid?
+  If not, URL in the note? If neither, change est_prob to the mid. Re-grade
+  shade views at the next launch event.
