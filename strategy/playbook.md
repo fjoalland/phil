@@ -11497,3 +11497,26 @@ adjacent legs as a near coin flip, and never as a book-beating centre.
   `w*raw + (1-w)*mid`. If the note lacks `raw=`, compute the shrink
   before recording. "Slot max was 3" is not evidence against a burst for
   an account with burst days (Trump: 25 posts on Nov 7).
+
+## 2026-11-10 22:15Z: absence-of-report rule at n=2; Lebanon WSV CF row (LIGHT, cloud, RETRO-20261110-2215)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Israel vs Lebanon Oct 6 (`65d6a209ffb9`, WSV) | 0.35/0.50 | No | -0.17 (No @0.82) | Yes | **-5.00** |
+
+  WSV mechanical (`core/counterfactual.py ledger --skip-reason
+  wide-spread-veto`): 155 rows, 130 trd, 68W/62L, -$88.82 (No -98.29;
+  Yes +9.48; sum -88.81, rounding OK).
+
+- **Absence-of-report rule (promotes the 2026-11-04 note, n=2 after
+  96353157f015 and 65d6a209ffb9; Kyiv rule 2026-10-19 is the same shape).**
+  For "will X happen on/by <date>" incident markets, including daily
+  "military action on <date>" legs: "my search found no report" and a
+  collapsed post-window bid on a thin book (liq < $500) are NOT evidence.
+  They never take own below max(series base rate, book mid). The only
+  exception is a named primary-source check in the note (official
+  statement, UKMTO/MSCHOA notice, IDF/army daily summary, alert map) that
+  shows no event. With one, the gap to the mid is capped at 0.10. Before
+  running forecast.py on such a row, ask: is own below the mid? If so, is
+  there a named primary source? If not, record at the mid. Re-grade at
+  n=3 more rows.
