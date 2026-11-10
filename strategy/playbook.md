@@ -11452,3 +11452,15 @@ can be named in the note as context. No gate change.
 - `c28b43f14276` (BTC dip $74k Nov 10, own .80 vs mid .785, gap 0.42%,
   Coinbase proxy) WON, dBrier -.006. Barrier within 0.5% of spot: listed,
   carries no weight in the touch tally (rule above). Ruling unchanged.
+
+## 2026-11-10 16:15Z: Oct CPI MoM + eggs forecasts settled (FULL, cloud, RETRO-20261110-1615)
+
+Two no-edge forecast rows lost to the actual, both ahead of the mid
+(net dBrier -0.099). **Eggs rule (n=1, a narrowing only):** for the BLS
+average egg price (APU0000708111), do not shift the retail mean by the
+same-month USDA wholesale move. Oct wholesale fell about 8c, yet retail
+rose +.048. Use wholesale at most at half-weight, and only with a lag of
+one month or more, until two more validation points exist. **CPI MoM
+bracket note:** the Oct print was 0.350% unrounded, right on the 0.3/0.4
+edge. When the nowcast sits within 0.05pp of an edge, treat the two
+adjacent legs as a near coin flip, and never as a book-beating centre.
