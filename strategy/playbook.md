@@ -11438,3 +11438,11 @@ can be named in the note as context. No gate change.
   Sacnilk day-sum ladder was too wide (`eab464dae00f` .45 vs .62, +.158).
 - GAAP-EPS builds from the 8-K guide held again (RKLB -.059, HIMS -.009).
   earnings-beat forecasts n=22, +0.0370. No change.
+
+## 2026-11-10 08:10Z: MW13 late rows add no count (FULL, cloud, RETRO-20261110-0810)
+
+- Two more SPL Matchweek 13 postponed-draw forecasts settled Yes
+  (b7b69b8bee53, ecc0f895da9a; .965 vs mid .935/.945, -.003/-.002). Same
+  event as the 2026-11-09 note, so the cancel-clause note stays at **n=2
+  independent events**. Count events, not rows, when revisiting at n>=3.
+  Clause-read rows stay out of soccer match-outcome edge verdicts.
