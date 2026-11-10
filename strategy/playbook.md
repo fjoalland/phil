@@ -11412,3 +11412,29 @@ can be named in the note as context. No gate change.
   rows in this shape.
 - Quake `f1889c5814e9`/`525695a02432` (won, -.23/-.21) sat on placeholder
   spreads (> .80 wide): not evidence of edge, excluded from verdicts.
+
+## 2026-11-10 00:10Z: Cat in the Hat beat the press; Ramayana 3-day excludes previews; 2 WSV CF rows (LIGHT, cloud, RETRO-20261110-0010)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Ramayana OW 8-9M (`eab464dae00f`, WSV) | 0.45/0.62 | No | +0.11 (No @0.44) | Yes | **-5.00** |
+| RKLB beat (`ee6be6cdd090`, WSV) | 0.15/0.285 | No | +0.10 (No @0.75) | No | **+1.67** |
+
+  WSV mechanical (`core/counterfactual.py ledger --skip-reason
+  wide-spread-veto`): 151 rows, 126 trd, 67W/59L, -$74.84 (No -83.29;
+  Yes +8.45; sum -74.84, check OK).
+
+- **Family/A-CinemaScore watch -> recording rule (n=2, 2/2).** Wildwood
+  (`5a2554fd20f6`) and Cat in the Hat (`7ede71d7bc14`, .62 vs .724, Yes,
+  +.068) both landed above every press midpoint. **Rule: on family or
+  animated openings with an A-range CinemaScore, after Saturday press, an
+  upside threshold/bracket row's est may sit at most 0.05 below the book
+  mid.** Does not touch the preview-dominance exception (family previews
+  are small). Box-office forecasts n=65, brier_delta +0.0154. Still no-bet.
+  Review after 2 more such openings.
+- **Wed-premiere Indian releases (Ramayana, n=1):** The Numbers 3-day was
+  the Fri-Sun industry figure (~8M), previews NOT folded in (>=9M lost,
+  8-9M won). Record diaspora-release brackets at the mid until n=3; my
+  Sacnilk day-sum ladder was too wide (`eab464dae00f` .45 vs .62, +.158).
+- GAAP-EPS builds from the 8-K guide held again (RKLB -.059, HIMS -.009).
+  earnings-beat forecasts n=22, +0.0370. No change.
