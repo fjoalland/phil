@@ -11542,3 +11542,12 @@ come from `core/counterfactual.py ledger --rows`:
   was not one of the five losing legs. WSV mechanical total after these
   rows: 155 rows, 130 trd, 68W/62L, -$88.82 (unchanged; these rows were
   already inside the mechanical ledger). No rule change.
+
+## 2026-11-11 14:10Z: quake weekly count, aftershock tail (RETRO-20261111-1410)
+
+- USGS M5.5+ Nov 2-8 "<=6" (6581737) lost at 7: two events in the last
+  1.5h (Solomon 6.4, Hasaki aftershock 5.7). My .98 row at 2.8h left
+  matched the mid. Rule for forecasts: while an M6+ sequence inside the
+  window is still producing M5.5+ events, cap "<=1 more" at ~.95 in the
+  final hours; clustering fattens the 2+ tail beyond Poisson. n=1,
+  forecast shading only, no betting change.
