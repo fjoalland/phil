@@ -1312,6 +1312,13 @@ quoted book and give the row zero skill weight. Six-event tally: book 3
 (small-set stall phases), counter 2 (full-set reads), neutral 1. The
 existing rules already encode that split, so nothing else changes and
 postcount stays barred. Re-grade at 10 events.
+**Graded (RETRO-20261111-2010, Musk Nov9-11 2-day, 4 rows): sum +0.021,
+neutral.** The ~23h-out full-set read put <40 at .10 vs .174 and lost
+(+.128) while its 40-64 sibling won (-.092); the rate had dropped to
+~0.3/h and stayed there. Final-12h reads sat within .03 of the mid.
+Tally: book 3, counter 2, neutral 2. No rule change. Label Musk/xtracker
+rows `social-media-postcount` (the Nov10 rows drifted to
+`countable-metric`). Re-grade at 10 events.
 
 **Graded (DEEP-2026-08-14): the prediction above settled correct within
 12 hours.** Both of the model's center-mass brackets resolved No — 120-139
