@@ -11520,3 +11520,25 @@ adjacent legs as a near coin flip, and never as a book-beating centre.
   running forecast.py on such a row, ask: is own below the mid? If so, is
   there a named primary source? If not, record at the mid. Re-grade at
   n=3 more rows.
+
+## 2026-11-11 00:2xZ: veto CF rows backfilled for the Nov 10 settlements (FULL, cloud)
+
+reconcile.py flagged 7 settled veto rows missing from the hand table. The
+18:15Z retro described them in prose but listed no ids. Mechanical values
+come from `core/counterfactual.py ledger --rows`:
+
+| Row | Gate | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Gemini Carbon Nov 9-? window (`7b457c5c73bd`) | OVV | No | +0.190 | Yes | **-5.00** |
+| Gemini Carbon window (`cd0be49c124d`) | OVV | No | +0.230 | Yes | **-5.00** |
+| Gemini Carbon by Nov 15 (`6224b9b618ab`) | OVV | No | +0.200 | Yes | **-5.00** |
+| Gemini Carbon on Nov 10 (`766223255437`) | OVV | No | +0.054 | Yes | **-5.00** |
+| Gemini Carbon on Nov 10 (`8fa50fdf2135`) | WSV | No | +0.065 | Yes | **-5.00** |
+| Gemini Carbon by Nov 10 (`ddb79ad8fed4`) | WSV | Yes | -0.130 | Yes | **+1.02** |
+| Hormuz 25-29 transits (`44c83b32af69`) | WSV | No | -0.230 | Yes | **-5.00** |
+
+  The vetoes saved $28.98 on these rows. One correction to the 18:15Z prose:
+  the WSV `ddb79ad8fed4` leg is a Yes-side CF and would have won +1.02. It
+  was not one of the five losing legs. WSV mechanical total after these
+  rows: 155 rows, 130 trd, 68W/62L, -$88.82 (unchanged; these rows were
+  already inside the mechanical ledger). No rule change.
