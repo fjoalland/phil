@@ -11558,3 +11558,16 @@ come from `core/counterfactual.py ledger --rows`:
   window is still producing M5.5+ events, cap "<=1 more" at ~.95 in the
   final hours; clustering fattens the 2+ tail beyond Poisson. n=1,
   forecast shading only, no betting change.
+
+## 2026-11-12 10:10Z: UK Q3 GDP first estimate, 3 forecasts (LIGHT, cloud, RETRO-20261112-1010)
+
+- Print +0.7% q/q (consensus 0.7, my level reconstruction ~0.73). 0.6-0.7
+  Yes (41c85d2b8aea .60 vs .626, +0.021), 0.8-0.9 No (27670b4aeaff .24 vs
+  .31, -0.040). Net about -0.018.
+- **UK GDP brackets resolve on the printed one-decimal value, inclusive at
+  both ends** (0.7 -> the 0.6-0.7 leg). This settles the Aug-11 "gaps"
+  worry above for UK legs: the listed brackets partition the one-decimal
+  prints, so the sibling sum-check is informative. n=2 (Q2, Q3).
+- When the sourced consensus and my reconstruction both sit inside a
+  bucket, a shade below the mid needs a stated reason (edge-of-bucket
+  distance in sd terms), not reflex caution. n=1, note only.
