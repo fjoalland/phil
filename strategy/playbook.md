@@ -7738,6 +7738,15 @@ Update RETRO-20261006-1230: +1, Saudi pipeline by Oct15 `3d73de289a35`
 0.22 vs 0.335, resolved Yes (flows back to normal per Bloomberg Oct 5),
 book closer (dBrier +0.173), CF -$5.00. Now 5 settled, CF 3W/2L, -$5.55,
 dBrier +0.045. The bar kept a losing No off the ledger. No change.
+Update RETRO-20261112-1610 (market-agrees rows, same shape, not bar-tagged):
+Huang resignation-by-date family, 5 forecasts. Nov11 `0119738a55a4` .33 vs
+.48 resolved No (own closer, dBrier -.122); Nov12/Nov13 `9ae633bc272a`
+.60/.765, `adf816d07b8c` .66/.825 (02:12Z, +.105/+.085) and supersedes
+`c99746451eb4` .42/.435, `515491b82586` .53/.535 (12:15Z, +.017/+.005)
+resolved Yes (8-K filed Nov12, announced ~12-14Z). Net +.090 on 5 rows,
+one event: once again the board-prepping-a-decision reports were priced
+right and my "not decided overnight" discount was not. No bets were at
+risk (all below mid -> bar would have applied). Supports keeping the bar.
 
 **Re-open condition.** Rows skipped under this bar are graded as their own
 slice at each deep retro. When 10 have settled, lift the bar if their
