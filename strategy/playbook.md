@@ -11580,3 +11580,18 @@ come from `core/counterfactual.py ledger --rows`:
 - When the sourced consensus and my reconstruction both sit inside a
   bucket, a shade below the mid needs a stated reason (edge-of-bucket
   distance in sd terms), not reflex caution. n=1, note only.
+
+## 2026-11-13 16:10Z: Oct PPI ladder, sd-only tail edge (RETRO-20261113-1610)
+
+- Oct PPI YoY printed 6.5 (consensus DJ 6.6). Bet >=6.8 Yes (6a52898c473d,
+  .39 vs ask .32) lost -$5; ladder net dBrier +0.020 over 10 rows. Centre
+  (6.63 base-effect) was fine; the .07 edge existed only because of the
+  documented 0.45pp sd. The book's tail (.31) implied ~0.28.
+- PPI consensus-miss series (print - consensus): May +0.4, Jun -0.3, Oct
+  -0.1 -> n=3, RMS ~0.29pp. Record Nov's miss when it prints; at n>=5 the
+  series becomes the sourced sd the 2026-10-15 rule asks for.
+- **Betting gate (n=1, provisional):** on a bracket ladder, recompute the
+  bet leg's probability at the miss-series RMS as well as at the documented
+  sd. If the edge clears min_edge only at the wider sd, do not bet: record
+  the forecast at the documented sd with skip-reason `no-edge` and note
+  "sd-only edge". Forecast sd stays 0.45 until the series reaches n>=5.
