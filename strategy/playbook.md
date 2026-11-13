@@ -11595,3 +11595,26 @@ come from `core/counterfactual.py ledger --rows`:
   sd. If the edge clears min_edge only at the wider sd, do not bet: record
   the forecast at the documented sd with skip-reason `no-edge` and note
   "sd-only edge". Forecast sd stays 0.45 until the series reaches n>=5.
+
+## 2026-11-13 20:1xZ: WSV CF rows backfilled for the Nov 13 settlements (FULL, cloud)
+
+reconcile.py flagged 9 settled `wide-spread-veto` rows from the 15:31Z,
+17:01Z and 19:01Z resolves missing from the hand table. Mechanical values
+from `core/counterfactual.py ledger --rows`:
+
+| Row | Side | Edge | CF result | CF pnl |
+|---|---|---|---|---|
+| AAA gas Nov 12 leg "less than" (`8cd249f88fc4`) | No | +0.050 | L | **-5.00** |
+| AAA gas Nov 12 leg "between" (`daaf6aa5a45d`) | Yes | +0.040 | L | **-5.00** |
+| Trump Truth 60-79 Nov 6-13 (`5c14936f3195`) | Yes | +0.040 | W | **+2.28** |
+| Trump Truth 80-99 Nov 6-13 (`af9eb1c80610`) | No | -0.013 | W | **+2.18** |
+| Oct PPI YoY 6.4 (`68f7aab7da0a`) | No | -0.004 | W | **+0.40** |
+| Oct PPI YoY 6.3 (`f7eee7c2d90a`) | Yes | -0.032 | L | **-5.00** |
+| Oct PPI YoY 6.6 (`006b833238e7`) | No | +0.022 | W | **+0.62** |
+| Oct PPI YoY 6.5 (`aeb20560138e`) | No | -0.055 | refused (entry .97 outside band) | - |
+| Oct PPI YoY 6.7 (`27a1b6d7d975`) | Yes | -0.057 | L | **-5.00** |
+
+  Net CF -$14.52 over 8 fillable rows: the veto saved money again. WSV
+  mechanical total now 164 rows, 149 trd, 72W/66L, -$103.34. No rule change.
+  The 16:10Z FULL left no funnel line; not backfilled (the row's
+  disposition data lives in that cycle's cycles.log line).
