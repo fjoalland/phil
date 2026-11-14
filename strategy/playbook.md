@@ -11618,3 +11618,20 @@ from `core/counterfactual.py ledger --rows`:
   mechanical total now 164 rows, 149 trd, 72W/66L, -$103.34. No rule change.
   The 16:10Z FULL left no funnel line; not backfilled (the row's
   disposition data lives in that cycle's cycles.log line).
+
+## 2026-11-14 18:10Z: AAA Nov14 ladder WSV rows settled (FULL, cloud)
+
+AAA printed 3.8406 on Nov 14 (-3.18c, Saturday); the Nov14 sd-model
+(centre -2.9c, sd 1.0c) put .75 on "<3.85" and it won. reconcile.py flagged
+the four WSV rows; mechanical values from `core/counterfactual.py ledger --rows`:
+
+| Row | own/book | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| AAA Nov14 "<3.85" (`5931ad6740b8`) | 0.75 / .15-.98 | Yes | -0.230 | Yes | refused (entry .98 outside band) |
+| AAA Nov14 3.85-3.8599 (`c8e0e7228c8d`) | 0.20 / .01-.90 | No | -0.190 | No | refused (entry .99 outside band) |
+| AAA Nov14 3.86-3.8699 (`6d4f3408f76d`) | 0.045 / .01-.60 | No | -0.035 | No | refused (entry .99 outside band) |
+| AAA Nov14 3.87-3.8799 (`20233faeb28d`) | 0.01 / .01-.90 | No | +0.000 | No | refused (entry .99 outside band) |
+
+  No fillable rows, CF $0. No rule change. Nov15 (Sunday) ladder recorded
+  this cycle with a Sunday half-trend centre (-1.9c); n=3 Sundays, so the
+  Nov15 print is the first test of that shading - grade it next retro.
