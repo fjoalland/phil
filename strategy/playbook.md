@@ -11635,3 +11635,33 @@ the four WSV rows; mechanical values from `core/counterfactual.py ledger --rows`
   No fillable rows, CF $0. No rule change. Nov15 (Sunday) ladder recorded
   this cycle with a Sunday half-trend centre (-1.9c); n=3 Sundays, so the
   Nov15 print is the first test of that shading - grade it next retro.
+
+## 2026-11-15 18:10Z: AAA Nov15 Sunday ladder + wk-Nov9 touch strikes settled (FULL, cloud, RETRO-20261115-1810)
+
+AAA printed 3.8242 on Sun Nov 15 (-1.64c). Sunday half-trend centre
+(-1.9c) was 0.26c off; Sundays now -0.65/-1.05/-1.68/-1.64 (n=4), last two
+at ~0.50x the weekday trend. **Keep the Sunday half-trend shading.**
+The only real book (3.82-3.8299, .82/.94) beat my .40 bucket (+0.346 dBrier).
+Rule (evidence: 9e84db013730): when a 1c bucket has a two-sided book with
+spread <= .12 and the bucket is within 0.5c of my centre, my sd >= 0.9c
+cannot support a "No" edge against it - record market-agrees, never claim
+edge. Narrowing the Sunday sd waits for n >= 6 Sundays.
+
+reconcile.py flagged the WSV rows; mechanical values from
+`core/counterfactual.py ledger --rows`:
+
+| Row | own/book | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| AAA wk-Nov9 Low 3.84 (`b2773df1350e`) | 0.75 / .11-.98 | Yes | -0.230 | Yes | refused (entry .98 outside band) |
+| AAA wk-Nov9 High 4.04 (`430f4d023464`) | 0.01 / .02-.58 | No | +0.010 | No | refused (entry .98 outside band) |
+| AAA Nov15 "<3.82" (`b849655879f2`) | 0.42 / .02-.90 | No | -0.398 | No | refused (entry .978 outside band) |
+| AAA Nov15 3.82-3.8299 (`9e84db013730`) | 0.40 / .82-.94 | No | +0.420 | Yes | **-5.00** |
+| AAA Nov15 3.83-3.8399 (`a5089f45d55c`) | 0.15 / .01-.94 | No | -0.139 | No | refused (entry .989 outside band) |
+| AAA Nov15 3.84-3.8499 (`c52f6e77378a`) | 0.02 / .01-.93 | No | -0.009 | No | refused (entry .989 outside band) |
+| AAA Nov15 3.85-3.8599 (`d04bd8a6dd8a`) | 0.005 / .02-.90 | No | +0.015 | No | refused (entry .98 outside band) |
+| AAA Nov15 3.86+ (`15df2643f4e1`) | 0.005 / .01-.92 | No | +0.006 | No | refused (entry .989 outside band) |
+| AAA wk-Nov9 High 3.94 (`64960f1b8279`) | 0.02 / .01-.85 | No | -0.010 | No | refused (entry .99 outside band) |
+| AAA wk-Nov9 High 3.96 (`98028832d95b`) | 0.02 / -.87 | - | - | No | no bid at record time |
+| AAA wk-Nov9 High 3.98 (`52a07c5e3b1c`) | 0.02 / -.89 | - | - | No | no bid at record time |
+
+  One fillable row, CF -$5.00: the veto saved money again.
