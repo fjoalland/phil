@@ -11665,3 +11665,12 @@ reconcile.py flagged the WSV rows; mechanical values from
 | AAA wk-Nov9 High 3.98 (`52a07c5e3b1c`) | 0.02 / -.89 | - | - | No | no bid at record time |
 
   One fillable row, CF -$5.00: the veto saved money again.
+
+## 2026-11-15 22:10Z: Dallas Nov14 trace-rain nowcast settled Yes (FULL, cloud, RETRO-20261115-2210)
+
+Forecast `875648a3f8fc` (est .45 vs stale .15 bid, no ask) settled Yes:
+light rain ongoing with only trace hourly METARs and ~2h left in the KDFW
+climate day did reach 0.01". Provisional prior (n=1, revisit at n>=5): when
+-RA is ongoing with trace hourly obs and >=2h remain in the climate day, start
+near 0.50 for measurable rather than below it. Empty/one-sided weather books
+stay unfillable - record the forecast, never chase the ask.
