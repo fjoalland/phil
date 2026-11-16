@@ -11703,3 +11703,24 @@ value from `core/counterfactual.py ledger --rows`:
 
   One fillable row, CF +$14.69: the veto cost money this time (fact-finality
   class). Review at n=3 halted-listing TGEs, as RETRO-20261116-0810 set.
+
+## 2026-11-16 18:20Z: AAA Nov16 Monday ladder, gas touch, Grammy AOTY OVV settled (LIGHT, cloud, RETRO-20261116-1820)
+
+Mechanical values from `core/counterfactual.py ledger --rows`:
+
+| Row | own/book | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| AAA Nov16 3.80-3.8099 (`f74143a4f400`) | 0.23 / .01-.22 | Yes | +0.010 | No | -5.00 |
+| AAA Nov16 3.82-3.8299 (`f8918a4fc594`) | 0.24 / .01-.26 | Yes | -0.020 | No | -5.00 |
+| AAA Nov16 3.81-3.8199 (`f616dc4c0acf`) | 0.47 / .82-.96 | No | +0.350 | Yes | -5.00 |
+| AAA $3.82 Low wk Nov16 (`12757defe063`) | 0.96 / .50-.96 | Yes | +0.000 | Yes | refused (entry .96 outside band) |
+| Grammy AOTY Lost Weekend (`34f2d82c2fec`, OVV) | 0.45 / .59-.61 | No | +0.140 | Yes | -5.00 |
+
+- **AAA Monday.** The centre -0.9c (3.8152) was right; the print was in
+  3.81-3.8199. The tight 3.81 book (.82/.96) beat my sd-0.8c split again.
+  That is n=2 for the 2026-11-15 rule (a tight 1c book within 0.5c of my
+  centre gets market-agrees). The rule stands. The vetoes avoided -15.00.
+  Monday sd stays 0.8c until n>=6 Mondays.
+- **Grammy AOTY OVV.** The veto was right and the estimate was wrong
+  (+0.143 dBrier). A single predictor list omitting a strong-prior act
+  is weak evidence against a liquid awards-nom book. n=1; no rule yet.
