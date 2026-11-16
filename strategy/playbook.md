@@ -11724,3 +11724,11 @@ Mechanical values from `core/counterfactual.py ledger --rows`:
 - **Grammy AOTY OVV.** The veto was right and the estimate was wrong
   (+0.143 dBrier). A single predictor list omitting a strong-prior act
   is weak evidence against a liquid awards-nom book. n=1; no rule yet.
+
+## 2026-11-16 20:10Z: Musk Nov14-16 late-window pair settled (FULL, cloud, RETRO-20261116-2010)
+
+90-114 (.82 vs .855, Yes) and 115-139 (.17 vs .1355, No): book beat me by
+~.01 Brier on each. Late-window postcount reads track the mid; the
+unconditional 15-day top tail overstated 115+ after a flat 09-12Z stretch.
+Note (n=1): after >=3 flat hours, condition the top-tail sample on
+quiet-regime windows. Category bar unchanged.
