@@ -11674,3 +11674,19 @@ climate day did reach 0.01". Provisional prior (n=1, revisit at n>=5): when
 -RA is ongoing with trace hourly obs and >=2h remain in the climate day, start
 near 0.50 for measurable rather than below it. Empty/one-sided weather books
 stay unfillable - record the forecast, never chase the ask.
+
+## 2026-11-16 08:10Z: Astra missed Nov 15; Predict.fun TGE stayed postponed (FULL, cloud, RETRO-20261116-0810)
+
+- **AI-release shade re-grade (Astra 6.1+, launch event #6).** No release
+  by Nov 15. The hard-rule row recorded the mid (.58, dBrier 0). Its
+  `shade: +.10` toward Yes (gateway Codex rc-* sightings) was wrong. The
+  superseded pre-rule .70 beat the mid by .088. Event tally for
+  "book earlier than me": **5 events against me, 1 for me (Astra)**. The
+  hard rule stays. Gateway/analytics sightings (CometAPI, TLDR, 36Kr) are
+  not shade evidence toward Yes. Record them as neutral until a primary
+  source exists.
+- **Venue-halted TGE (Predict.fun, n=1).** The Binance Alpha suspension
+  after the hack plus "postponed until further notice" was right against a
+  .76 book (own .55, dBrier -.275). OVV kept the No bet off, a missed
+  counterfactual of about +$15. Do not loosen the OVV at n=1. Review at
+  n=3 for halted-listing TGEs with no new date.
