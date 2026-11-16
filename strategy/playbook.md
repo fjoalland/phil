@@ -4753,6 +4753,13 @@ Wildwood wk2 7-9M Yes at .82 vs .865 (+0.014; no Fri print, floor applied).
 Event net +0.045. Watch (n=1): late-run cumulative-total brackets (decay
 measured >=2 weeks) take sd <=~1.5M over ~2 weeks, not 2.5M. Box-office
 forecasts (raw) n=74, sum dBrier ~+0.603. Still no-bet.
+Tally (RETRO-20261116-2210, evidence `720465284ac8`, `ddc1dca9ae03`,
+`dab9fdc44830`): Ebenezer OW landed 19-22M, the press-centre bracket
+(centre 20.3M, preview-share ~21%, floor n/a). The book leaned 16-19M.
+Event net dBrier -0.201 in my favour. The thin-upside leg (22-25M .15 vs
+.05) still cost +0.02: when the book prices the far upside bracket below
+.06, do not hold more than ~.10 there without a source above the range.
+Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
