@@ -11690,3 +11690,16 @@ stay unfillable - record the forecast, never chase the ask.
   .76 book (own .55, dBrier -.275). OVV kept the No bet off, a missed
   counterfactual of about +$15. Do not loosen the OVV at n=1. Review at
   n=3 for halted-listing TGEs with no new date.
+
+## 2026-11-16 12:2xZ: OVV CF row backfilled for the Predict.fun settlement (FULL, cloud)
+
+reconcile.py flagged the 07:01Z settlement; graded narratively in
+RETRO-20261116-0810 (venue-halted TGE, n=1, no rule change). Mechanical
+value from `core/counterfactual.py ledger --rows`:
+
+| Row | own/book | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Predict.fun token by Nov 15 (`298bbf5a4035`, OVV) | 0.55 / .746-.775 | No | +0.196 | No | **+14.69** |
+
+  One fillable row, CF +$14.69: the veto cost money this time (fact-finality
+  class). Review at n=3 halted-listing TGEs, as RETRO-20261116-0810 set.
