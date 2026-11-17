@@ -11754,3 +11754,11 @@ one late row on a .48/.88 book (mid .68, ask = my .87). Rule (n=1, grading
 only): late-window count rows on a book wider than 20c are graded against
 the ask, not the mid, before they count as evidence for a quake bet case.
 Aftershock-tail cap did not bind. No betting change.
+
+## 2026-11-17 12:10Z: quake M6.5+ zero-event Nov 9-15 settled (FULL, cloud, RETRO-20261117-1210)
+
+2 rows (.85 on .67/.81, .99 on .91/.98), outcome Yes, -0.048 vs mid. Against
+the ask, the edge was +.04 and +.01, both below min_edge, so the skips were
+correct. This is the ask-grading tally from RETRO-20261117-0810, now n=2.
+Both rows beat the mid but neither beat the ask by min_edge. There is still
+no quake bet case. No betting change.
