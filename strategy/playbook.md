@@ -11827,3 +11827,13 @@ House) net -0.007, Musk 280-299 net +0.075 (settled 300+ after 0 posts
 flat hours, condition the top tail on quiet-regime windows" is retracted —
 it now has n=1 each way. Late-window Musk reads use the unconditional
 same-clock sample with no quiet-morning shade. Category bar unchanged.
+
+## 2026-11-17 22:10Z: Iran ceasefire Nov15 (No) and KMSY Nov16 rain (Yes) forecasts settled (FULL, cloud, RETRO-20261117-2210)
+
+- **METAR nowcast tally: 3/3** (KDFW Nov14, KMSY Nov15, KMSY Nov16; KMSY Nov16 rows
+  .76/.85 vs .56 mid, dBrier -0.307). Keep the 2026-11-15 prior; revisit at n>=5.
+  Books stayed wide/one-sided -> still record, never chase.
+- **Dated ceasefire ladders (n=1 family, 3 rows, dBrier -0.149):** "effective ceasefire
+  by D" needs a clean-days streak; weight the observed incident cadence (strikes every
+  3-4d, proxy drone incidents) over leader statements. My one row that moved toward the
+  mid on a "war effectively over" quote was the weakest of three. Note only; no rule change.
