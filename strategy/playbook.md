@@ -11762,3 +11762,22 @@ the ask, the edge was +.04 and +.01, both below min_edge, so the skips were
 correct. This is the ask-grading tally from RETRO-20261117-0810, now n=2.
 Both rows beat the mid but neither beat the ask by min_edge. There is still
 no quake bet case. No betting change.
+
+## 2026-11-17 14:20Z: HD Q3 comp ladder + EPS beat OVV rows settled No (FULL, cloud, RETRO-20261117-1420)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| HD comp >= 2.5% (`c625e134baea`, OVV) | 0.20/0.735 | No | +0.45 (No @0.35, $160 liq) | No | +9.29 |
+| HD EPS > $3.95 (`0c42abef1a0b`, OVV) | 0.28/0.433 | No | +0.14 (No @0.577) | No | +3.67 |
+
+  OVV mechanical: 313 rows, 304 trd, 127W/177L, +$192.64, dBrier +0.0300.
+  Veto cost $12.96 here (one event, three correlated rows). Earnings +
+  earnings-beat OVV CF subset now 7W/8L, -$4.95 (was 4W/8L, -$18.29 on
+  11-06); forecast brier own .181 vs mkt .186 (n=16) — parity. No gate
+  change. **Pre-registered:** review the earnings-family OVV gate when that
+  CF subset is positive across >= 10 independent events.
+- Top-of-consensus-range tally: TRIP No, BGC No, ABNB Yes, MNST No, HD No
+  (4/5 No). The .35 cap rule holds; re-review at n>=8 as set.
+- Guide-relative KPI ladder (comp = consensus transactions x ticket, card
+  data, guide) put 2.5% ~1.1pp above centre; settled No. n=1 for this
+  build, consistent with the existing ladder rule.
