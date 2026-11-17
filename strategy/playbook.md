@@ -11797,3 +11797,24 @@ no quake bet case. No betting change.
   the mid, and keep the raw model in the note. The Nov 9 row also broke the
   old half-gap floor: it recorded .50 when the floor was .53. So check the
   arithmetic in the note: `raw X, mid M, floor M - (M-X)/3`.
+
+## 2026-11-17 18:15Z: AAA $3.80 Low wk-Nov16 settled Yes; HD 2.25-2.5 OVV backfill (FULL, cloud, RETRO-20261117-1815)
+
+AAA 3.8242 -> 3.8118 (Mon) -> 3.7818 (Tue Nov 17). The .90 drift-model row
+won on the exact Mon/Tue path its note named. reconcile.py flagged both rows;
+mechanical values from `core/counterfactual.py ledger --rows`:
+
+| Row | own/book | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| AAA wk-Nov16 Low 3.80 (`41581a56aa21`, WSV) | 0.90 / .01-.98 | Yes | -0.080 | Yes | refused (entry .98 outside band) |
+| HD Q3 comp 2.25-2.5% (`3f0e49681052`, OVV) | 0.10 / .07-.29 | No | -0.030 | No | +0.38 |
+
+  WSV: no fillable row, CF $0. OVV mechanical: 313 rows, 127W/177L, +$192.64
+  (this row was already in that total; the table row is the missing backfill
+  from RETRO-20261117-1420).
+- **AAA weekly touch strikes: the drift model is the default** once
+  `aaa_log.py sd` has n>=15 changes (now n=20, mean -2.33c, sd .94c). The
+  driftless-touch number (.33 here) goes in the note as a check, not as the
+  estimate. Evidence: wk-Nov9 Low 3.84 (.75, Yes) and this row (.90, Yes).
+  Keep a plateau/reversal haircut (~.05-.10) below the raw drift probability.
+  Still unfillable on placeholder books; no betting change.
