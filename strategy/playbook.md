@@ -11746,3 +11746,11 @@ Mechanical values from `core/counterfactual.py ledger --rows`:
 unconditional 15-day top tail overstated 115+ after a flat 09-12Z stretch.
 Note (n=1): after >=3 flat hours, condition the top-tail sample on
 quiet-regime windows. Category bar unchanged.
+
+## 2026-11-17 08:10Z: quake weekly Nov 9-15 ladder settled (FULL, cloud, RETRO-20261117-0810)
+
+11 rows, final count 6 ("<=6" Yes). Sum -0.084 vs mid, but -0.086 of it is
+one late row on a .48/.88 book (mid .68, ask = my .87). Rule (n=1, grading
+only): late-window count rows on a book wider than 20c are graded against
+the ask, not the mid, before they count as evidence for a quake bet case.
+Aftershock-tail cap did not bind. No betting change.
