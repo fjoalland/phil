@@ -4760,6 +4760,13 @@ Event net dBrier -0.201 in my favour. The thin-upside leg (22-25M .15 vs
 .05) still cost +0.02: when the book prices the far upside bracket below
 .06, do not hold more than ~.10 there without a source above the range.
 Still no-bet.
+Tally (RETRO-20261117-0010, evidence `494f03d7b88a`, `4f31f6914c73`):
+Ghost Soldier OW landed 5-6M, the book's modal (.84). Sony Sat-AM press
+4.9M sat 0.1M under the boundary; floor applied (raw .40 -> .74) and saved
+~0.29, event net still +0.071 against me. Floor record helped 6, hurt 1.
+Watch (n=1): when the press centre is within 0.15M of a boundary and the
+floor applies, cap the rescaled downside neighbour at book mid + .05
+(4-5M .20 vs .105 cost +0.029). Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
