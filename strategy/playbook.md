@@ -11781,3 +11781,19 @@ no quake bet case. No betting change.
 - Guide-relative KPI ladder (comp = consensus transactions x ticket, card
   data, guide) put 2.5% ~1.1pp above centre; settled No. n=1 for this
   build, consistent with the existing ladder rule.
+
+## 2026-11-17 16:10Z: Mandeb Nov 9-15 170-189 settled Yes (FULL, cloud, RETRO-20261117-1610)
+
+| Row | own/mkt | Side | Edge | Result | CF pnl |
+|---|---|---|---|---|---|
+| Mandeb Nov9-15 170-189 (`30a5808b1c7b`, feed-days-gate) | 0.50/0.635 | No | +0.13 (No @0.37) | Yes | -5.00 |
+
+- **feed-days-gate CF slice is now n=4, -$1.69 net** (+6.90, +1.41, -5.00,
+  -5.00). The gate stays. The re-grade at n=5 stands.
+- **0-published-days PortWatch weeks: the shrink is tightened to one-third of
+  the raw gap** (it was one-half; 2026-10-14). The book has now been right
+  4 out of 4 times: Mandeb Sep 28, Mandeb Oct 5, Hormuz Oct 5 and Mandeb Nov 9.
+  Record est_prob at most one-third of the raw model-to-mid gap away from
+  the mid, and keep the raw model in the note. The Nov 9 row also broke the
+  old half-gap floor: it recorded .50 when the floor was .53. So check the
+  arithmetic in the note: `raw X, mid M, floor M - (M-X)/3`.
