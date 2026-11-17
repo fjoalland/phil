@@ -11818,3 +11818,12 @@ mechanical values from `core/counterfactual.py ledger --rows`:
   estimate. Evidence: wk-Nov9 Low 3.84 (.75, Yes) and this row (.90, Yes).
   Keep a plateau/reversal haircut (~.05-.10) below the raw drift probability.
   Still unfillable on placeholder books; no betting change.
+
+## 2026-11-17 20:10Z: Nov 10-17 weekly post-count family, 11 rows (FULL, cloud, RETRO-20261117-2010)
+
+Net +0.067 vs mid; the 7 low-variance rows (Zelenskyy, CZ, Trump TS, White
+House) net -0.007, Musk 280-299 net +0.075 (settled 300+ after 0 posts
+09-12Z then 7 in 12-13Z). **Rule change:** the 2026-11-16 note "after >=3
+flat hours, condition the top tail on quiet-regime windows" is retracted —
+it now has n=1 each way. Late-window Musk reads use the unconditional
+same-clock sample with no quiet-morning shade. Category bar unchanged.
