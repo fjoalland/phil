@@ -11837,3 +11837,13 @@ same-clock sample with no quiet-morning shade. Category bar unchanged.
   by D" needs a clean-days streak; weight the observed incident cadence (strikes every
   3-4d, proxy drone incidents) over leader statements. My one row that moved toward the
   mid on a "war effectively over" quote was the weakest of three. Note only; no rule change.
+
+## 2026-11-17 22:1xZ: KMSY Nov16 WSV row backfilled (FULL, cloud)
+
+reconcile.py flagged settled `wide-spread-veto` row `54f573c0974c` (New Orleans
+rain Nov16, Yes, settled Yes). `core/counterfactual.py ledger --rows`: no ask at
+record time -> unfillable, CF pnl none (documented exclusion, like `47baa9876511`).
+
+| Row | Side | Edge | CF result | CF pnl |
+|---|---|---|---|---|
+| KMSY rain Nov16 (`54f573c0974c`) | Yes | - | unfillable (no ask at record) | - |
