@@ -11862,3 +11862,19 @@ reconcile.py flagged settled `wide-spread-veto` row `77a3ead8bc38`.
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | UK CPI Oct 3.4-3.6 (`77a3ead8bc38`) | Yes | -0.010 | won (would not have qualified: edge < min_edge) | +7.82 |
+
+## 2026-11-18 22:1xZ: KPHX Nov17 WSV row backfilled (FULL, cloud)
+
+reconcile.py flagged settled `wide-spread-veto` row `7e3a597926d8` (Phoenix rain
+Nov17, Yes .85, settled **No**). METARs showed measurable -RA, but the published
+PHX CLI carried no precipitation section ($ maintenance flag) and the market resolved
+No. `core/counterfactual.py ledger --rows`: ask .80, edge +0.050, CF lost -5.00 -> the
+veto (and the .15 CLI-missing discount) saved the stake.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| KPHX rain Nov17 (`7e3a597926d8`) | Yes | +0.050 | lost | -5.00 |
+
+**Weather rain (note only, n=1):** the resolving figure is the CLI, not METARs. When
+the CLI's precipitation line is missing/MM, treat raw METAR precip as non-resolving
+evidence; my .85 was still too high — the CLI-gap discount should be larger than .15.
