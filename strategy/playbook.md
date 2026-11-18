@@ -11847,3 +11847,18 @@ record time -> unfillable, CF pnl none (documented exclusion, like `47baa9876511
 | Row | Side | Edge | CF result | CF pnl |
 |---|---|---|---|---|
 | KMSY rain Nov16 (`54f573c0974c`) | Yes | - | unfillable (no ask at record) | - |
+
+## 2026-11-18 10:1xZ: UK Oct CPI ladder settled, WSV row backfilled (FULL, cloud, RETRO-20261118-1015)
+
+ONS printed 3.6% (consensus 3.6; DB 3.8; Pantheon bottom-up ~3.7). Four forecast rows,
+net dBrier -0.075 vs mid. The Nov17 00:12Z 3.7-3.9 row (.58, DB-anchored, before the
+consensus was found) was the weakest; the post-consensus 3.4-3.6 row (.38 vs mid .34)
+was right. **UK CPI (note only, n small): once a compiled consensus is found, centre on
+it over any single house's forecast or my own component bottom-up.**
+
+reconcile.py flagged settled `wide-spread-veto` row `77a3ead8bc38`.
+`core/counterfactual.py ledger --rows --skip-reason wide-spread-veto`:
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| UK CPI Oct 3.4-3.6 (`77a3ead8bc38`) | Yes | -0.010 | won (would not have qualified: edge < min_edge) | +7.82 |
