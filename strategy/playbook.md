@@ -11928,3 +11928,12 @@ date exist, keep the estimate within .03 of the book unless a sourced delay item
 otherwise (a filing gap past the SEC 15-day clock, an official postponement, a pulled
 roadshow). Doubt pieces and valuation-pushback stories are not delay items. Same shape as the
 2026-11-09 AI-release rule. Review after the next IPO-date family settles.
+
+## 2026-11-19 22:1xZ: Anthropic on-Nov19, WH lid, WMT 21-25, LA rain settled (FULL, cloud, RETRO-20261119-2210)
+
+6 forecast rows, net dBrier -0.003 vs mid. No new rule: the WMT 21-25 miss (.65 vs .87, +.106) is the
+case the 14:1xZ KPI-ladder note covers; the Anthropic exact-day leg is the 20:1xZ IPO event again.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| WMT US eCom 21-25% (`1effceff5c9e`, WSV) | No | +0.109 (No @0.241) | lost | -5.00 |
