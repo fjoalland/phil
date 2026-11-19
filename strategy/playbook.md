@@ -11916,3 +11916,15 @@ quarterly step (28/27/26/24 -> ~23; the actual was 23), not on a 2-year-stack mo
 22 with a fat lower tail). Keep at most ~.10 on a bracket whose top sits more than 2pts below
 the last print, unless a sourced guide or datapoint says otherwise. This extends the
 2026-10-15 "last-4Q KPI step uses the latest" rule. No gate change.
+
+## 2026-11-19 20:1xZ: Anthropic IPO date family settled, first trade Nov 19 (FULL, cloud, RETRO-20261119-2010)
+
+12 forecast rows (by-Nov19, by-Nov20, on-Nov20), net dBrier **+0.161** vs mid; 10 of 12 sat on the
+slip side of the book. Three gated No-side rows (OVV `ea48a44e48b7`, `5dc3a42aee43`;
+category-bar `51901969bd37`) would each have lost $5: the gates saved $15.
+
+**IPO-date markets (note only, n=1 event):** once a public S-1 and a reported price/trade
+date exist, keep the estimate within .03 of the book unless a sourced delay item argues
+otherwise (a filing gap past the SEC 15-day clock, an official postponement, a pulled
+roadshow). Doubt pieces and valuation-pushback stories are not delay items. Same shape as the
+2026-11-09 AI-release rule. Review after the next IPO-date family settles.
