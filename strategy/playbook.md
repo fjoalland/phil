@@ -11892,3 +11892,12 @@ settled No) was `unvalidated-method` (note also cited the OVV gap .13); CF at as
 **Say-the-word (note only, n=1):** when the most recent 1-2 transcripts are unreachable,
 do not fill them at the older hit rate; the recent call summaries' topic mix (here
 AI-only, no quantum) is evidence and should pull the estimate toward it.
+
+## 2026-11-19 12:1xZ: Trump trilateral "Ukraine"/"Iran" forecasts settled (FULL, cloud, RETRO-20261119-1210)
+
+Both settled Yes; "Ukraine" `78b2997f5fed` .40 = mid (dBrier 0), "Iran" `492969a52701` .48 vs
+mid .505 (+.025). Both market-agrees, no CF rows.
+
+**Say-the-word (note only, n=1 event):** words on the same first-of-its-kind event share the
+P(speaks on camera) factor, so their rows are ONE correlated observation: grade them as one
+event, and count them once when judging a structural speaks x word model.
