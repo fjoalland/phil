@@ -11901,3 +11901,18 @@ mid .505 (+.025). Both market-agrees, no CF rows.
 **Say-the-word (note only, n=1 event):** words on the same first-of-its-kind event share the
 P(speaks on camera) factor, so their rows are ONE correlated observation: grade them as one
 event, and count them once when judging a structural speaks x word model.
+
+## 2026-11-19 14:1xZ: Walmart US eCom ladder legs settled (FULL, cloud, RETRO-20261119-1410)
+
+17-21 `9dee71611006` (.22 vs mid .001, No, +.048) and 25-29 `088814bd0191` (.09 vs .131, No,
+-.009); print 23%. The 21-25 leg (.65 vs .87) is still pending and will settle worse than the mid.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| WMT US eCom 17-21% (`9dee71611006`, WSV) | Yes | +0.219 | lost | -5.00 |
+
+**KPI growth ladders (note only, n=1 event):** centre on the latest print plus the recent
+quarterly step (28/27/26/24 -> ~23; the actual was 23), not on a 2-year-stack model (which gave
+22 with a fat lower tail). Keep at most ~.10 on a bracket whose top sits more than 2pts below
+the last print, unless a sourced guide or datapoint says otherwise. This extends the
+2026-10-15 "last-4Q KPI step uses the latest" rule. No gate change.
