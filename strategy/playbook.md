@@ -11878,3 +11878,17 @@ veto (and the .15 CLI-missing discount) saved the stake.
 **Weather rain (note only, n=1):** the resolving figure is the CLI, not METARs. When
 the CLI's precipitation line is missing/MM, treat raw METAR precip as non-resolving
 evidence; my .85 was still too high — the CLI-gap discount should be larger than .15.
+
+## 2026-11-19 02:1xZ: PANW "Quantum" + van Gogh <150m forecasts settled (FULL, cloud, RETRO-20261119-0210)
+
+Both rows worse than the mid (net dBrier +0.114). PANW `047f7e5e7425` (Yes .48 vs mid .35,
+settled No) was `unvalidated-method` (note also cited the OVV gap .13); CF at ask .36: edge
++.12, lost -5.00 -> the gate saved the stake.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| PANW "Quantum" FQ1'27 (`047f7e5e7425`, unvalidated-method/OVV) | Yes | +0.120 | lost | -5.00 |
+
+**Say-the-word (note only, n=1):** when the most recent 1-2 transcripts are unreachable,
+do not fill them at the older hit rate; the recent call summaries' topic mix (here
+AI-only, no quantum) is evidence and should pull the estimate toward it.
