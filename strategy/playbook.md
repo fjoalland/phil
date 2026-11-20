@@ -11951,3 +11951,13 @@ there was no edge at the ask and no counterfactual trade.
 The 18:14Z, 20:12Z and 22:1xZ Nov 19 FULLs put their funnel numbers in cycles.log prose instead
 of `strategy/funnel.jsonl`, which is the failure the header rule names. Lines were backfilled
 from the cycles.log prose and forecasts.jsonl, marked `backfill`. No gate change.
+
+## 2026-11-20 20:1xZ: Musk/Zelenskyy weekly counts, Trump Nov20 presser words, BTC $58k settled (LIGHT, cloud, RETRO-20261120-2010)
+
+6 forecast rows, net dBrier +0.075 vs mid; the "Iran" 5+ row (.55 vs mid .71, settled Yes) is
++.118 of it. No new rule: an unmeasured utterance-count base rate should not sit far from the
+book, as the existing say-the-word notes already say.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Trump "Iran" 5+ Nov20 presser (`ca795b44df92`, WSV) | No | +0.050 | lost | -5.00 |
