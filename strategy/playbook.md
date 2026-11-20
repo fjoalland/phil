@@ -11961,3 +11961,15 @@ book, as the existing say-the-word notes already say.
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | Trump "Iran" 5+ Nov20 presser (`ca795b44df92`, WSV) | No | +0.050 | lost | -5.00 |
+
+## 2026-11-20 22:1xZ: IShowSpeed GTA VI and BC Premier forecasts settled (LIGHT, cloud, RETRO-20261120-2210)
+
+5 forecast rows, net dBrier +0.299 vs mid; the first IShowSpeed Nov20 read (.38 vs mid .66,
+settled Yes) is +.269 of it. Note (n=1, evidence: c411cc1ea1bd): on a live streamed-progress
+market (a streamer finishing a game, a stream milestone), the book watches the stream in real
+time. Do not set an estimate far from the book from secondhand reports of the streamer's pace;
+a disagreement needs a direct live-progress source, otherwise record near the mid.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| IShowSpeed GTA VI by Nov20 (`c411cc1ea1bd`, WSV) | No | +0.24 (No @0.38) | lost | -5.00 |
