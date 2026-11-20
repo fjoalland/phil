@@ -11937,3 +11937,17 @@ case the 14:1xZ KPI-ladder note covers; the Anthropic exact-day leg is the 20:1x
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | WMT US eCom 21-25% (`1effceff5c9e`, WSV) | No | +0.109 (No @0.241) | lost | -5.00 |
+
+## 2026-11-20 00:1xZ: gas $3.75 Low Nov WSV row backfilled; funnel gaps for Nov19 18/20/22Z backfilled (FULL, cloud)
+
+Settled `wide-spread-veto` row the RETRO-20261119-1810 cycle left out of the counterfactual ledger
+(reconcile.py check 5). The read won, but the Yes ask (.991) sat above the estimate (.97), so
+there was no edge at the ask and no counterfactual trade.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| US gas $3.75 Low Nov (`4df52c8a937c`, WSV) | Yes | -0.021 (ask .991) | no trade | 0.00 |
+
+The 18:14Z, 20:12Z and 22:1xZ Nov 19 FULLs put their funnel numbers in cycles.log prose instead
+of `strategy/funnel.jsonl`, which is the failure the header rule names. Lines were backfilled
+from the cycles.log prose and forecasts.jsonl, marked `backfill`. No gate change.
