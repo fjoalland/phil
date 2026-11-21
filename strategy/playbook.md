@@ -11982,3 +11982,24 @@ n=2 is below any threshold for loosening the wide-spread rule; no gate change.
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | Core CPI Oct YoY 2.6 (`251f9d8e09a2`, WSV) | Yes | +0.06 (ask .79) | won | +1.33 |
+
+## 2026-11-21 14:1xZ: Kai Cenat GTA VI ladder settled Yes x3; streamed-completion rule (FULL, cloud, RETRO-20261121-1410)
+
+**Rule (promotes the 2026-11-20 22:1xZ n=1 note).** On a streamed-completion market
+(a streamer finishing a game / marathon / stream milestone by a date), I do not bet the
+side below the book, and I record the forecast within 0.05 of the mid, unless the note
+names a direct live-progress source read this tick (a live tracker, the VOD/stream
+timestamp of the current mission, the streamer's own same-day post). Secondhand pace
+reasoning ("story is ~80h", "he wants 100%", "fatigue") does not qualify.
+
+**Evidence.** 5 forecast rows, 3 independent events, own below the mid on all 5, all
+resolved Yes: Kai Cenat GTA I-V by Nov 11 `386229922a5b` (.65 vs .87); IShowSpeed GTA VI
+by Nov 20 `c411cc1ea1bd` (.38 vs .66); Kai Cenat GTA VI by Nov 24/26/28 `c2954b67afa7`
+(.25/.30), `36f9c716292a` (.48/.555), `478f996bbee4` (.72/.805), net dBrier +.185 on that
+ladder. Revisit if a live-source-backed row below the mid ever settles No.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Kai Cenat GTA VI by Nov24 (`c2954b67afa7`, no-edge) | No | +0.04 | lost | -5.00 |
+| Kai Cenat GTA VI by Nov26 (`36f9c716292a`, no-edge) | No | +0.07 | lost | -5.00 |
+| Kai Cenat GTA VI by Nov28 (`478f996bbee4`, process-shape-bar, loose tag) | No | +0.08 | lost | -5.00 |
