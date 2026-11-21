@@ -11973,3 +11973,12 @@ a disagreement needs a direct live-progress source, otherwise record near the mi
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | IShowSpeed GTA VI by Nov20 (`c411cc1ea1bd`, WSV) | No | +0.24 (No @0.38) | lost | -5.00 |
+
+## 2026-11-21 02:1xZ: Core CPI Oct 2.6 WSV row settled Yes; Core PCE Oct ladder re-forecast post-PPI (FULL, cloud, RETRO-20261121-0210)
+
+Shutdown-gap fallback reading now 2-for-2 (headline 3.7, core 2.6), both forecasts, no stake.
+n=2 is below any threshold for loosening the wide-spread rule; no gate change.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Core CPI Oct YoY 2.6 (`251f9d8e09a2`, WSV) | Yes | +0.06 (ask .79) | won | +1.33 |
