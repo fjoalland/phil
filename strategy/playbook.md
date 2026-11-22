@@ -12003,3 +12003,18 @@ ladder. Revisit if a live-source-backed row below the mid ever settles No.
 | Kai Cenat GTA VI by Nov24 (`c2954b67afa7`, no-edge) | No | +0.04 | lost | -5.00 |
 | Kai Cenat GTA VI by Nov26 (`36f9c716292a`, no-edge) | No | +0.07 | lost | -5.00 |
 | Kai Cenat GTA VI by Nov28 (`478f996bbee4`, process-shape-bar, loose tag) | No | +0.08 | lost | -5.00 |
+
+## 2026-11-22 18:10Z: AAA wk-Nov16 tails + Nov Low 3.65 settled (FULL, cloud, RETRO-20261122-1810)
+
+6 forecast rows, net dBrier -1.050 vs mid. Two rows had placeholder or stale mids, and
+they account for -1.047 of it, so this is not skill. On the 4 rows with a real two-sided
+mid the net is -0.003. AAA printed 3.6448 on Nov 22, which touched the 3.65 Nov Low.
+**Drift-model tally 4/4 Yes**, and own was at or below the mid each time (.70/.695,
+.91/.969). **Pre-registered:** if the next 2 two-sided-mid drift-model rows also settle Yes
+with own below the mid, cut the plateau haircut from .05-.10 to ~.03. No betting change:
+the weekly books stay unfillable.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| AAA Nov Low 3.65 Nov19 read (`f3e779b24a88`, market-agrees) | No | +0.051 | lost | -5.00 |
+| AAA Nov Low 3.65 Nov17 read (`03c6c67dd5b2`, WSV) | Yes | -0.200 | won | +0.56 |
