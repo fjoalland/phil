@@ -8296,6 +8296,14 @@ resolved No.
   (3/5 open to cut) - second case for the read-previous-minutes check
   (RBNZ Oct, Banxico Nov): a minutes majority open to moving counts as a
   dated official signal against the hold leg.
+  Eighth, BoI Nov23 (RETRO-20261123-1610): hold at 3.25, against the
+  post-CPI "cut case" press. Cut 793a0ec333e9 .165 vs mid .145 and hold
+  975f19dadea8 .83 vs mid .847, both shaded ~.02 toward an undated
+  secondary "futures ~.22 cut" read; +.012 combined vs mid. Third row for
+  the same lesson: **an undated or secondary futures read moves est_prob
+  by zero, not by .02** - record at the mid and put it in the note as
+  "futures view: X (unverified)". Only a dated primary OIS/futures print
+  may move est off the mid.
 - **USGS daily-max ladder, in-progress Poisson: first settled event
   (RETRO-20261001-2015).** Sep 30 ladder (c7cceb5a2381, 603ce1291e65,
   e879bdcdfa8c, 1150efff6222): observed max 5.6 with 3.7h left, 365d
