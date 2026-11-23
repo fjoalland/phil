@@ -12045,3 +12045,18 @@ ETH dip $1,500 (`ca2fcf572db3`, .21 vs mid .2075) and BTC reach $64k (`0977fa554
 .0895) both settled No; net dBrier -0.002. Both fall in the within-0.05-of-mid touch bucket
 (now n=36). Neither implied a counterfactual trade (edges -.028 / +.018 < min_edge). No gate
 change.
+
+## 2026-11-23 18:1xZ: AAA Nov23 Monday bucket + wk-Nov23 Low 3.64 settled (FULL, cloud; RETRO-20261123-1810)
+
+The Monday centre (-1.0c, 3.6348) was right again; the print landed in 3.63-3.6399. The tight
+.94/.96 book beat my .80 (dBrier +0.0375). **Tight-book rule n=3/3** (9e84db013730,
+f616dc4c0acf, 4a770572f871). **New recording rule:** for an AAA daily 1c bucket with a two-sided
+book of spread <= .04 within 0.5c of my centre, est_prob sits at least 3/4 of the way from the
+raw sd-split toward the mid. Evidence: three straight rows where partial shading lost Brier to
+the book. The gate is unchanged (market-agrees, never edge). Revisit at n>=6. Touch row
+ca43b4632180 (.99 vs .955, Yes) was normal.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| AAA Nov23 3.63-3.6399 (`4a770572f871`, market-agrees) | No | +0.140 | lost | -5.00 |
+| AAA wk-Nov23 Low 3.64 (`ca43b4632180`, no-edge) | Yes | +0.010 | entry .98 outside band | - |
