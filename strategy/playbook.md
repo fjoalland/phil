@@ -12018,3 +12018,15 @@ the weekly books stay unfillable.
 |---|---|---|---|---|
 | AAA Nov Low 3.65 Nov19 read (`f3e779b24a88`, market-agrees) | No | +0.051 | lost | -5.00 |
 | AAA Nov Low 3.65 Nov17 read (`03c6c67dd5b2`, WSV) | Yes | -0.200 | won | +0.56 |
+
+## 2026-11-23 00:1xZ: AAA wk-Nov16 High 3.92 WSV row backfilled; funnel gaps for Nov22 16/18Z backfilled (FULL, cloud)
+
+RETRO-20261122-1810 graded this row but left it out of the counterfactual ledger
+(reconcile.py check 5). The No ask was .97 against an own No of .99, an edge of +.02, below
+min_edge, so there was no counterfactual trade. The 16:3xZ and 18:2xZ Nov 22 FULLs wrote no
+funnel line, so both were rebuilt from the cycles.log prose and forecasts.jsonl, marked
+`backfill`. No gate change.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| AAA wk-Nov16 High 3.92 (`759d0477fe40`, WSV) | No | +0.020 (No ask .97) | no trade | 0.00 |
