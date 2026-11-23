@@ -12060,3 +12060,10 @@ ca43b4632180 (.99 vs .955, Yes) was normal.
 |---|---|---|---|---|
 | AAA Nov23 3.63-3.6399 (`4a770572f871`, market-agrees) | No | +0.140 | lost | -5.00 |
 | AAA wk-Nov23 Low 3.64 (`ca43b4632180`, no-edge) | Yes | +0.010 | entry .98 outside band | - |
+
+## 2026-11-23 20:10Z: Musk Nov21-23 postcount, 2 forecasts settled 90-114 (FULL, cloud, RETRO-20261123-2010)
+
+- 3-day mid-window tally: +1 event, Nov21-23 06Z rows (`3076593f2189`, `6f370a8ed57d`) net
+  +0.0225 vs mid (lost narrowly). The same-clock n=28 component (.821/.143) was nearer the truth
+  than the all-windows/last-7d components. The blend should give same-clock n>=24 at least
+  half the weight. No rule change; the bar is not met.
