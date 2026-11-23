@@ -12030,3 +12030,10 @@ funnel line, so both were rebuilt from the cycles.log prose and forecasts.jsonl,
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | AAA wk-Nov16 High 3.92 (`759d0477fe40`, WSV) | No | +0.020 (No ask .97) | no trade | 0.00 |
+
+## 2026-11-23 06:1xZ: crypto-touch weekly Nov16-22 forecasts graded (FULL, cloud; RETRO-20261123-0610)
+
+ETH dip $1,500 (`ca2fcf572db3`, .21 vs mid .2075) and BTC reach $64k (`0977fa5542c5`, .07 vs
+.0895) both settled No; net dBrier -0.002. Both fall in the within-0.05-of-mid touch bucket
+(now n=36). Neither implied a counterfactual trade (edges -.028 / +.018 < min_edge). No gate
+change.
