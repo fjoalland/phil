@@ -12067,3 +12067,13 @@ ca43b4632180 (.99 vs .955, Yes) was normal.
   +0.0225 vs mid (lost narrowly). The same-clock n=28 component (.821/.143) was nearer the truth
   than the all-windows/last-7d components. The blend should give same-clock n>=24 at least
   half the weight. No rule change; the bar is not met.
+
+## 2026-11-23 22:10Z: SF rain Nov22 WSV forecast settled No (FULL, cloud, RETRO-20261123-2210)
+
+The CLI-prelim nowcast was right: .01 vs a .339 placeholder mid on a .002/.676 book. The
+dBrier of -.115 comes mostly from the dead book, so it is not skill. CLI-not-METAR rule
+(11-17) is now n=1 confirming. No gate change.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| SF rain Nov22 (`9435398b8a43`, WSV) | No | -0.008 (No ask .998) | no trade | 0.00 |
