@@ -12112,3 +12112,16 @@ late-window bucket: the book won again (n=2), and the existing category-bar hold
 | Suez 300+ wk Nov16 (`32fdb84f2992`, WSV) | Yes | -0.280 | won (would not have qualified: edge < min_edge) | +0.32 |
 | Malacca 1700+ wk Nov16 (`550532bca156`, WSV) | No | +0.150 | won | +1.41 |
 | US gas $3.62 Low wk Nov23 (`9780a07e191c`, WSV) | Yes | -0.120 (ask .98) | entry outside band, no trade | - |
+
+## 2026-11-24 20:10Z: xtracker Nov17-24 windows settled (FULL, cloud, RETRO-20261124-2010)
+
+15 forecast rows, net dBrier -0.262 vs the mid. Thin-book rows (Cruz WSV and the Zelenskyy 16Z
+coin-flips) account for -0.329 of it. On the liquid Musk books the net was +0.071. Weighting
+note (n=1 week, consistent with the RETRO-1810 Musk finding): from about 36h before close,
+weight the this-period same-clock increment sample at least equally with the all-month
+mixture. The 20Z Nov23 mixture rows lost (+.102) and the 02Z same-clock rows won (-.084). The
+late-window category-bar is unchanged.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Ted Cruz 40-59 Nov17-24 (`57d6b44d8fe9`, WSV) | Yes | -0.010 (ask .93) | won (would not have qualified: edge < min_edge) | +0.38 |
