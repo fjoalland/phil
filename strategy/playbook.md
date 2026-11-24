@@ -12099,3 +12099,16 @@ dBrier of -.115 comes mostly from the dead book, so it is not skill. CLI-not-MET
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | SF rain Nov22 (`9435398b8a43`, WSV) | No | -0.008 (No ask .998) | no trade | 0.00 |
+
+## 2026-11-24 18:10Z: week-of-Nov16 PortWatch ladders + AAA gas + Musk Nov17-24 settled (LIGHT, cloud, RETRO-20261124-1810)
+
+14 forecast rows, net dBrier -0.462 vs mid. Two dead-book WSV rows account for -0.321 of it,
+so that part is not skill. PortWatch weekly-sum models beat the mid on 6 of 7 rows. The
+one-third shrink cost Brier on Malacca 1600+ (n=1), so the rule is unchanged. Musk
+late-window bucket: the book won again (n=2), and the existing category-bar holds.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Suez 300+ wk Nov16 (`32fdb84f2992`, WSV) | Yes | -0.280 | won (would not have qualified: edge < min_edge) | +0.32 |
+| Malacca 1700+ wk Nov16 (`550532bca156`, WSV) | No | +0.150 | won | +1.41 |
+| US gas $3.62 Low wk Nov23 (`9780a07e191c`, WSV) | Yes | -0.120 (ask .98) | entry outside band, no trade | - |
