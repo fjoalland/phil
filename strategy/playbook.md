@@ -8335,6 +8335,12 @@ resolved No.
   scored -0.358, but only because the Bonin 6.5 arrived after it was
   recorded. Its ~.45 duplicate-inclusion leg was wrong too. Do not cite it
   as evidence that pt rows count.
+  RETRO-20261124-1010: a reviewed `mww` sitting EXACTLY at the 6.5
+  threshold held through resolution 2/2 (Bonin us6000u4r9 Oct25, Vanuatu
+  Nov23). The ~.08 revision leg on a reviewed mww (vs >= .20 for mb/ml in
+  the RETRO-20261005-2015 rule) was the right size; the '3' leg
+  8b41803054f8 (.09 vs mid .036) cost only +.007. Keep .05-.10 for
+  reviewed mww at threshold; revisit on the first observed mww revision.
 - **Empty-book forecast rows are excluded from edge claims
   (RETRO-20261001-2015).** Yen intervention cbcbeb568399 scored -0.131
   vs a 0.375 "mid" that was bid 0.01 / ask 0.74 on $11 liquidity. That
