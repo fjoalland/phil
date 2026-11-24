@@ -11822,6 +11822,11 @@ no quake bet case. No betting change.
   the mid, and keep the raw model in the note. The Nov 9 row also broke the
   old half-gap floor: it recorded .50 when the floor was .53. So check the
   arithmetic in the note: `raw X, mid M, floor M - (M-X)/3`.
+- **RETRO-20261124-1610 addendum: the book is now 5 of 5** (Mandeb Nov 16 175+ settled Yes
+  vs own .86 / mid .95, dBrier +.017). That row SKIPPED the one-third shrink (the floor was .92) and
+  had no arithmetic in its note. The floor line `raw X, mid M, floor M - (M-X)/3` is now MANDATORY
+  in the note of every 0-published-days PortWatch row, and est_prob must not cross the floor.
+  Do not extrapolate a 2-3 week drift in weekly sums into the unpublished week.
 
 ## 2026-11-17 18:15Z: AAA $3.80 Low wk-Nov16 settled Yes; HD 2.25-2.5 OVV backfill (FULL, cloud, RETRO-20261117-1815)
 
