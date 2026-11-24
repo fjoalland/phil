@@ -4767,6 +4767,17 @@ Ghost Soldier OW landed 5-6M, the book's modal (.84). Sony Sat-AM press
 Watch (n=1): when the press centre is within 0.15M of a boundary and the
 floor applies, cap the rescaled downside neighbour at book mid + .05
 (4-5M .20 vs .105 cost +0.029). Still no-bet.
+Tally (RETRO-20261124-0010, evidence `8e4d8b0e5f33`, `5705709b19e9`,
+`63376c4a2b33`, `4d1844eea685`, `513fc580a93e`): 9 rows, net dBrier ~+.044
+(at market). I Play Rocky OW landed 7-10M at the Sat-AM press centre 9.3M;
+the floor lifted 10-13M from raw .24 to .53 and cost ~.22. Floor record
+helped 6, hurt 2; both losses had a Sat-AM studio/trade centre built on
+Friday actuals. Watch (n=2): a third such loss -> propose exempting that
+shape. HG:SotR >=105M pre-weekend rows (.70/.80 vs book .94/.93) lost +.12
+to the book on a mega-franchise opener with presales above comps: there,
+stay within ~.10 of a >=.90 book unless a source sits below the threshold.
+Fri-multiple blend toward book on paywalled Sat-night (115-120 Yes) was
+right. Still no-bet.
 
 **2026-09-22 ~18:15Z update (FULL cycle, cloud; resolve.py settled 14
 forecasts, 2 `outside-view-veto`).** Both rows are the Trump x Greenland
