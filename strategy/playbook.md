@@ -12125,3 +12125,17 @@ late-window category-bar is unchanged.
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | Ted Cruz 40-59 Nov17-24 (`57d6b44d8fe9`, WSV) | Yes | -0.010 (ask .93) | won (would not have qualified: edge < min_edge) | +0.38 |
+
+## 2026-11-25 00:1xZ: 22:10Z LIGHT-tick settlements graded late; turkey-pardon OVV row backfilled (FULL, cloud, RETRO-20261125-0010)
+
+The 22:10Z Nov 24 LIGHT tick settled 3 forecast rows (Seattle rain Nov23 Yes, pardon
+Drone/Helipad Yes, pardon West Virginia Yes) and wrote neither a retro nor the CF row.
+Net dBrier +0.109 vs mid. **Restated rule:** a LIGHT tick that settles anything runs
+`python3 strategy/tools/reconcile.py` before its commit, exactly like a FULL. Pre-registered
+(n=2 counting the 2025 pardon): when a riff topic the speaker publicly promoted in the
+last ~60 days has a book >= .75, do not shade below the mid without a k/n base rate. If a
+3rd settlement goes the same direction, make this a recording rule.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Turkey pardon Drone/Helipad (`27c0b5926d69`, OVV) | No | +0.120 (No ask .23) | lost | -5.00 |
