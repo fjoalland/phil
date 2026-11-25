@@ -12167,3 +12167,17 @@ PCE/CPI/PPI ladder settlement.
 | Core PCE MoM 0.2% Oct (`fe40bdc21ae8`, WSV) | Yes | +0.060 (ask .15) | lost | -5.00 |
 | Core PCE MoM 0.2% Oct (`6d5c4c205e03`, WSV) | Yes | +0.042 (ask .088) | lost | -5.00 |
 | Core PCE MoM 0.4% Oct (`25aa4ac7e849`, WSV) | No | +0.110 (No @0.68) | won | +2.35 |
+
+## 2026-11-25 20:1xZ: AAA $3.60 Low-Nov ladder settled Yes; No bet lost (FULL, cloud, RETRO-20261125-2010)
+
+Bet `cf21e713453c` (No @.11, own P(No) .28) lost -5.00. AAA printed 3.5866 on Nov25: -13.5c
+over 6 prints at -2.24c/day, with no Thanksgiving-week slowdown. 10 gas rows net dBrier +.075.
+All 5 touch-Low rows from Nov19 on sat below the book, and all resolved Yes.
+**Rule (replaces the "drift decaying to -0.3c" MC input used Nov17-24):** in AAA multi-day
+touch/level estimates, hold the drift at the trailing 5-print mean change (`aaa_log.py`).
+Decay is allowed only when the series shows it, meaning 2 consecutive non-weekend prints with
+a smaller decline than that mean. A calendar story (holiday, "post-holiday slowdown") does not
+count. The plateau/reversal haircut stays at .05-.10. Fading the book's continued-pace
+pricing on a calendar story alone is not an edge. Revisit after the Dec ladder (n=1 family).
+WSV rows `6761`/`b1c7`/`d376`/`79af` had no edge at either fillable ask, so CF is $0 and there
+is no table row.
