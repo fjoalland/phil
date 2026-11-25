@@ -12150,3 +12150,20 @@ A sub-threshold `mb` event being upgraded across the line gets at most 0.02 per 
 (observed upgrades n=0 across Oct-Nov, incl. Bitung 5.4 mb, Carhuamayo 5.4 mb, three 5.3 mb
 this week), and an event more than 0.3 from the threshold (Yanglong 5.9 mb) gets none.
 Revisit if an upgrade is ever observed.
+
+## 2026-11-25 16:1xZ: Oct core PCE ladder settled at 0.3 (FULL, cloud, RETRO-20261125-1610)
+
+Bet `10a97edc662b` (0.2% Yes, .078 / est .14, edge .062 on sourced post-PPI tracker-miss sd
+.037 vs book-implied ~.025) lost -5.00. Print 0.3, the modal bucket. 12 forecast rows, net
+dBrier about -0.017 vs mid. Symmetric, tracker-centred distributions beat the book's pre-PPI
+hot skew (0.4% rows -.120). All 0.2% rows were above the book and all lost (+.060).
+**Pre-registered (n=1):** a post-last-input econ-print tail bet whose only edge is a
+wider-than-book sd from tracker-miss history needs edge >= 0.10 once a second such bet
+loses. Until then, such bets are allowed at the normal floor. Revisit at the next
+PCE/CPI/PPI ladder settlement.
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Core PCE MoM 0.2% Oct (`fe40bdc21ae8`, WSV) | Yes | +0.060 (ask .15) | lost | -5.00 |
+| Core PCE MoM 0.2% Oct (`6d5c4c205e03`, WSV) | Yes | +0.042 (ask .088) | lost | -5.00 |
+| Core PCE MoM 0.4% Oct (`25aa4ac7e849`, WSV) | No | +0.110 (No @0.68) | won | +2.35 |
