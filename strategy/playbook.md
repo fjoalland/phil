@@ -12139,3 +12139,14 @@ last ~60 days has a book >= .75, do not shade below the mid without a k/n base r
 | Row | Side | Edge at ask | CF result | CF pnl |
 |---|---|---|---|---|
 | Turkey pardon Drone/Helipad (`27c0b5926d69`, OVV) | No | +0.120 (No ask .23) | lost | -5.00 |
+
+## 2026-11-25 08:1xZ: USGS Nov16-22 count ladder settled at 11 (FULL, cloud, RETRO-20261125-0810)
+
+9 forecast rows, net dBrier -0.066 vs mid (mid-window Poisson rows -0.106 on the '10'/'11'
+legs), but the four 40-min-left rows lost +0.024 by over-shading revision risk. **Scope
+clarification of the RETRO-20261005-2015 0.20 revision weight:** it applies only to a
+DOWNgrade of a preliminary (non-`mww`) event at/above the threshold and within 0.3 of it.
+A sub-threshold `mb` event being upgraded across the line gets at most 0.02 per event
+(observed upgrades n=0 across Oct-Nov, incl. Bitung 5.4 mb, Carhuamayo 5.4 mb, three 5.3 mb
+this week), and an event more than 0.3 from the threshold (Yanglong 5.9 mb) gets none.
+Revisit if an upgrade is ever observed.
