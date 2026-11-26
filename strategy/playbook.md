@@ -12226,3 +12226,19 @@ missing funnel line is backfilled (`backfill: true`).
   premium either. Pre-forecast check: is own more than 0.05 from the mid
   in EITHER direction? If so, name the primary source in the note, or
   record at the mid.
+
+## 2026-11-26 20:1xZ: AAA wk-Nov23 Low $3.58/$3.56 WSV rows settled; pulled-bid note (FULL, cloud)
+
+reconcile.py flagged two settled WSV gas rows that the 18:10Z LIGHT tick settled
+but left out of the table. Values from `core/counterfactual.py ledger --rows`:
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Gas $3.58 Low wk Nov23 (`3cc767968752`, WSV) | Yes | -0.370 | entry .97 outside band, no trade | - |
+| Gas $3.56 Low wk Nov23 (`095cc227c3d9`, WSV) | No | -0.440 | entry .98 outside band, no trade | - |
+
+**Pulled-bid note (n=1, no rule yet):** on the AAA Nov27 3.54-3.5499 bucket a .89/.93
+book seen at 20:15Z was .14/.91 eight minutes later. The tight-book recording rule
+(2026-11-23) applies only to a book that is still tight at record time. Re-quote with
+`forecast.py` (it prints bid/ask) before you shade toward the mid. `d8dad16e6e1e` was
+recorded on the stale tight read and superseded by `3134abad281e`.
