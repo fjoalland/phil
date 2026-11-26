@@ -12204,3 +12204,25 @@ CF pnl is the mechanical counterfactual tool's value for its own side choice. Th
 costs nothing on rows whose edge at the ask is negative. The 20:10Z Nov 25 FULL's
 missing funnel line is backfilled (`backfill: true`).
 
+
+## 2026-11-26 04:10Z: absence-of-report rule is symmetric; Lebanon Nov22 CF row (FULL, cloud, RETRO-20261126-0410)
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Israel vs Lebanon Nov22 (`2a1198f695e7`, WSV) | Yes | +0.290 (@.11) | lost | -5.00 |
+
+  WSV mechanical (`core/counterfactual.py ledger --skip-reason
+  wide-spread-veto`): 210 rows, 160 trd, 81W/79L, -$151.80.
+
+- **Absence-of-report, both directions (n=2: 2a1198f695e7 Lebanon,
+  fb40888b909e Kyiv, both recorded 00:1xZ Nov23, both lost).** The
+  2026-11-10 rule is a floor against going BELOW the mid. It is never a
+  reason to go ABOVE it. For any daily incident leg ("military action /
+  strike / target X on <date>"), when the note has no named primary
+  source (IDF/army daily summary, NNA, KCMA, official statement, alert
+  map), record own AT the book mid, whatever the series base rate is.
+  A collapsed post-window book with no dated report is weak evidence
+  against the event. It does not prove No, and it does not justify a Yes
+  premium either. Pre-forecast check: is own more than 0.05 from the mid
+  in EITHER direction? If so, name the primary source in the note, or
+  record at the mid.
