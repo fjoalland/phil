@@ -12186,3 +12186,21 @@ count. The plateau/reversal haircut stays at .05-.10. Fading the book's continue
 pricing on a calendar story alone is not an edge. Revisit after the Dec ladder (n=1 family).
 WSV rows `6761`/`b1c7`/`d376`/`79af` had no edge at either fillable ask, so CF is $0 and there
 is no table row.
+
+## 2026-11-26 00:10Z: gas WSV counterfactual backfill + Kyiv Nov22 (FULL, cloud, RETRO-20261126-0010)
+
+reconcile.py flagged four settled WSV gas rows that RETRO-20261125-1810/2010 graded
+but never put in the table. Values from `core/counterfactual.py ledger --rows`:
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Gas $3.60 Low Nov (`6761de1fb741`, WSV) | Yes | -0.290 | won (would not have qualified) | +1.49 |
+| Gas $3.59-3.5999 Nov24 (`b1c72cbfab5f`, WSV) | Yes | -0.320 | lost (would not have qualified) | +0.88 |
+| Gas <$3.59 Nov24 (`d376fddae236`, WSV) | Yes | -0.180 | won (would not have qualified) | -5.00 |
+| Gas $3.62-3.6299 Nov24 (`79af5e4384c4`, WSV) | Yes | -0.004 (ask .994) | entry outside band, no trade | - |
+| Kyiv Nov22 (`fb40888b909e`, WSV) | Yes | +0.091 (@.209) | lost | -5.00 |
+
+CF pnl is the mechanical counterfactual tool's value for its own side choice. The veto
+costs nothing on rows whose edge at the ask is negative. The 20:10Z Nov 25 FULL's
+missing funnel line is backfilled (`backfill: true`).
+
