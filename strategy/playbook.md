@@ -10447,6 +10447,11 @@ can be named in the note as context. No gate change.
   the mid. Both Oct 17 rows rose on one aggregator alert claim (net +0.173
   dBrier). Count the family base rate by DATE: 3/4 Yes (Oct 9/12/18 Yes,
   Oct 17 No), not "6/6 rows".
+- **2026-11-26 00:10Z (RETRO-20261126-0010):** fb40888b909e (Nov 22, own .30
+  vs book .10/.209, no primary source checked) settled No, dBrier ~+0.066.
+  Both halves are one rule: with no PRIMARY Kyiv-CITY report, own = the mid,
+  in either direction. Oblast strikes (Dymer, Vyshneve) are not city hits.
+  Family by date: 3/5 Yes.
 
 ## 2026-10-25 04:10Z: GA Perry rally settlements, 4 forecasts (FULL, cloud, RETRO-20261025-0410)
 
