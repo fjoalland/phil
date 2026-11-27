@@ -12242,3 +12242,22 @@ book seen at 20:15Z was .14/.91 eight minutes later. The tight-book recording ru
 (2026-11-23) applies only to a book that is still tight at record time. Re-quote with
 `forecast.py` (it prints bid/ask) before you shade toward the mid. `d8dad16e6e1e` was
 recorded on the stale tight read and superseded by `3134abad281e`.
+
+## 2026-11-27 04:10Z: NZ GE Nov7 family, 14 forecasts settled (FULL, cloud, RETRO-20261127-0410)
+
+Sum dBrier +0.208 over 14 rows (pre-election 6 rows +0.100, post-prelim 8 rows
++0.108). Vetoes saved $20.60 net (CF: five -5.00 rows, one +4.40).
+
+- **MMP seat ladders, pre-election (n=6, 2 elections).** The book priced
+  National above the final polls (2023 and 2026), and both times it was right.
+  My poll-to-seat model leaned the other way on every seat leg. If the model
+  is more than 0.05 from the mid, the row stays forecast-only
+  (`outside-view-veto`). Record own at most halfway from the mid toward the
+  model until a seat-sd is validated on settled rows.
+- **Post-prelim specials shade (n=4 behind: 1f81585d3249, 0fe15e392d2f,
+  31ff2ce4d3a3, 521ced0c2663).** A generic "specials cost the right 1-2 seats
+  last time" is not evidence for a specific bucket. To shade a seat or vote
+  bucket away from the prelim count, the note must do the arithmetic: special
+  votes outstanding x plausible lean, compared with the named electorate
+  margin or the bucket edge. Without that, record at the mid. The same holds
+  for any provisional-to-final count market (recounts, late mail ballots).
