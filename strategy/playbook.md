@@ -12282,3 +12282,18 @@ event, not counter-evidence. Keep >=1/2 weight on the earlier tight read rather 
 reverting to the bare sd-split. This narrows the 2026-11-26 pulled-bid note. The trailing-5
 drift rule is unchanged. Thanksgiving-week deceleration (-3.1c to ~-1c) is one instance, so
 it goes to the next AAA deep review, not a calendar-decay term.
+
+WSV counterfactual rows for this family (`core/counterfactual.py ledger --rows`):
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| Gas $3.55 Low Nov (`3797252b0df3`, WSV) | No | -0.240 | negative edge, no trade | (-5.00 if forced) |
+| Gas $3.55 Low Nov (`8bcc404c873a`, WSV) | No | +0.240 | vetoed by spread; would have lost | -5.00 saved |
+| AAA Nov27 <3.54 (`25038a0457e6`, WSV) | Yes | -0.120 | negative edge, no trade | (-5.00 if forced) |
+| AAA Nov27 3.54-3.5499 (`f5822cf3039b`, WSV) | No | -0.130 | negative edge, no trade | (-5.00 if forced) |
+| AAA Nov27 3.55-3.5599 (`568c94fa8644`, WSV) | No | -0.030 | entry .98 outside band, no trade | - |
+| AAA Nov27 <3.54 (`e0eec0bc0ca1`, WSV) | Yes | -0.150 | negative edge, no trade | (-5.00 if forced) |
+| AAA Nov27 3.54-3.5499 (`3134abad281e`, WSV) | No | -0.210 | negative edge, no trade | (-5.00 if forced) |
+
+The veto saved $5 on 8bcc404c873a, the only row with positive edge at the ask. The others
+had no tradeable edge.
