@@ -12297,3 +12297,12 @@ WSV counterfactual rows for this family (`core/counterfactual.py ledger --rows`)
 
 The veto saved $5 on 8bcc404c873a, the only row with positive edge at the ask. The others
 had no tradeable edge.
+
+## 2026-11-27 20:10Z: Musk Nov20-27 + Zille + PMO Dem settled, 3 forecasts (FULL, cloud, RETRO-20261127-2010)
+
+- Net dBrier +.056. Musk 260-279 (.55 vs .465) lost: fewer than 15 posts were added over the
+  Thanksgiving-morning close, so 240-259 won. Working note (n=1): when a postcount window
+  closes on a US federal holiday, name the holiday in the note and keep the below-band
+  same-clock windows weighted explicitly; do not equal-weight them away. Grade it at n=3
+  (Christmas and New Year closes). Reminder: an n<15 sample still needs `raw= n= w=` in the
+  note (2026-11-08 pre-record check). That field was missing on 630fcc662ab3.
