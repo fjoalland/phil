@@ -12247,6 +12247,16 @@ recorded on the stale tight read and superseded by `3134abad281e`.
 
 Sum dBrier +0.208 over 14 rows (pre-election 6 rows +0.100, post-prelim 8 rows
 +0.108). Vetoes saved $20.60 net (CF: five -5.00 rows, one +4.40).
+Values from `core/counterfactual.py ledger --rows`:
+
+| Row | Side | Edge at ask | CF result | CF pnl |
+|---|---|---|---|---|
+| NZ Nat most seats (`90f7c5a49891`, OVV) | No | +0.100 | lost | -5.00 |
+| NZ Lab 30-34 seats (`381f4306264a`, OVV) | No | +0.118 | won | +4.40 |
+| NZ Lab 2nd-most seats (`f86c6ddb5ccf`, OVV) | No | +0.080 | lost | -5.00 |
+| NZ Nat 35-39 pre (`72022554b975`, unvalidated-method) | Yes | +0.060 | lost | -5.00 |
+| NZ Nat 40-44 post-prelim (`1f81585d3249`, WSV) | No | +0.120 | lost | -5.00 |
+| NZ Nat 35-39 post-prelim (`0fe15e392d2f`, WSV) | Yes | +0.098 | lost | -5.00 |
 
 - **MMP seat ladders, pre-election (n=6, 2 elections).** The book priced
   National above the final polls (2023 and 2026), and both times it was right.
