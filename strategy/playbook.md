@@ -12271,3 +12271,14 @@ Values from `core/counterfactual.py ledger --rows`:
   votes outstanding x plausible lean, compared with the named electorate
   margin or the bucket edge. Without that, record at the mid. The same holds
   for any provisional-to-final count market (recounts, late mail ballots).
+
+## 2026-11-27 18:10Z: AAA Nov27 bucket ladder + Nov Low $3.55 settled (FULL, cloud, RETRO-20261127-1810)
+
+10 gas forecasts settled. Sum dBrier +0.976 (+0.297 live rows); no bets. Nov27 printed in
+3.54-3.5499, as the tight .89/.93 book had it. My 20:2xZ re-read after the bid was pulled
+(e79ab920417c <3.54 .57, 3134abad281e bucket .35) cost +0.469.
+**Working rule (n=1, grade at n=3):** a bid pulled from a tight bucket book is a liquidity
+event, not counter-evidence. Keep >=1/2 weight on the earlier tight read rather than
+reverting to the bare sd-split. This narrows the 2026-11-26 pulled-bid note. The trailing-5
+drift rule is unchanged. Thanksgiving-week deceleration (-3.1c to ~-1c) is one instance, so
+it goes to the next AAA deep review, not a calendar-decay term.
