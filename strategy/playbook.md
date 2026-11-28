@@ -12317,3 +12317,10 @@ had no tradeable edge.
 - Pre-record check (label drift, 3rd occurrence): every Musk/xtracker row is
   `--category social-media-postcount`, never `countable-metric`. Two of three Nov26-28
   40-64 rows (cd65f24b4999, 985f9c02c6af) drifted.
+
+## 2026-11-28 12:10Z: Vic LNP most-seats market-agrees forecast settled Yes (FULL, cloud, RETRO-20261128-1210)
+
+- 5cc5ef95a29d .93 vs mid .9385, Yes, dBrier +.0011: noise, skip reason correct. No rule
+  change (n=1). Grade the open Vic seat-composition rows (Labor 2nd 4a543d4c766d .80 vs
+  .86, Greens 3rd ad7e54c1b73d .27 vs .36) together at settlement (end Nov29 04:59Z); both
+  shade below the book, so they are a 2-row test of the Vic seat-split reads.
