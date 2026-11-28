@@ -12306,3 +12306,14 @@ had no tradeable edge.
   same-clock windows weighted explicitly; do not equal-weight them away. Grade it at n=3
   (Christmas and New Year closes). Reminder: an n<15 sample still needs `raw= n= w=` in the
   note (2026-11-08 pre-record check). That field was missing on 630fcc662ab3.
+
+## 2026-11-28 06:10Z: Musk Nov26-28 40-64 settled No, 3 forecasts (FULL, cloud, RETRO-20261128-0610)
+
+- Net dBrier -.161, all three rows below the mid on the losing band, but two mixtures
+  underweighted the actual 65+ leg vs the book; not skill. The 9h Thanksgiving stall
+  (08-16Z Nov27) was followed by +52 posts in ~12h: a holiday lull *inside* a window
+  did not persist. Holiday note (RETRO-20261127-2010) now has 1 close-case for, 1
+  interior-case against; grade at n=3 as planned.
+- Pre-record check (label drift, 3rd occurrence): every Musk/xtracker row is
+  `--category social-media-postcount`, never `countable-metric`. Two of three Nov26-28
+  40-64 rows (cd65f24b4999, 985f9c02c6af) drifted.
